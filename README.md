@@ -15,6 +15,11 @@ The research question is whether shared computation and memory-efficient model d
 
 The recurrent graph passed bounded CPU correctness checks. The 5080 profiling smoke passed, and the three 512-context configurations completed synthetic training steps. These measurements establish execution and resource use for the tested workloads. Capability, usable 8K context and total 4 GiB inference fit remain open.
 
+## Real-data milestone · 24 November 2026
+
+- [NAS inventory and packed corpus versions](datasets/NAS-INVENTORY-2026-11-24.md)
+- [TinyStories RTX 5080 calibration and CUDA resume](experiments/TINYSTORIES-CALIBRATION-2026-11-24.md)
+
 ## Record policy
 
 - Append a dated correction or a new record when evidence changes. Keep the original measurements and their limitations visible.
