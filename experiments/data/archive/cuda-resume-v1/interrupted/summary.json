@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETED",
+  "failure": null,
+  "failure_code": null,
+  "attempt": 2,
+  "protocol_deviations": [],
+  "recovery_checkpoint": null,
+  "steps_completed": 4,
+  "tokens_trained": 65536,
+  "final_train_loss": 6.866453,
+  "final_val_loss": 6.817083358764648,
+  "final_val_ppl": 913.3173217773438,
+  "wall_clock_s": 0.2,
+  "avg_tok_per_s": 162137.7,
+  "params_total": 10665856,
+  "params_non_embedding": 10338176,
+  "active_params_per_token": 10665856,
+  "precision": "bf16",
+  "seed": 1234,
+  "vram": {
+    "peak_allocated_mb": 2012.92,
+    "peak_reserved_mb": 2178.0,
+    "cuda": true
+  },
+  "finished_at": "2026-11-24T08:02:44"
+}

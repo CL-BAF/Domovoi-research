@@ -1,0 +1,23 @@
+{
+  "python": "3.13.17",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.15.0+cu132",
+  "cuda_available": true,
+  "cuda_version": "13.2",
+  "cudnn_version": "92600",
+  "gpu_name": "NVIDIA GeForce RTX 5080",
+  "gpu_count": 1,
+  "gpu_total_memory_mb": 16275.8,
+  "bf16_supported": true,
+  "packages": {
+    "torch": "2.15.0+cu132",
+    "numpy": "2.5.5",
+    "tokenizers": "0.23.3",
+    "safetensors": "0.8.0",
+    "PyYAML": "6.0.4",
+    "tqdm": "4.70.1",
+    "requests": "2.34.2"
+  },
+  "git_commit": "d914684dc730cd32132aeff389d6291c447ed7e4",
+  "git_dirty": false
+}

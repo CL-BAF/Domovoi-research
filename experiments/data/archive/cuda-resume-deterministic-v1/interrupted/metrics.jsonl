@@ -1,0 +1,4 @@
+{"step": 1, "attempt": 1, "train_loss": 8.452356, "lr": 0.0006, "grad_norm": 16.0608, "tokens_seen": 16384, "tok_per_s": 33180.5, "elapsed_s": 0.5, "mean_step_s": 0.493063, "step_tokens_per_s": 33229.1}
+{"step": 2, "attempt": 1, "train_loss": 7.688633, "lr": 0.0006, "grad_norm": 6.627, "tokens_seen": 32768, "tok_per_s": 270749.5, "elapsed_s": 0.6, "mean_step_s": 0.059785, "step_tokens_per_s": 274048.7}
+{"step": 3, "attempt": 2, "train_loss": 7.094607, "lr": 0.000465, "grad_norm": 3.5295, "tokens_seen": 49152, "tok_per_s": 268124.4, "elapsed_s": 0.1, "mean_step_s": 0.060392, "step_tokens_per_s": 271295.1}
+{"step": 4, "attempt": 2, "train_loss": 6.866423, "lr": 0.000195, "grad_norm": 2.2534, "tokens_seen": 65536, "tok_per_s": 274048.1, "elapsed_s": 0.1, "mean_step_s": 0.059223, "step_tokens_per_s": 276651.6}

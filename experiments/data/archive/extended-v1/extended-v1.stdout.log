@@ -1,0 +1,4 @@
+Projected wall seconds per arm: {'B02': 180, 'B08': 480, 'R02x4': 410}
+DML-0008 B02: $REALDATA_ROOT\extended-v1\DML-0008-B02.yaml
+DML-0009 B08: $REALDATA_ROOT\extended-v1\DML-0009-B08.yaml
+DML-0010 R02x4: $REALDATA_ROOT\extended-v1\DML-0010-R02x4.yaml

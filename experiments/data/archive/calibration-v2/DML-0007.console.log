@@ -1,0 +1,29 @@
+[train] experiment DML-0007
+[train] git commit d914684dc730cd32132aeff389d6291c447ed7e4
+[train] model: domovoi_recurrent_v1 (10,665,856 params)
+[train] device: cuda, bf16
+step     10/200 | loss 7.1094 | lr 6.00e-04 | tok/s 162586 | 1s
+step     20/200 | loss 5.9495 | lr 5.97e-04 | tok/s 287663 | 2s
+step     30/200 | loss 5.6897 | lr 5.87e-04 | tok/s 286577 | 2s
+step     40/200 | loss 5.3076 | lr 5.70e-04 | tok/s 285150 | 3s
+step     50/200 | loss 4.8592 | lr 5.46e-04 | tok/s 287991 | 3s
+           val loss 4.7344 (ppl 113.80)
+step     60/200 | loss 4.6350 | lr 5.16e-04 | tok/s 171545 | 4s
+step     70/200 | loss 4.4843 | lr 4.81e-04 | tok/s 285938 | 5s
+step     80/200 | loss 4.3366 | lr 4.43e-04 | tok/s 287498 | 5s
+step     90/200 | loss 4.2846 | lr 4.01e-04 | tok/s 284245 | 6s
+step    100/200 | loss 4.2042 | lr 3.57e-04 | tok/s 288060 | 6s
+           val loss 4.1724 (ppl 64.87)
+step    110/200 | loss 4.1497 | lr 3.12e-04 | tok/s 174144 | 8s
+step    120/200 | loss 4.1180 | lr 2.68e-04 | tok/s 280298 | 8s
+step    130/200 | loss 4.0545 | lr 2.26e-04 | tok/s 282889 | 9s
+step    140/200 | loss 4.0269 | lr 1.86e-04 | tok/s 282352 | 9s
+step    150/200 | loss 3.9939 | lr 1.50e-04 | tok/s 288212 | 10s
+           val loss 3.9831 (ppl 53.69)
+step    160/200 | loss 3.9530 | lr 1.20e-04 | tok/s 173185 | 11s
+step    170/200 | loss 3.9370 | lr 9.47e-05 | tok/s 286220 | 11s
+step    180/200 | loss 3.9336 | lr 7.61e-05 | tok/s 281309 | 12s
+step    190/200 | loss 3.9315 | lr 6.45e-05 | tok/s 279766 | 12s
+step    200/200 | loss 3.8700 | lr 6.00e-05 | tok/s 286722 | 13s
+           val loss 3.8870 (ppl 48.77)
+[train] done: 200 steps, 3,276,800 tokens, val loss 3.8870

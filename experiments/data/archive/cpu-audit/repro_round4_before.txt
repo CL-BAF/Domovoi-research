@@ -1,0 +1,13 @@
+$IMPLEMENTATION_ROOT\domovoi\training\trainer.py:467: UserWarning: Seems like `optimizer.step()` has been overridden after learning rate scheduler initialization. Please, make sure to call `optimizer.step()` before `lr_scheduler.step()`. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  self.scheduler.step()
+== F1: Ctrl+C right after an AdamW update ==
+
+  latest checkpoint step_00000002: recorded step 2, AdamW step counters [3.0]
+== F2: NaN loss in a 2-step FP32 run ==
+  status: COMPLETED | final_val_loss: nan | checkpoints: ['step_00000002']
+== F3: resume with a different batch size and grad clip ==
+  resume ACCEPTED; tokens/update 96 vs checkpoint run 64
+== F4: checkpoint-save failure, then resume: metric rows ==
+  rows after crash: [1, 2, 3, 4] | latest committed: step_00000002
+  raw rows after resume: [1, 2, 3, 4, 3, 4]
+  reconciled rows: <no reconciling reader>

@@ -1,0 +1,51 @@
+{
+  "complete": true,
+  "dataset": {
+    "name": "fineweb-edu-preview",
+    "version": "nas-2026-11-24-v1"
+  },
+  "tokenizer": {
+    "path": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\tokenizer.json",
+    "version": "stream-byte-bpe-v1",
+    "sha256": "385c1cd69810ba199e80b7db90678685cb86a05e1fe9eaf24f11ee6b2f19f912",
+    "vocab_size": 4096,
+    "eos_id": 0
+  },
+  "tokens": {
+    "dtype": "uint16",
+    "vocab_size": 4096,
+    "test": 413911,
+    "val": 371484,
+    "train": 5044464
+  },
+  "files": {
+    "test_bin": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\test.bin",
+    "test_document_ends": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\test_document_ends.json",
+    "val_bin": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\val.bin",
+    "val_document_ends": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\val_document_ends.json",
+    "train_bin": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\train.bin",
+    "train_document_ends": "$REALDATA_ROOT\\packed\\fineweb-edu-preview-v1\\train_document_ends.json"
+  },
+  "packed_sha256": {
+    "test_bin": "2c3dfc8617e9bcd7c2ce9000d30a855bd68114d480699f8ea13298b148293bd5",
+    "test_document_ends": "b842e62c0e9045760f2d0e8453c372b68b5bf97de9fe634de59f58736857c0d8",
+    "val_bin": "b6ccd0975a5aa7927079fa78266df9094f201c79c65fbb0e9aecdfa7089431f7",
+    "val_document_ends": "30da0b80cf85534a9f461a8f3d294d8bcc559f2fe54be7e12bbc175685f67e06",
+    "train_bin": "328d680802ed102cd6d32e2a80ee0d15cabf2c016bc49a924bdbd2ecd407f843",
+    "train_document_ends": "dc92b14d2473f6e66a9c56e13cc271c203ccd66a6f2c0f41583bf4a1147f2187"
+  },
+  "documents": {
+    "test": 289,
+    "val": 285,
+    "train": 3584
+  },
+  "ingestion": [
+    {
+      "source": "HuggingFaceFW/fineweb-edu",
+      "path": "$NAS_ROOT\\FineWeb-Edu\\sample\\10BT\\000_00000.parquet",
+      "scanned": 30000,
+      "invalid": 0,
+      "exact_duplicates": 2
+    }
+  ]
+}

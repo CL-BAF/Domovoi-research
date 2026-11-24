@@ -1,0 +1,7 @@
+== H1: damaged backup must not be moved into place by a failing resume ==
+  resume failed: UnpicklingError
+  directory unchanged by the failed resume: True
+== H2: a resume that loses the writer lock must leave the experiment untouched ==
+  exit code: 1 | status now: RUNNING | experiment unchanged: True
+== M1: a changed packed .bin with an unchanged manifest must not pass resume ==
+  resume refused: CheckpointError Cannot resume $TMP\tmp6dvebzba\m1\checkpoints\step_00000002: the trainin

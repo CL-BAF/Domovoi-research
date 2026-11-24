@@ -1,0 +1,13 @@
+{
+  "interruption_step": 2,
+  "restore_checkpoint": "step_00000002",
+  "weights_and_adamw_restore_exact": true,
+  "reconciled_steps": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "max_final_weight_delta": 0.0,
+  "final_sampler_position": 128
+}

@@ -1,0 +1,32 @@
+$TMP\claude\9b7959e934b5b185\43fe24e1-0095-4c16-8fec-1efd99e4ae77\scratchpad\repro_audit.py:2: SyntaxWarning: invalid escape sequence '\S'
+  Run from the project root:  .venv\Scripts\python.exe <this file>"""
+== A01: checkpoint loaded into a different recurrence schedule ==
+  rejected: CheckpointError Checkpoint at $TMP\tmplhjvz8iq\ck was saved by a different architecture than the model it is being loaded into; its weights would be interpreted under a different computation graph:
+  recurrence_depth: checkpoint=2, model=3
+  recurrence_order: checkpoint='cycle', model='sequence'
+  application_schedule: checkpoint=[0, 1, 0, 1], model=[0, 0, 0, 1, 1, 1]
+  effective_depth: checkpoint=4, model=6
+To resume, use the checkpoint's own model config (stored in checkpoint.json under config.model). To train a different architecture or schedule, start a new experiment. For inference, use build_model_from_checkpoint(), which rebuilds the saved architecture.
+  recurrent->baseline rejected: CheckpointError Checkpoint at $TMP\tmplhjvz8iq\ck was saved by a different architecture than the model it is being loaded into; its weights would be interpreted under a different computation graph:
+  architecture: checkpoint='domovoi_recurrent_v1', model='baseline_transformer'
+  recurrence_depth: checkpoint=2, model=1
+  application_schedule: checkpoint=[0, 1, 0, 1], model=[0, 1]
+  effective_depth: checkpoint=4, model=2
+To resume, use the checkpoint's own model config (stored in checkpoint.json under config.model). To train a different architecture or schedule, start a new experiment. For inference, use build_model_from_checkpoint(), which rebuilds the saved architecture.
+== A02: malformed caches ==
+  valid: ACCEPTED delta 1.7881393432617188e-07
+  short slot 1: CacheValidationError: cache slot 1 (application of block 1): cached length 2 != slot 0 length 5; all application
+  empty list: CacheValidationError: Got 0 cache entries; this model applies 4 blocks per forward (schedule [0, 1, 0, 1]).
+  wrong heads slot 1: CacheValidationError: cache slot 1 (application of block 1): expected 2 heads x 32 dims, got 1 x 32.
+  batch 2 slot 0: CacheValidationError: cache slot 0 (application of block 0): cache batch 2 != input batch 1.
+  float64 slot 1: CacheValidationError: cache slot 1 (application of block 1): cache dtype torch.float64/torch.float64, but this f
+  k/v length mismatch slot1: CacheValidationError: cache slot 1 (application of block 1): k and v must both be (batch, heads, length, head_di
+  None slot 2: CacheValidationError: Cache slots [2] are None while others hold K/V; every application needs the same cached pr
+  x batch 2 vs cache batch 1: CacheValidationError: cache slot 0 (application of block 0): cache batch 1 != input batch 2.
+== A03: prefill cache storage ==
+  logical 10240 retained storage 15360
+== A03: accounting dtype vs model dtype ==
+  estimate weight_bytes 216064 (bytes_per_param=2) ; actual fp32 bytes 432128
+== A03: context sweep target vs actual ==
+   [(16, 16), (32, 32)]
+  full-context prompt: [(120, 120, 2859.9)]

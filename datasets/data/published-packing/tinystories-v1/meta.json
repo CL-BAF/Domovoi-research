@@ -1,0 +1,58 @@
+{
+  "complete": true,
+  "dataset": {
+    "name": "tinystories",
+    "version": "nas-2026-11-24-v1"
+  },
+  "tokenizer": {
+    "path": "$REALDATA_ROOT\\packed\\tinystories-v1\\tokenizer.json",
+    "version": "stream-byte-bpe-v1",
+    "sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+    "vocab_size": 4096,
+    "eos_id": 0
+  },
+  "tokens": {
+    "dtype": "uint16",
+    "vocab_size": 4096,
+    "test": 2018159,
+    "val": 4805339,
+    "train": 110052057
+  },
+  "files": {
+    "test_bin": "$REALDATA_ROOT\\packed\\tinystories-v1\\test.bin",
+    "test_document_ends": "$REALDATA_ROOT\\packed\\tinystories-v1\\test_document_ends.json",
+    "val_bin": "$REALDATA_ROOT\\packed\\tinystories-v1\\val.bin",
+    "val_document_ends": "$REALDATA_ROOT\\packed\\tinystories-v1\\val_document_ends.json",
+    "train_bin": "$REALDATA_ROOT\\packed\\tinystories-v1\\train.bin",
+    "train_document_ends": "$REALDATA_ROOT\\packed\\tinystories-v1\\train_document_ends.json"
+  },
+  "packed_sha256": {
+    "test_bin": "ed3fa81e897f294316c01e59a6798125ea9138e83e0741a8f2c5801d106a062e",
+    "test_document_ends": "5ae10d62bc3748ad5cb521a42e4e2eef5a8e5f4c0c7268d8edf3eb7eb123ebf6",
+    "val_bin": "7a5f9b4757b91742e57fad0820ac06cd2b6acfbcfd77c47382fd6c31282f373f",
+    "val_document_ends": "61eb9b629a1729853273973b3fe4ee01f0e75e6e0fdccc7e23b985a1b05943fe",
+    "train_bin": "a8bd40a12efa94aa48a48c8ddf5c67113df570791538cc0c41d76993c7dffa71",
+    "train_document_ends": "651a23beeb6d8d4e18d58007e4e0f4ef456e1850b970ae5803b15a2270838311"
+  },
+  "documents": {
+    "test": 9024,
+    "val": 21990,
+    "train": 487424
+  },
+  "ingestion": [
+    {
+      "source": "roneneldan/TinyStories",
+      "path": "$NAS_ROOT\\TinyStories\\TinyStories-valid.txt",
+      "scanned": 21990,
+      "invalid": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "source": "roneneldan/TinyStories",
+      "path": "$NAS_ROOT\\TinyStories\\TinyStories-train.txt",
+      "scanned": 1000000,
+      "invalid": 71,
+      "exact_duplicates": 74140
+    }
+  ]
+}

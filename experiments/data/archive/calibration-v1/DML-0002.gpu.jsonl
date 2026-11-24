@@ -1,0 +1,4 @@
+{"timestamp": "2026/11/24 08:01:36.005", "temperature.gpu": "23.87", "utilization.gpu": "5", "memory.used": "2582", "memory.free": "13396", "power.draw": "18.71"}
+{"timestamp": "2026/11/24 08:01:38.052", "temperature.gpu": "24.93", "utilization.gpu": "1", "memory.used": "3588", "memory.free": "12390", "power.draw": "35.20"}
+{"timestamp": "2026/11/24 08:01:40.098", "temperature.gpu": "37.51", "utilization.gpu": "93", "memory.used": "4104", "memory.free": "11874", "power.draw": "223.24"}
+{"timestamp": "2026/11/24 08:01:42.143", "temperature.gpu": "39.28", "utilization.gpu": "92", "memory.used": "4033", "memory.free": "11945", "power.draw": "227.28"}

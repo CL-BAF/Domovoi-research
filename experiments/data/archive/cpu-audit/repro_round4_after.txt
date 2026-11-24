@@ -1,0 +1,11 @@
+== F1: Ctrl+C right after an AdamW update ==
+  latest checkpoint step_00000002: recorded step 2, AdamW step counters [2.0]
+== F2: NaN loss in a 2-step FP32 run ==
+[trainer] FAILED: non-finite training loss nan at step 2; no checkpoint written for this step.
+  status: FAILED | final_val_loss: None | checkpoints: []
+== F3: resume with a different batch size and grad clip ==
+  resume refused: CheckpointError
+== F4: checkpoint-save failure, then resume: metric rows ==
+  rows after crash: [1, 2, 3, 4] | latest committed: step_00000002
+  raw rows after resume: [1, 2, 3, 4, 3, 4]
+  reconciled rows: [1, 2, 3, 4]

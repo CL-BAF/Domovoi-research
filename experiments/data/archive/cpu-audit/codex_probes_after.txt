@@ -1,0 +1,76 @@
+===== Codex probe A (verbatim body) =====
+cases 96 max_logit_delta 2.220446049250313e-16 future_delta 0.0 gradient_delta 6.938893903907228e-18
+prefill logical bytes 28800 retained storage bytes 43200
+Traceback (most recent call last):
+  File "<stdin>", line 63, in <module>
+  File "$IMPLEMENTATION_ROOT\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1787, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "$IMPLEMENTATION_ROOT\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1798, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "$IMPLEMENTATION_ROOT\domovoi\models\baseline_transformer.py", line 201, in forward
+    prefix_len = validate_caches(self, idx, caches)
+  File "$IMPLEMENTATION_ROOT\domovoi\models\kv_cache.py", line 64, in validate_caches
+    prefix = _validate_entries(model, idx, caches)
+  File "$IMPLEMENTATION_ROOT\domovoi\models\kv_cache.py", line 129, in _validate_entries
+    raise CacheValidationError(
+        f"{where}: cached length {kl} != slot 0 length {prefix}; "
+        f"all applications must cache the same prefix.")
+domovoi.models.kv_cache.CacheValidationError: cache slot 1 (application of block 0): cached length 2 != slot 0 length 5; all applications must cache the same prefix.
+exit code: 1
+===== Codex probe B (verbatim body) =====
+Traceback (most recent call last):
+  File "<stdin>", line 22, in <module>
+  File "$IMPLEMENTATION_ROOT\domovoi\training\checkpoint.py", line 191, in load_checkpoint
+    verify_checkpoint_architecture(meta, model, ckpt_dir)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "$IMPLEMENTATION_ROOT\domovoi\training\checkpoint.py", line 77, in verify_checkpoint_architecture
+    raise CheckpointError(
+    ...<8 lines>...
+          "the saved architecture.")
+domovoi.training.checkpoint.CheckpointError: Checkpoint at $TMP\tmpcp2oiq7x\test was saved by a different architecture than the model it is being loaded into; its weights would be interpreted under a different computation graph:
+  recurrence_depth: checkpoint=2, model=3
+  recurrence_order: checkpoint='cycle', model='sequence'
+  application_schedule: checkpoint=[0, 1, 0, 1], model=[0, 0, 0, 1, 1, 1]
+  effective_depth: checkpoint=4, model=6
+To resume, use the checkpoint's own model config (stored in checkpoint.json under config.model). To train a different architecture or schedule, start a new experiment. For inference, use build_model_from_checkpoint(), which rebuilds the saved architecture.
+exit code: 1
+===== Codex probe C (verbatim body) =====
+upstream exact: tie x mode = 4
+16 69589248 132.73095703125 320.0
+2 15581056 29.718505859375 320.0
+config.yaml True
+metadata.json True
+metrics.jsonl True
+val_metrics.jsonl True
+numbered snippets 1371 mismatch 0 []
+exit code: 0
+===== Codex probe D (verbatim body) =====
+domovoi\models\domovoi_recurrent.py []
+domovoi\profiling\accounting.py []
+domovoi\models\baseline_transformer.py []
+domovoi\models\__init__.py []
+domovoi\config.py []
+domovoi\profiling\profiler.py []
+domovoi\profiling\__init__.py []
+domovoi\experiments\report.py []
+scripts\train.py []
+scripts\inspect_model.py []
+scripts\plan_recurrent_experiments.py []
+tests\test_recurrent.py []
+domovoi\models\kv_cache.py []
+domovoi\models\signature.py []
+domovoi\training\checkpoint.py []
+domovoi\training\trainer.py []
+domovoi\inference\generate.py []
+scripts\generate.py []
+scripts\profile_model.py []
+tests\test_post_audit.py []
+pyproject.toml []
+tests\test_rereview.py []
+tests\test_round3.py []
+domovoi\experiments\metrics_log.py []
+domovoi\experiments\__init__.py []
+tests\test_e2e_smoke.py []
+tests\test_round4.py []
+exit code: 0

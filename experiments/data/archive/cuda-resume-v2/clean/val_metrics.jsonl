@@ -1,0 +1,2 @@
+{"step": 2, "attempt": 1, "val_loss": 7.1583452224731445, "val_ppl": 1284.783203125, "n_batches": 2}
+{"step": 4, "attempt": 1, "val_loss": 6.817182540893555, "val_ppl": 913.4078979492188, "n_batches": 2}

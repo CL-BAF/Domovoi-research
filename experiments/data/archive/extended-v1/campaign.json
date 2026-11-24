@@ -1,0 +1,53 @@
+[
+  {
+    "arm": "B02",
+    "id": "DML-0008",
+    "config": "$REALDATA_ROOT\\extended-v1\\DML-0008-B02.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\extended-v1\\DML-0008-B02.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\extended-v1\\STOP",
+      "--pilot-deadline",
+      "369169.7809291"
+    ],
+    "exit_code": 0
+  },
+  {
+    "arm": "B08",
+    "id": "DML-0009",
+    "config": "$REALDATA_ROOT\\extended-v1\\DML-0009-B08.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\extended-v1\\DML-0009-B08.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\extended-v1\\STOP",
+      "--pilot-deadline",
+      "369169.7809291"
+    ],
+    "exit_code": 0
+  },
+  {
+    "arm": "R02x4",
+    "id": "DML-0010",
+    "config": "$REALDATA_ROOT\\extended-v1\\DML-0010-R02x4.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\extended-v1\\DML-0010-R02x4.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\extended-v1\\STOP",
+      "--pilot-deadline",
+      "369169.7809291"
+    ],
+    "exit_code": 0
+  }
+]

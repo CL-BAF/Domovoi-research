@@ -1,0 +1,54 @@
+== prepare synthetic data (temp) ==
+vocab 300
+== scripts/train.py (fresh, CPU, 6 steps) ==
+step      6/6 | loss 5.4133 | lr 1.86e-04 | tok/s 9247 | 0s
+           val loss 5.3783 (ppl 216.66)
+[train] done: 6 steps, 384 tokens, val loss 5.3783
+exit 0
+== scripts/generate.py ==
+========================================================================
+prompt tokens : 3
+new tokens    : 8
+ttft          : 3.1 ms
+decode speed  : 2682.3 tok/s
+exit 0
+== scripts/generate.py, prompt longer than... (no token sampled => ttft None guard) ==
+alpha
+========================================================================
+prompt tokens : 1
+new tokens    : 0
+exit 0
+== scripts/profile_model.py (temp experiment dir) ==
+[profile] NOTE: CUDA unavailable — VRAM fields will be null (never estimated).
+[profile] params       : 28,800
+[profile] ckpt size    : 0.112 MiB
+[profile] decode tok/s : 2206.1
+[profile] ttft         : 0.5 ms
+[profile] written to $IMPLEMENTATION_ROOT\post_audit\scripts\e2e_tmp\experiments\DML-0001\profile.json
+exit 0
+recurrence {'recurrence_depth': 2, 'recurrence_order': 'cycle', 'application_schedule': [0, 1, 0, 1], 'effective_depth': 4}
+weight_dtype torch.float32 kv_dtype torch.float32 bytes_per_param 4 weight_bytes est 115200 measured 115200
+sweep [(16, 16, 8, False), (32, 32, 8, False), (64, 56, 8, True)]
+vram basis: not measured: no CUDA device (VRAM fields are null, never estimated)
+== resume with a changed order via train.py (must refuse, no writes) ==
+domovoi.training.checkpoint.CheckpointError: Cannot resume $IMPLEMENTATION_ROOT\post_audit\scripts\e2e_tmp\experiments\DML-0001\checkpoints\step_00000006: this run's model config differs from the one the checkpoint was trained with:
+[train] resume not started; status of DML-0001 left unchanged
+exit 1
+experiment dir unchanged: True
+== F.2 verbatim ==
+    "applied_per_token": 33812224,
+    "effective_depth": 8
+    "unique_blocks": 2,
+    "effective_depth": 8,
+exit -1
+== F.3 verbatim ==
+    "note": "random weights, CPU wall-clock; NOT a GPU measurement"
+  }
+}
+exit 0
+== F.5 verbatim ==
+{'token_embeddings': 32768, 'position_embeddings': 8192, 'per_block': 33472, 'blocks': 66944, 'final_layernorm': 128, 'lm_head': 0, 'total': 108032, 'total_non_embedding': 99840, 'unique_blocks': 2, 'recurrence_depth': 4, 'recurrence_order': 'cycle', 'effective_depth': 8, 'applied_blocks': 267776} [0, 1, 0, 1, 0, 1, 0, 1]
+exit 0
+
+== note: F.2 prints exit -1 above only because Select-Object -First closes the pipe ==
+F.2 untruncated exit 0

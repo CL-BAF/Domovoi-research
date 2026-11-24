@@ -1,0 +1,4575 @@
+{
+  "captured_utc": "2026-11-24T04:25:14.022306+00:00",
+  "path_base": "$REALDATA_ROOT for current artifacts; historical files under implementation experiments/",
+  "access": "Bulk files require project-operator access or independent reconstruction from pinned inputs.",
+  "record_count": 544,
+  "checkpoint_count": 84,
+  "checkpoints": [
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050",
+      "step": 50,
+      "tokens_seen": 819200,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100",
+      "step": 100,
+      "tokens_seen": 1638400,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150",
+      "step": 150,
+      "tokens_seen": 2457600,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200",
+      "step": 200,
+      "tokens_seen": 3276800,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500",
+      "step": 500,
+      "tokens_seen": 8192000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610",
+      "step": 610,
+      "tokens_seen": 9994240,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000",
+      "step": 1000,
+      "tokens_seen": 16384000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500",
+      "step": 1500,
+      "tokens_seen": 24576000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526",
+      "step": 1526,
+      "tokens_seen": 25001984,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000",
+      "step": 2000,
+      "tokens_seen": 32768000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500",
+      "step": 2500,
+      "tokens_seen": 40960000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000",
+      "step": 3000,
+      "tokens_seen": 49152000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052",
+      "step": 3052,
+      "tokens_seen": 50003968,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500",
+      "step": 3500,
+      "tokens_seen": 57344000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000",
+      "step": 4000,
+      "tokens_seen": 65536000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500",
+      "step": 4500,
+      "tokens_seen": 73728000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000",
+      "step": 5000,
+      "tokens_seen": 81920000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500",
+      "step": 5500,
+      "tokens_seen": 90112000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000",
+      "step": 6000,
+      "tokens_seen": 98304000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104",
+      "step": 6104,
+      "tokens_seen": 100007936,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500",
+      "step": 500,
+      "tokens_seen": 8192000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610",
+      "step": 610,
+      "tokens_seen": 9994240,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000",
+      "step": 1000,
+      "tokens_seen": 16384000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500",
+      "step": 1500,
+      "tokens_seen": 24576000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526",
+      "step": 1526,
+      "tokens_seen": 25001984,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000",
+      "step": 2000,
+      "tokens_seen": 32768000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500",
+      "step": 2500,
+      "tokens_seen": 40960000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000",
+      "step": 3000,
+      "tokens_seen": 49152000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052",
+      "step": 3052,
+      "tokens_seen": 50003968,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500",
+      "step": 3500,
+      "tokens_seen": 57344000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000",
+      "step": 4000,
+      "tokens_seen": 65536000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500",
+      "step": 4500,
+      "tokens_seen": 73728000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000",
+      "step": 5000,
+      "tokens_seen": 81920000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500",
+      "step": 5500,
+      "tokens_seen": 90112000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000",
+      "step": 6000,
+      "tokens_seen": 98304000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104",
+      "step": 6104,
+      "tokens_seen": 100007936,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500",
+      "step": 500,
+      "tokens_seen": 8192000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610",
+      "step": 610,
+      "tokens_seen": 9994240,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000",
+      "step": 1000,
+      "tokens_seen": 16384000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500",
+      "step": 1500,
+      "tokens_seen": 24576000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526",
+      "step": 1526,
+      "tokens_seen": 25001984,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000",
+      "step": 2000,
+      "tokens_seen": 32768000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500",
+      "step": 2500,
+      "tokens_seen": 40960000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000",
+      "step": 3000,
+      "tokens_seen": 49152000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052",
+      "step": 3052,
+      "tokens_seen": 50003968,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500",
+      "step": 3500,
+      "tokens_seen": 57344000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000",
+      "step": 4000,
+      "tokens_seen": 65536000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500",
+      "step": 4500,
+      "tokens_seen": 73728000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000",
+      "step": 5000,
+      "tokens_seen": 81920000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500",
+      "step": 5500,
+      "tokens_seen": 90112000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000",
+      "step": 6000,
+      "tokens_seen": 98304000,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104",
+      "step": 6104,
+      "tokens_seen": 100007936,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": null
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002",
+      "step": 2,
+      "tokens_seen": 32768,
+      "declared_manifest_matched": true
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004",
+      "step": 4,
+      "tokens_seen": 65536,
+      "declared_manifest_matched": true
+    }
+  ],
+  "files": [
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "59915bc1168818e0c0bad57d2362089a8d10c47c1593bc4c771e27835f52a0a4",
+      "bytes": 2995,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0002/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "b88441d961a3d2c419a4174c155bb07b078e5afb37212562d6dead9a8a424685"
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/model.safetensors",
+      "sha256": "b45d317585851512e88e82840465e1c096d527bca5543ce2bfd7a333255b2caa",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "91024c185aec1f4cc8764952d43ca27c17faa99ad937a28741f18de618574640",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/rng.pt",
+      "sha256": "4343f186c3b8ef7d3c035482f5cb4391de9ee4a706020812ba9e71f84a5c8822",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "d14a037acb93f304d47086b5ee4a67ef53da64327699600ba42e7c83811615d6",
+      "bytes": 2997,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0002/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "1a7e7fbf0e2ddcb698986bf58cb77b74425678d027fd75b034e5b47dcd8e1578"
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/model.safetensors",
+      "sha256": "5f4c234adb28abc61a0d36721eb31bbf940bffb677981fdbc8902fe3bb35768f",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "918981a6e0a97edd0193224b30ab866a6e0f2f34d00f2009cf17dc4cc4d7e768",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/rng.pt",
+      "sha256": "acc77d03fb92392bbce4aff512aabc13b0731475922964dcbbedc04caa62a3b7",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "a35d3ff38ae7bc1444048688968206ac3cf6b7eedd4216bf8e89b06e2c0709cd",
+      "bytes": 2997,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0002/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "0b787db52aa35dc5f82e7f20ef06577833672e75d02cd42817089aa149c8662e"
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/model.safetensors",
+      "sha256": "d6918ddc97a8146fe24195047a6991dbe01babe0e22cbd32fe52a702e9f86032",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "1ab0361aa5dacc26e2b3dbdf028f2885b873f99bd689198bbccff4b5078aed90",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/rng.pt",
+      "sha256": "eb8a384f7164d6659837d482bea979f882fe8e971e02cccdaf3f596a24a5ef3f",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "9f361f6ab3f01e854c94c09c05ca17384c5329c6938c958eb79ab10a5dde7926",
+      "bytes": 2997,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0002/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "574f6cb898c35bbd14afcf3d22d5f69a048ab7e98cdef0e38b0b94c645a11d08"
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/model.safetensors",
+      "sha256": "9be846131b0178ea0f3119824fee37d800fcb27d56c2330ce17d863be7fc757a",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "a493550d6cf14deca46bb599d4a39b17c67c5b8dc47128c30273e1c2078db9a4",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/rng.pt",
+      "sha256": "d9ca47bbab2dff861f9eaf1d55f1a023a1c871fd135d034338909752a9adf3ca",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0002/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "dfde9cbee31a38809c163e897071740010a0d7d13aa905b0b79e89f245577e9f",
+      "bytes": 3055,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0003/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "77947f1a3577c7a1da4d3aa61b5e898df9c6b0c96bd9a92cb805abbeb3c14174"
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/model.safetensors",
+      "sha256": "9e1323f353ac78818880fee8c59fcf023f2926428f46defa81a9244958731f5c",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "8c19af67cb6fc74ffddb23f41b64dbd37c5cf235e2989a6af4a7b8d994b431e7",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/rng.pt",
+      "sha256": "c050ee52de6f9d9fbb5baa667269bfba2047c0cbe01921be99cd49996979a4a8",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "904b616a05f6866b8cd0e0f237e4f808671acda5c1ee207a81eb2e50fcae501d",
+      "bytes": 3057,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0003/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "bfa6d042737479f5eaabb1dd5f09c95b7688fbfff9e2870cb262e6648f0c89d1"
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/model.safetensors",
+      "sha256": "3d5d7e483b47d9bcdeef57d9ac4892b6c323408e2289c9f7cd99af53c2527e63",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "0b96c85619f50c7432416c633ed9b6346d4449d5e66a839ee400576f809e8174",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/rng.pt",
+      "sha256": "3456876cee7e1c72d1c270ed2586bdce61d198342a134715c2faa8e919536c0a",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "feb693d3eca8d15a0231e217fa64fb85166376cc4532503ab88f1f569260d2b5",
+      "bytes": 3057,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0003/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "bbd86493e060f1a69aa0dfe3a28e6a3dadf10a1b6ceecab148b5c08e24c30308"
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/model.safetensors",
+      "sha256": "4f65b44fb3fffdeb9b921fa95de7c8862b6e5570792684df60582ef57ddd17f5",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "705fe3e71f4184d7ceb7f8e718ece844fab4a5afe900f5c31440e1c413778e83",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/rng.pt",
+      "sha256": "5192e9515e693194029d89bf10df9db0f1f16ed313de1aa6810db2be32e75552",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "393bab26accfb015332c73bb43d9b56c985d134f1fae8a257f0766d05f03a61b",
+      "bytes": 3057,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0003/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "1abfb1b6b03c43945c65fcecf7cc14552edcbcbf552f9553972388639c18eef4"
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/model.safetensors",
+      "sha256": "ff35cb1fa1e58dbf22b1f0164970cc366f1639cbd640344a8d74d4bd34f20e02",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "8eb9b411abdd71f83fa0c34cccdddd99f8f4c32871a8b27f0cc0c6d568eab905",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/rng.pt",
+      "sha256": "5077f835adf8ff200777964555829332899e4146a986c364248d0e167a4c95fc",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0003/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "36da1fe1d1f03fa467f580431700fee748e47bd80a06dc2e230f4e669e5001a2",
+      "bytes": 3061,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0004/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "c3de9bb4374a8709cb6d4a374bc71675d6c1e972858a590273a73741037030b3"
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/model.safetensors",
+      "sha256": "4b348629fba88c7ea3c76098f9a38a7ce5ba0ecd7c569f6b79dcfb21ebfe422b",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "7fa67b16551374b9bff9629ba66cdc55b210e986861c9b92991ccd8a760143d6",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/rng.pt",
+      "sha256": "b3cf1ea29130117c157660db45c49b4f5ad374e5006eca4d4091b7aae1058da3",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "026d731fceddb7074ae22a7161972f1ba94fcd78d006b85ee74cfb80d87fe245",
+      "bytes": 3063,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0004/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "b8e3d82f74f24a9c163dbb3d35bb000d0616d6b9bc12f574bf073c33c683f114"
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/model.safetensors",
+      "sha256": "c5fb1a632f263c648cf1d59bc8996d27cbffcff561c640a1fe9e0a7ca6783757",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "990b7c03889c4866451a701a68b4adf9d48b6f9e0b33c497b860c6e132322a9f",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/rng.pt",
+      "sha256": "2407f8e12257a2e624ce3c544b687403bc89d0aa0b90a926820151b717f07993",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "32276fd6841061114aea1d9bf806e765899edfe1ea44aa469bdf2c95fb539fd7",
+      "bytes": 3063,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0004/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "3de59ea753268745e649be06bbfdfb68b908a887f386a118687c31206d18cb73"
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/model.safetensors",
+      "sha256": "4ea268acf4099efce120e4825eda732fdaf92cca9c5ee28279c49817289c1a44",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "8a0d0ab123d9807feb17657092013c8880f05235757a3565bffdc27910a952e0",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/rng.pt",
+      "sha256": "19d444cd7a469504d91d6577aa125559b187b4cdff06fdf664b87b28a4510e84",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "286bfdc24aa97b79f1ca9a1e7c903354c16f1d1e2fe71a2795942b390a58d485",
+      "bytes": 3063,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v1/DML-0004/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "27b2a4c3225e2fed4c768e09ff277666af948d72814ce7de03a9659e87588649"
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/model.safetensors",
+      "sha256": "048d1a4289fef080acc1d2026a3c5d049136a9e5d5e07a9ed98932d320003cb8",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "c5eba2bdd13ea6ffe65aa2586598de45744f629cc513417599d9d354c1a795c7",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/rng.pt",
+      "sha256": "820c44b3df32abacb73d622f3f9e5ff78c2c0467767550739a49463cf7c8ae8f",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v1/DML-0004/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "5fe078fe8a261eaff73f8206f21eb247a50b6f789bfbd32648befbf09feabb40",
+      "bytes": 3538,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0005/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "442c81091837c7a7ad75ed180b2f58d10d63697e94194074c7e043ddb5c22840"
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/model.safetensors",
+      "sha256": "738488befe563f75e0fd6fc650e0bf785e9a0455d568e13f285dffda2a614a34",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "36c877d13e978e74a86d5215bb97478de51118cc807b408a2b77b202b16002c9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/rng.pt",
+      "sha256": "f05b0cd34b49a565f6c39b8a95cc631a027d2fe763b540bab4ec0daca3f35baa",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "43076c8628ee97c2b67fa24d7f87d75905cd69c682e5e7314b0fb2c618580375",
+      "bytes": 3540,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0005/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "a6672541487b00e9e6db74fc1be8d108330dfb386a8d9f21714532b4a5631fec"
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/model.safetensors",
+      "sha256": "508ad94f33f4f3936bc7fff6118a04cc3dd0b46d230378afdedd6b572a50eab3",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "03c479c184d82bba721ef69a9c17888bd24497311cee4a15e2340c386d264100",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/rng.pt",
+      "sha256": "6dfac5386d587119a4629040b8fd53f96b77f258e9ee83a068f2b74b8f0742ae",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "58d3aa3fec80c0c326d01ac500f687e9c5f9d0dd2b848889be2f6ef9d5c1f936",
+      "bytes": 3540,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0005/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "b06ac7d2e3d8ca6aabeaba736cfde05a76685d99f5e3037f4d3e739b1695b3de"
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/model.safetensors",
+      "sha256": "c6f35fad45b393fff0b9b63d4c3e3cd87cdf5c40ae1c9cbf9e4a1816b33b6817",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "9e62cd4ef109749a4132dfccc40bb67bf84a3f5c222c6905e20231b1d50a66af",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/rng.pt",
+      "sha256": "8ac7574013800fb9e45f4223262bae7d4c671ea1d826e760a3ac832c4ad5ee19",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "79d8bb9bcfa368e1a7dd8485c606d2a73a1eb8bfe6d63cfe3a82dd3e5b2f09e9",
+      "bytes": 3540,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0005/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "275fe0bc2cc42a9ff16bf87876cfcec09703bb9e6053f81b666c3b528e4ca3ea"
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/model.safetensors",
+      "sha256": "874f66a73c3822366228b3c5e85aadd11d29c026006204db274be846fe55903b",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "1d534abab1e6b354bf32975061bc32588ff2788628689e86d13557135c47c415",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/rng.pt",
+      "sha256": "eda95390c7503b3689be48d7fd737ac12e00682568785cf5dd8c61fec9253069",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0005/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "eba388c539fbf773dd0e045ce3e4beaf1121cb31b4af56b795f7783d7251bf33",
+      "bytes": 3598,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0006/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "19837a190d49583aeab1c7c5ed80bf7315c52eea956c3032e34c26f2ff69b8a1"
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/model.safetensors",
+      "sha256": "381406b0c532cc04532a43733c6d42789577d6171fb2822044230ee90d20a3e7",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "d34c67b8e60a658e2930e74c32f66b7f32d4f414f4588a213a4fb44924e51458",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/rng.pt",
+      "sha256": "a2d390c68a42310687b5c06d08ce1c7b1caab607b79b9bf352b4ca7ccbc5f8c0",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "534bfbac4c084758f46ecd5907b28115a0e713adef286faff7cfde4bb1531b3f",
+      "bytes": 3600,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0006/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "dd3ede05f7060fb68d0dd0ea2a9c83aa61178108d1380dd0cc0d5aa371310327"
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/model.safetensors",
+      "sha256": "5053f9106852dc3276ca246bf48475fd2f45eb7ceda679a1c22d55fcc329e79c",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "907f33f490419928f4fe336ad1f1f5b1bc15027a39d2f64c14b402eb8e12da7f",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/rng.pt",
+      "sha256": "f956ab2c36204a3c841b885ff5f5811c236765f2e7bf36736c2424b732ebe96d",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "5449271803ffb29cdd2cfa8c0e90328c6792d1cfa29ad8522710e12216fe8145",
+      "bytes": 3600,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0006/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "524ac346bc00ec4ed039fd1d34656c256f04ffcd41ee26bfdaad6be74b709b6e"
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/model.safetensors",
+      "sha256": "02ba1fb2f0a4187d798e22730f23084e531d336e004e1eea959a6626559f5982",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "d2942930b314c56ec01c2bfe18b7f7b1211e3d4be9fc928bcdd9b8a932a6656b",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/rng.pt",
+      "sha256": "9eb002eee7ddb1b0e176d064f347d48dc025d8695847b22e7dbbb55c838c18f3",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "abf11b7cafab564a00eae659b2876d2b3174690a13ea54e621e4692b8703fb49",
+      "bytes": 3600,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0006/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "b65a549874d026a7032c02cb5e82f3480ca1547e024e1dc7bd573cdad93a0206"
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/model.safetensors",
+      "sha256": "e20091fb63456de301c19fa33d71b5174308cc6e1909cef33aef339843476cde",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "ce7824a4d2d94268e8e0f8f93c634dae48945fc9bad111fd95ff3cf8fd730ab5",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/rng.pt",
+      "sha256": "87244353187c526f4a5e8c1818eb2818664902adef78e37b4b6db921687cd9af",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0006/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/checkpoint.json",
+      "sha256": "b7548f5bc371f3279f6f4b4a0fbe8f4dd6f3a46e88aa9a1bd4dc4c674856478f",
+      "bytes": 3604,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0007/checkpoints/step_00000050/checkpoint.json",
+      "public_sha256": "7144e906df5c3034014f782bac092e5e7bb672118fc477b458b0e12b5171b6f1"
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/model.safetensors",
+      "sha256": "295ff5a346246c3337e7c2b64a48df572b4a74d77a47bb9299a33266f6fa0075",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/optimizer.pt",
+      "sha256": "1f5648a2b2767beffa79d6fb2811651aacba1c76c90b819f5d608ba0f8991f64",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/rng.pt",
+      "sha256": "a669c64bb87b89d73ed8fe64f3e2136b5ced935a55e48b2834e3b94dab7056af",
+      "bytes": 20413,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000050/scheduler.pt",
+      "sha256": "054805ea67fd72fb2571cb739b05f950cedd79b3d00b51b373bf4a8ebba50022",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/checkpoint.json",
+      "sha256": "4ee0cf52b36ce54f07889369a3f1d5f844a7968222670de2bc86b4c90ed658d4",
+      "bytes": 3606,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0007/checkpoints/step_00000100/checkpoint.json",
+      "public_sha256": "a5340a39cdf197ce5965aecb505189066e3323de0dbec7aa4da3211eeec40b83"
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/model.safetensors",
+      "sha256": "67f0c5d875fcef6126ddd78d9800e794b466d267ef79ee620f11abdf34ddb8c2",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/optimizer.pt",
+      "sha256": "a11724183e2f15bbfff9749243cc79242c0f78ea1657bc8dec408de3b0b1c158",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/rng.pt",
+      "sha256": "93dcb584e9b302248c9ed48d248d6ddd6962150044036ada7cc6a6d28d13156c",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000100/scheduler.pt",
+      "sha256": "118c23522c9d949c903486e2c4e3ec466890c6c71600a071fd140a6b4c305861",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/checkpoint.json",
+      "sha256": "91f276ed8d0da4205346631052ca8c07d177962d8f984b7be92e3e9e60dd84b4",
+      "bytes": 3606,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0007/checkpoints/step_00000150/checkpoint.json",
+      "public_sha256": "a36f3216dfc655dd6cc4a3db28efa4e15a9a15fc1dd9ad869dbe3da3c52cf1d7"
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/model.safetensors",
+      "sha256": "6a5071b13f02f3c2d6892d59442afcba268bf3c2d268af2d0759be02f4ffe643",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/optimizer.pt",
+      "sha256": "23594f4b336299109cc6ba0fbe48e591adee60e4c2d1d5e362a152a2e01b8d1c",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/rng.pt",
+      "sha256": "7a17d7845a876bec561602d670058cfb379f8fd8041c75bcfaf63a3252bb2a24",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000150/scheduler.pt",
+      "sha256": "6cb5cb73338128d74cb649ba773ed1ba08f8971134fa5cfc01256debe6c1f9f2",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/checkpoint.json",
+      "sha256": "0263a98b355692889fe2c0e5e1aa4ec049340a1df583249af6e031a1654f4d46",
+      "bytes": 3606,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/calibration-v2/DML-0007/checkpoints/step_00000200/checkpoint.json",
+      "public_sha256": "e4439a0185925f1e70aa5962a18bc713c85b3d48a4fb0ce0e95d97c071439ce7"
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/model.safetensors",
+      "sha256": "e1e476ef471aa2574cda31125cef1a2fe20d35a54311b5ecda778e89a627d7af",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/optimizer.pt",
+      "sha256": "b67ecc9e22723b635c5ad74a43d3542c871ee1c2d3d887693c35de29c5672cf3",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/rng.pt",
+      "sha256": "7ad5d779bd4eedc873826137df454f7b5e405ae0ac1417b7e17cad56d79fc46e",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "calibration-v2/DML-0007/checkpoints/step_00000200/scheduler.pt",
+      "sha256": "cf8f18d7a17ff04dc1645a01d42671df9b4ce9c97489b81e8af09461845087f7",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/checkpoint.json",
+      "sha256": "3701d4e2383c331fe2e5c34a45fdcf3c7087a76fdec1af95ebdb5e5ed2092e61",
+      "bytes": 3585,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00000500/checkpoint.json",
+      "public_sha256": "8cbc4054b40769df830ab2f1271b28fc273cf3d4b69c08792b1382a05cbc846c"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/model.safetensors",
+      "sha256": "a69a570e15994d151917ebbf4efe2e605d29c266751d8f0f7bc320767bd6889c",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/optimizer.pt",
+      "sha256": "8a2959002c93bcf081e9c4b2aa09c528d4562cd1705fce7d27fa113782763e2b",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/rng.pt",
+      "sha256": "a2b12d5829626b983a883231c1aac9d8d8db1ed3e8d4a19412c91efcc7e9667f",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000500/scheduler.pt",
+      "sha256": "fd98652a86670ff014f9e0803dcf489359668b813108fbf8bc7682a8c0811f3c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/checkpoint.json",
+      "sha256": "472d0d1542a3aab6a1c3f7a12a9838d19e02b135d2d6bb73c030fb0025fe80da",
+      "bytes": 3585,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00000610/checkpoint.json",
+      "public_sha256": "1e54e3c2128a280199f9af25fbb018a431e63abfd7808e2eceee17e2d903ccf4"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/model.safetensors",
+      "sha256": "e131a434b0a5fde969fabb0c80a4eb3ac80447d71612fb613a413a9c04fc8d8f",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/optimizer.pt",
+      "sha256": "1366d4fafc361c5cf9b9793a8fccf8ddd64dab81ceebbb042a5f756102958032",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/rng.pt",
+      "sha256": "c07b65b1a829b189c5010ab405037785f11ef3d82bba11cdf25be99526892a90",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00000610/scheduler.pt",
+      "sha256": "dcff93d79ef1110f5bf413fef38ab70f2d2d9a28f1a2c1026efa402f85ddb32c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/checkpoint.json",
+      "sha256": "8ae2d39f728f89c8bb51efcd599d5f376157315c67c135316f4e453ac7324ae0",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00001000/checkpoint.json",
+      "public_sha256": "06278311d5ecc375d191d9b722551aa62ef383d82b831c7078754603543a8412"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/model.safetensors",
+      "sha256": "718c6da6549e96116a156692fa5e8d11c94fc88b5e8812a621b3cfdb6bfa206d",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/optimizer.pt",
+      "sha256": "04d7d893671753ae622696b087fe1064644d35573d1326e36eae3e1605f3cf4e",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/rng.pt",
+      "sha256": "a47fe40b95c08377623005292a3bf7a27bcaac004014f404dd22639c11cfd286",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001000/scheduler.pt",
+      "sha256": "f1d2ef332a110304c5fff0e2e39447f13bfa6c7e6063d48b8c26883978641601",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/checkpoint.json",
+      "sha256": "a780302ff4e5c093e6c4de94d965f867d87cb6f44b8c4969d56f2285ffdc7f57",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00001500/checkpoint.json",
+      "public_sha256": "4edb6cf903ae4f8c9b3e086e5ecb5904077dd4447b1de04e75e5c307f4f8d401"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/model.safetensors",
+      "sha256": "1f4f9bc0a6fef16620fd0c026bb47998cdfb2fe8077b11f0570c0479192ae695",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/optimizer.pt",
+      "sha256": "95a213c6f5109ba54f7bb677c9c827ee6810ce484d66b7ef8939cb497b68d4e1",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/rng.pt",
+      "sha256": "1b52f92f042984cc98f29f758e9411a4f79a3256928ce4ba6e765f03a8a3a1b7",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001500/scheduler.pt",
+      "sha256": "05d37b2f06350daccd94560604f68cb86d1b0c2ad13f09c1fb11c1ecd4315dd8",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/checkpoint.json",
+      "sha256": "5a422bb720a4f7f440b845b0b56af4a556eca5927ca7ccf499d462a71962cf2e",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00001526/checkpoint.json",
+      "public_sha256": "6e3a9fbcb19aab45927567a0a74cba152b18af8729e46e4de4a6890e15d5e130"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/model.safetensors",
+      "sha256": "1a0065282e069720fa50fe82e21755d63842d65f9149c8d5f017d1e08eb4a4be",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/optimizer.pt",
+      "sha256": "7f2db29560763bbdc89bb4ae94ffbdb4366d7260435bda3b7516147c040bad30",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/rng.pt",
+      "sha256": "d138e304bd31d73c424eec858f02004d94ee96275e441573c4f778ccd9bfebc4",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00001526/scheduler.pt",
+      "sha256": "8f65e45685db94aa2cbbb678b13444a54801f1ce31dc1b0434e7acd1acef5cab",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/checkpoint.json",
+      "sha256": "98ed120ce494d8f95bdd25574b02ba0c54ba341abb1d05eb6bbcf8cea507f29f",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00002000/checkpoint.json",
+      "public_sha256": "54b2295efb7c57178ce10fdd3813c27dd1375ad495f6e3c691a1643f63a94822"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/model.safetensors",
+      "sha256": "e2fb44ae0fe7392b296fd7a7c50f3009e70079576b5ae13af322570170368c00",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/optimizer.pt",
+      "sha256": "5802953f2ebc38ff657722d51d06ea32f74a189f4e644be780e8cfa1c5d549b8",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/rng.pt",
+      "sha256": "84e8c63948a28148c67338fa5a54bf6ec6862a35f3b0e33ac7faa6337cc6154d",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002000/scheduler.pt",
+      "sha256": "2487dfb9784a68ab68a6b7793645531aacd0c4429543ee5bad70887ecc2caec4",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/checkpoint.json",
+      "sha256": "e027d3a80308acdb74747a34829d0e24f4465b1ecf2d3bb5064665366ac68de6",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00002500/checkpoint.json",
+      "public_sha256": "2d724c029720f4bd1c914cf699dbb2b24f18f1da2d0c2abbc9a05ca90cefac79"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/model.safetensors",
+      "sha256": "7ada6e5964bf402c20404aa8fc97bb4cd5b4d1e336f8dfc85f268b1f42a2958a",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/optimizer.pt",
+      "sha256": "74c6b03c4bc133f374da013ddc972771e384ebf167780d7f65ecc3b86da268e9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/rng.pt",
+      "sha256": "b110df1da2583e68fec7683d7371360e0a92d01ade9667389fe8d7a397c8b079",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00002500/scheduler.pt",
+      "sha256": "e30701199df8db81dd0c32e9ce1410eaa5e539a7a2317a0810d597464ca22640",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/checkpoint.json",
+      "sha256": "ace760f4020d31b584fd337b48ced7e514fb77b43f94329f1b0cf9f6ab0c9da2",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00003000/checkpoint.json",
+      "public_sha256": "43b9a4b2aaa38fc3a468f2d92e5942888cb22b8e9468ae9dc86f7a9629789946"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/model.safetensors",
+      "sha256": "b0bd2707a54a7371cd45859d09b3cc7312196fd6dd81c07d0a4e980d3a1c0033",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/optimizer.pt",
+      "sha256": "c1ec2ded952e3564c0fccc5c027b847f9ba8e7988291765c255c6f52be556963",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/rng.pt",
+      "sha256": "095d6de870992c3c8289594d04ed8dd18b62694cbab94be9be97037f4a4b5d11",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003000/scheduler.pt",
+      "sha256": "8bb51647f708f66b0b186261db620406d282c2e3178a9f6afa8b2189f5889683",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/checkpoint.json",
+      "sha256": "5775f23a74c71bc2f5bfe14063cc62e08f9159117599d7ccd81f9cc42498fb32",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00003052/checkpoint.json",
+      "public_sha256": "f570b405da15a150354444adf28c816443e1f8abcead7801bc1b30d68721c42f"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/model.safetensors",
+      "sha256": "f89b2bb8d1b6f90d36be0b069b535ecad7127626194ef6f4d7926393b3bbab91",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/optimizer.pt",
+      "sha256": "f20bc2b8aa6e3e14ffa251ca37e9ffa9d18a7eb1bf9c9b717fd10e87aab1b0a3",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/rng.pt",
+      "sha256": "e72c3f00425ed6857d03e95a9b6cb1165cf07e45ae9dc37d6a6e834e79cae0b8",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003052/scheduler.pt",
+      "sha256": "e3be94ce0cef4235eea84843e43d8fe20b61dc8c3511cd6848bab731989842ef",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/checkpoint.json",
+      "sha256": "97ea951f617ff85a2d4bcd69ba69f54be94548625f9ea241a5715586f414edaf",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00003500/checkpoint.json",
+      "public_sha256": "81f7bc58495d3fbbc344248a37cefabf4fcc2c7d4876561c5a9d97e873f6f08d"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/model.safetensors",
+      "sha256": "45eb2bf79711c647f40e707ca24a210598c153b6b1629f991545a5f3027fe66e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/optimizer.pt",
+      "sha256": "825ea70e4be7f7c6655469d82853a5993b4874ecbc8594c4153df810d572008c",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/rng.pt",
+      "sha256": "ee89a4082badf8f7a73d96b1905796d2fadfd5c0dfe9dc4fb5b0feede51658a4",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00003500/scheduler.pt",
+      "sha256": "843a1efdd00cf68ef83926e9239c3733a08e11e5561836283c7087d622276e26",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/checkpoint.json",
+      "sha256": "0d08604fc44d7d78670fadfe5a8c4349766965e1b6507529efa191354253d737",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00004000/checkpoint.json",
+      "public_sha256": "ebd43cc7ac59220d5cadaae06e0727310adf451f576601e9172050b7b6fbdf3d"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/model.safetensors",
+      "sha256": "3b29938b23342005e721be2a234584e5f65f118600a58901dd8dcca0cd1f84c5",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/optimizer.pt",
+      "sha256": "9797adda8d9696a22b68afde772c25809e1b6099364dc55088ecaa0d428fd41a",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/rng.pt",
+      "sha256": "590a3ba1dc3c5e278fac9b959fb56aed32ebfd19c426b5673518c0a84a769378",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004000/scheduler.pt",
+      "sha256": "15403dec4c53090664882d1c5f44caa8567dea6d0744da83e6d8488c2e124b10",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/checkpoint.json",
+      "sha256": "84ddfb4f63f957ac2e22bcef5580da0a61181aa2ef0efb369dde30e4bde78e87",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00004500/checkpoint.json",
+      "public_sha256": "4afbf5730861b744e9c5ddf346fedac7af17fef26898a6e9559a5e6364654d70"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/model.safetensors",
+      "sha256": "8b81f58b43adbe89f7374a3af5af64ebf696bdc27010111aff044c943b629801",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/optimizer.pt",
+      "sha256": "3a89550aa7fb6c9a21471e32d06e8e19f9cce6bc88466b3744bd9e537130fbfd",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/rng.pt",
+      "sha256": "7965d614ea31a8c4e8a3a51042c3b11f404593a9aa97c409649327b01e3dee57",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00004500/scheduler.pt",
+      "sha256": "e5a190c2d107fa66276dcd12391b9c8b173a63fe42ee9a677618ab9b0a707968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/checkpoint.json",
+      "sha256": "84b0a6724f66d1ce79061dd5c6fbf9d9066a9414c2c6a13cc022ae9b2b1c14b7",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00005000/checkpoint.json",
+      "public_sha256": "ff4982bec077b4a100f2aa09450aa0186fee641a9c6b717877f022c6898b604a"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/model.safetensors",
+      "sha256": "0af138eec68696064b6343c6a7942c804b7498b22a30aeb958e93c54d5bd582e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/optimizer.pt",
+      "sha256": "a30cb16eb79c48d782e12a442f5a2dcca204e07a637c66f12b90abf25af439c7",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/rng.pt",
+      "sha256": "7a00aff64f8bad207f661cd0e767aaf4319d4a37c5a813e0c8cb4a283b4c7a56",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005000/scheduler.pt",
+      "sha256": "5c50ef6512b65f510487222deb74f64ab1bd5cba9373c5cac5e9f1a763d617c6",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/checkpoint.json",
+      "sha256": "8c4921d03da266edb1089ca09946ab99fb21e831455ab3d0b1632fe8fe1bb6f7",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00005500/checkpoint.json",
+      "public_sha256": "34974ea06da0556895221be6fcd243479c65e4f9a73d82886f14db42e9a83b97"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/model.safetensors",
+      "sha256": "9cab33dae725e9d159ad73dd2d78a1c721ced826fc0ba311826d02a99931375c",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/optimizer.pt",
+      "sha256": "0f9874d0ae2423b91e6c8cb46891bfc44bd6bc4c7c759c39fc86038a7ff0b674",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/rng.pt",
+      "sha256": "d30ce26d4d1becdc0c88efb8abed7bcc6634ba27327e5a75eea995eb36e3bfc1",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00005500/scheduler.pt",
+      "sha256": "63a674a3ff7677a2a50ae143a5f42ddd37bf6fb9e81df21737f146ba6d8297dc",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/checkpoint.json",
+      "sha256": "7f03f0d628978eae987ebe269a35036be7c14253279d9ba53da16736b609d296",
+      "bytes": 3587,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00006000/checkpoint.json",
+      "public_sha256": "c3c5ae8994dca0ca7155130e05dbd66ebb5e1101bffec5052d40eab359fe602a"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/model.safetensors",
+      "sha256": "925d7a5d22d68ef5df07b40300fc936f92273993366ef7d42a43d38afebb1eb8",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/optimizer.pt",
+      "sha256": "c9868ff00bdb882b980242edcf791efeb6ef1ea61992f2165dc89a2776e4b649",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/rng.pt",
+      "sha256": "7ab51406465b3e98fd13051ab10bd03f7eb74bb9f75d29ce24e0278f3de88d77",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006000/scheduler.pt",
+      "sha256": "0ad288911f443e312c5263b704e3336fe9e68e52686af1f5c79160c67960ddda",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/checkpoint.json",
+      "sha256": "2899883cb90de03b2f6c2210847e9566d8b1a5c0cffc36e276aa66c20ce35ae4",
+      "bytes": 3588,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0008/checkpoints/step_00006104/checkpoint.json",
+      "public_sha256": "8c636d620f42a9afd489c9bac00a4f25a1c2187ac8b4e28beaa2e60be21d3ecc"
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/model.safetensors",
+      "sha256": "62cb321cf104e27121930de50c114544ec34ef99174a1722de3336822ede8c8e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/optimizer.pt",
+      "sha256": "3451b003714f9cef277c51e812f07f2c34bfccd1204eae89f04b1cf19bc6fab8",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/rng.pt",
+      "sha256": "e94f537f2b146348c3645a6911084fc1206dd2f9a19f4cd3524689cd4b50f5ab",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0008/checkpoints/step_00006104/scheduler.pt",
+      "sha256": "f6b1dd44184d6b0a8c553283166e3bdc749f8c5a19f39c374d126f72ec7f2ddb",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/checkpoint.json",
+      "sha256": "a330dc320111e1b45a97ee19144b3550513ff0ff0f9710cef8e999a9da7a793a",
+      "bytes": 3645,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00000500/checkpoint.json",
+      "public_sha256": "9fed1df8e7e108d2ef184f38b26e9c92ccf504c8ba1827b9bedf3eabe80b4b97"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/model.safetensors",
+      "sha256": "27c0d139a009d48f55e9083766a731dfd78772fae443e6806ae6f05f953c5a94",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/optimizer.pt",
+      "sha256": "8f9dd4c65790f3ff0e337e7f086966853403ed3b3e6cab62cc05df5356599381",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/rng.pt",
+      "sha256": "1e4e91b4d01dc084f35ca77db2de7b80d76ccd9ba10750132e2b37755a85fe76",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000500/scheduler.pt",
+      "sha256": "fd98652a86670ff014f9e0803dcf489359668b813108fbf8bc7682a8c0811f3c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/checkpoint.json",
+      "sha256": "bd3a0dc50019dd6dd6bb1114e5ac14c37e0d974f4299fb3f4bb67c878a496ecd",
+      "bytes": 3645,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00000610/checkpoint.json",
+      "public_sha256": "badaf3c8b63400986fe75976aacd21cb1980c9e6656ff6ef04118391e7006c0f"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/model.safetensors",
+      "sha256": "c776040c054e29aa341c92ca69e7002e1a0a59f947eac44fede862e78225d2f4",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/optimizer.pt",
+      "sha256": "47c4e2b9cf5619e93786bc8cb5bf5fbc74f6c4973b912ac1aeec9fe1eebf4ab4",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/rng.pt",
+      "sha256": "bb0e6161dfca34c496789d61918f8cab47c688a556368608aead8efb97da7599",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00000610/scheduler.pt",
+      "sha256": "dcff93d79ef1110f5bf413fef38ab70f2d2d9a28f1a2c1026efa402f85ddb32c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/checkpoint.json",
+      "sha256": "2ffe1b302e1f49ac188c77635a7bec0320c5095f9f935b862cabc08d7ce93821",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00001000/checkpoint.json",
+      "public_sha256": "61365f037474278cbd500d372c7fb5430d3f22457124d2f06b785928c16935ae"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/model.safetensors",
+      "sha256": "995fcbdbea6c7df07f5f4c09c5a59b2fb5a56ec99d727f1feb6ce4364ace6f1f",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/optimizer.pt",
+      "sha256": "e77be508f6b22e4c9fbd9db72c86683dc1fa114f56e936d0346b5f43332ead3f",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/rng.pt",
+      "sha256": "f7bf99cb73178a89bd771e85502415b9f6464354865a6c35477c7a7d8b337856",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001000/scheduler.pt",
+      "sha256": "f1d2ef332a110304c5fff0e2e39447f13bfa6c7e6063d48b8c26883978641601",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/checkpoint.json",
+      "sha256": "bcb5aa44b83ea3f11a2509b9d0626c11a90d378465812e3158e983e5d65d871e",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00001500/checkpoint.json",
+      "public_sha256": "c7fbb9de13308c3d074f5f60420b5aedd34c62b9fa8f57697e84ba6308737a5d"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/model.safetensors",
+      "sha256": "9f3ae6b79c541073cfc5527b8a3fff04e413729f372dbf4f7aa6e1fac054c0dd",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/optimizer.pt",
+      "sha256": "ebab9768b673802b42332889be4dbf97ca9e6d2a1f4d5a279f4fe11892198575",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/rng.pt",
+      "sha256": "7b9956d1a1c3feac5b1a6cab46397527992a05102da4871b755f477b5527dede",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001500/scheduler.pt",
+      "sha256": "05d37b2f06350daccd94560604f68cb86d1b0c2ad13f09c1fb11c1ecd4315dd8",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/checkpoint.json",
+      "sha256": "2a05165ff9deb80334716f1128158a73729a5e6916a9bd6b3a260cec1aeb521e",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00001526/checkpoint.json",
+      "public_sha256": "79d680bd71b419bf368573d45d6e8e66326167f2bd34b7d4de2ac64475311a93"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/model.safetensors",
+      "sha256": "ef3c7ce58f91e8ebd440b7e810d12754ae3a2f6399a7fdc8375b429baeabb70a",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/optimizer.pt",
+      "sha256": "d7ce83b3a3a091af726b9273fa235c471e7d63eea46a493643adbe088c7fbe93",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/rng.pt",
+      "sha256": "676bc48a65748d17622d206f5188662e7b4b3589315a331c4bb2b3d49acd1abb",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00001526/scheduler.pt",
+      "sha256": "8f65e45685db94aa2cbbb678b13444a54801f1ce31dc1b0434e7acd1acef5cab",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/checkpoint.json",
+      "sha256": "f27da318cfbe3ede4d4d5cba4b9bbdd13e91c107283d18bb9f5a8a858f36e8df",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00002000/checkpoint.json",
+      "public_sha256": "1237c18aedf68525480752287d50fe7bdf111ab75deb439e6751f1e642b5ae0e"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/model.safetensors",
+      "sha256": "14f3a790b98b28da1e3f4392e8d895b53763ffdac003c687175df32a8100f050",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/optimizer.pt",
+      "sha256": "c1b7ce682827cee4528a6db0182609eb87cef035cc0fb392088a6a977645bd9c",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/rng.pt",
+      "sha256": "203439e6da1fd84e60950035ca823ebd47a4c063d6521405364bf56ad909a0db",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002000/scheduler.pt",
+      "sha256": "2487dfb9784a68ab68a6b7793645531aacd0c4429543ee5bad70887ecc2caec4",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/checkpoint.json",
+      "sha256": "2fd65b9229ba390afad343daa1ac8baeeea3c02e5d3f4a3e73424c563fc6bd59",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00002500/checkpoint.json",
+      "public_sha256": "88738824dd3cb51a69599d158fc0a8fcd1a27674fb77e375e94bd0510a812e91"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/model.safetensors",
+      "sha256": "9a6d12fe3c4fac3a2c6b3535174a5844f9309383b75ce0f94dc6e1c6e498db8b",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/optimizer.pt",
+      "sha256": "634650be1bd461622a96704efd6b904f1d3c3144838b4e8e9c831fe7ed6e06d4",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/rng.pt",
+      "sha256": "12514ee7b04a8f3fac78598dce6a5dc15cf3e3e200e70f0da9a53774ab74a742",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00002500/scheduler.pt",
+      "sha256": "e30701199df8db81dd0c32e9ce1410eaa5e539a7a2317a0810d597464ca22640",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/checkpoint.json",
+      "sha256": "afe7d354f1ad517ae9464755a794f51365cdc18222e4b09072a0a314ff489a6a",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00003000/checkpoint.json",
+      "public_sha256": "b548c64e10e0adbd0ceeccccfd7b76786041d80b6eff44aae47c633739461887"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/model.safetensors",
+      "sha256": "790d8dc37dfdc8dab5396ba21fabba1c5e7575779f19cc3c2a7b279753510808",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/optimizer.pt",
+      "sha256": "a741be61c24397404bc626864b6f972fee8b2e748de20fd41bc801f171e62815",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/rng.pt",
+      "sha256": "52bd34a810f8c94de764bb2945874879ca7f2020d59edb752ada8115964d04e1",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003000/scheduler.pt",
+      "sha256": "8bb51647f708f66b0b186261db620406d282c2e3178a9f6afa8b2189f5889683",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/checkpoint.json",
+      "sha256": "eef92725eb2f9878e15f8c9b5416832b3e00d81df5332d72cd5544f278a452c4",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00003052/checkpoint.json",
+      "public_sha256": "0985bcf04c0266e19e6cbc6b3ad1133a22566f3fa474d2bbe1cc80037697d0b6"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/model.safetensors",
+      "sha256": "72b5ebbebf00ac47dd48c8713a2421da93a28d464ff3d84f79779a80deb4f6ff",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/optimizer.pt",
+      "sha256": "dea549740627a0a39fec48dca41cea5b4e8655a9c6443e2a281cdd4efdf732d7",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/rng.pt",
+      "sha256": "2e2eb68f69c96cdb3ead4bb1d4834b1902abbbdc5be2277220e633401cbd0ee9",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003052/scheduler.pt",
+      "sha256": "e3be94ce0cef4235eea84843e43d8fe20b61dc8c3511cd6848bab731989842ef",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/checkpoint.json",
+      "sha256": "d741d8c2b964682f7f2d3784c4b157877f9794eca3f0b77745ac4b6a5eb56cbd",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00003500/checkpoint.json",
+      "public_sha256": "804bc8ed182f248369d43eb10d2b2a341c18a4ae7dcac2782dfac6d904fc538d"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/model.safetensors",
+      "sha256": "13146f53fd738173f0904ba25570428c397f957c2f7f72d43c17778c00d99ebc",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/optimizer.pt",
+      "sha256": "af69145fa6536662bdd762738cf5bad2548a001970be38a0ed8f4d7cf3e0a7f7",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/rng.pt",
+      "sha256": "2ffa7748c092bc020cc787f9b54739f768b7c8d903e5733046f78792a744d083",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00003500/scheduler.pt",
+      "sha256": "843a1efdd00cf68ef83926e9239c3733a08e11e5561836283c7087d622276e26",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/checkpoint.json",
+      "sha256": "4e5f5543075443ca72e0460e7119e2c596970f853a6b7d24d1c7b16cc165aaea",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00004000/checkpoint.json",
+      "public_sha256": "227eb71b1de8dd711c185fc77e451055440f0d81fa6292467c8d1ffcd8a7c96b"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/model.safetensors",
+      "sha256": "c420ce1b77f76293f47eb2ed98b70aebfe6865dea07838fb34c3eaaa638f0148",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/optimizer.pt",
+      "sha256": "656b22dd9b5366fee8377d34e72a4650a17330b812f072fa8bbe2325baebc928",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/rng.pt",
+      "sha256": "69375a503bb6f1aed542d66a7d8de43530fadf40afb4cfee761f3eaf4d4eba56",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004000/scheduler.pt",
+      "sha256": "15403dec4c53090664882d1c5f44caa8567dea6d0744da83e6d8488c2e124b10",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/checkpoint.json",
+      "sha256": "a6303eaf616b3603a9c8e5e5cd2e617be31aa5ab49e2159dfa38c1d3b479e2ac",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00004500/checkpoint.json",
+      "public_sha256": "f95c25e6885b1e27503e4ca9fad9b1d8b2c0c5fa3cfe1f6dd2c7d7e406fbd42c"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/model.safetensors",
+      "sha256": "3f0c9dfa175031e9a6947725501f864a12d4dca8a6c6f9d676443745bf69dac6",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/optimizer.pt",
+      "sha256": "392f5e80c9cd1314dd986612b7ee959f65a6c85121ba64e70455130c1f0158f3",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/rng.pt",
+      "sha256": "c6ecd58fc9fbc450ca4bbd227ec9aaea42f9db490dd0228068c3579767217edc",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00004500/scheduler.pt",
+      "sha256": "e5a190c2d107fa66276dcd12391b9c8b173a63fe42ee9a677618ab9b0a707968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/checkpoint.json",
+      "sha256": "2788a603e0ab7b74ade8c3e3d37753b394b7ca145610c640509bfb2d6a63a390",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00005000/checkpoint.json",
+      "public_sha256": "e7c12aa7a5c22ec83331568fb299789fcb80ee1b4c785dd08b14d801576e8a74"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/model.safetensors",
+      "sha256": "564a2f98ed7f9b34c436e5df3091512d3c3d5a59f3806cd455fa6380509da211",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/optimizer.pt",
+      "sha256": "23ef97d4c26f91e430adb1b1ec0cb193b52735010d39ab7a37a592463e620b42",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/rng.pt",
+      "sha256": "99c70b563e61e9341266f4964238271a9b590a00bc254273a45692188ca97d7d",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005000/scheduler.pt",
+      "sha256": "5c50ef6512b65f510487222deb74f64ab1bd5cba9373c5cac5e9f1a763d617c6",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/checkpoint.json",
+      "sha256": "8cb8f2b3c39a6a11b1799d2089aba5eb1907a58b4e808e0d3883b0a7dcc7f128",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00005500/checkpoint.json",
+      "public_sha256": "b6cd726f6b01045b3a951c682c9162cdf4de70f481b4e874906481d051905ef2"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/model.safetensors",
+      "sha256": "b6ad1a7238f88603e6acaa1164ebc317cd8429d71bd094bf5757b949f592cada",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/optimizer.pt",
+      "sha256": "4d2c00b80a905b43b9004ea4cae13dbfe9156482bf3f9febbbdae3cc290756b1",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/rng.pt",
+      "sha256": "38772d8d54da073de46eef4028e3b78725c7b3efb7a66003b7708b83154888d0",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00005500/scheduler.pt",
+      "sha256": "63a674a3ff7677a2a50ae143a5f42ddd37bf6fb9e81df21737f146ba6d8297dc",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/checkpoint.json",
+      "sha256": "10d97ee027fed74681a7bcb80306e50aa441697b2391e96b7a2bc9b22a34866c",
+      "bytes": 3647,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00006000/checkpoint.json",
+      "public_sha256": "fdfb7196d3836fa5c672a7cd2721d4178210df38186f80c5596556356c6e3eb2"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/model.safetensors",
+      "sha256": "dbf1927b4bb36cf5280191dfd30ef692c97da574a19c5dde83dfe2c39835bea5",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/optimizer.pt",
+      "sha256": "c10c077f01937ddea5d8d1983a493881dedd9ead14844ae57ac1413d1ca7c72e",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/rng.pt",
+      "sha256": "6eac0f67e5f4fff7d5e3fa29767ffd04e227c1863d455a7720be02d842d6766e",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006000/scheduler.pt",
+      "sha256": "0ad288911f443e312c5263b704e3336fe9e68e52686af1f5c79160c67960ddda",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/checkpoint.json",
+      "sha256": "82e974ae6216a546fc13126da12e74159dcfcc0a1bbe370f3e3b12d70e5166d9",
+      "bytes": 3648,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0009/checkpoints/step_00006104/checkpoint.json",
+      "public_sha256": "e63401817c72501e40ac809198b048104d1063c45381048024231aa1518e72da"
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/model.safetensors",
+      "sha256": "f671e9f3486b2199f7d147553e0b1a658853d37e8f974dc5629fd6c0d8de0079",
+      "bytes": 135257960,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/optimizer.pt",
+      "sha256": "621be78659d9930df1db046d33a4047b785bde32b640707a641d1b140f72bdb8",
+      "bytes": 270582091,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/rng.pt",
+      "sha256": "be9ebec82536c5a61bfbea88c10d81b37473aa383211289593acae3e62cef2dc",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0009/checkpoints/step_00006104/scheduler.pt",
+      "sha256": "f6b1dd44184d6b0a8c553283166e3bdc749f8c5a19f39c374d126f72ec7f2ddb",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/checkpoint.json",
+      "sha256": "3b03f1ca62a553c6a7b3eced88fb0c3c4183d56d8de30754b19d60e3e7b1cdca",
+      "bytes": 3651,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00000500/checkpoint.json",
+      "public_sha256": "e9fc2598237e2a0bb7f3e05a0c5d52b16c218b32b839775772fd6b658c75876a"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/model.safetensors",
+      "sha256": "b619448f1c3d13a555e75c01a9214b32dd0274c6d45d13c36b0569d29fc542f3",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/optimizer.pt",
+      "sha256": "1cee5509bc6c578a932afa73e27f52905785f7f75544c2ff3d350572921176b0",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/rng.pt",
+      "sha256": "346dcfc69e9342f7cb835a238bd01df7b83c629f4be42ffd8c23d543cf419aab",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000500/scheduler.pt",
+      "sha256": "fd98652a86670ff014f9e0803dcf489359668b813108fbf8bc7682a8c0811f3c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/checkpoint.json",
+      "sha256": "1884b0c4e2083425721ab94c0d77de50d7e260da222a6962d15a9e8d4bb69fc2",
+      "bytes": 3651,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00000610/checkpoint.json",
+      "public_sha256": "037df2519206f49dbf98299d6453708884b6508e6e217df7748a3e2cd60373e9"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/model.safetensors",
+      "sha256": "4bd0f2e5227eeb84959107b9fe9e5090dc1406b120130bd00b5e99f7306f4495",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/optimizer.pt",
+      "sha256": "86740b0ae5e5b7edeb7adc15b5b7e0f961ebef8e9ecc35cfc2c3373ba764c859",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/rng.pt",
+      "sha256": "63df3a10071811072d3e9772df26fe996fde7c39eb5bd8e9b928f1b7c1aac90f",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00000610/scheduler.pt",
+      "sha256": "dcff93d79ef1110f5bf413fef38ab70f2d2d9a28f1a2c1026efa402f85ddb32c",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/checkpoint.json",
+      "sha256": "4ede19fa1a5413b4e3fed6e4f6548448b8c8e929177735ad2bc3548614ba1a6b",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00001000/checkpoint.json",
+      "public_sha256": "85cbe1a512ac69b3b279906f35e7c409386777df24bb06d0de575c6614591efe"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/model.safetensors",
+      "sha256": "370896104a8f2cb671892ff5d9d4e20b855b07fc773918e8b395bc179c463d35",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/optimizer.pt",
+      "sha256": "2852cabb107adb93023b9838de487c29096861675944a8ae9f985c4b932774f8",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/rng.pt",
+      "sha256": "e61cc460a3d8d7242a9c5222189b4f8290adbccbd77b5db53d50aa2e172a8be6",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001000/scheduler.pt",
+      "sha256": "f1d2ef332a110304c5fff0e2e39447f13bfa6c7e6063d48b8c26883978641601",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/checkpoint.json",
+      "sha256": "fb4d737a3c473135d7be24cf43a2d91923aab6f6814e0b48497415016296ee94",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00001500/checkpoint.json",
+      "public_sha256": "d5ba9094eb8c7c0d4a77ce4a234ae135abf95e382d32fd434a317f249b88b439"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/model.safetensors",
+      "sha256": "88bebd5477b3fb950f7792b05c14280dcb7eae9aa2d405a310b5f8030c2c8697",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/optimizer.pt",
+      "sha256": "c1958452b7c1d6cf1a29915acd9648835b80b6df632c9790b4961db21f7eab38",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/rng.pt",
+      "sha256": "98d28c97c56099458e00478fdd6987fc4f79dc4fbd0b8c66515a406e864596d6",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001500/scheduler.pt",
+      "sha256": "05d37b2f06350daccd94560604f68cb86d1b0c2ad13f09c1fb11c1ecd4315dd8",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/checkpoint.json",
+      "sha256": "ef9f672bbf69c93f01937e02d98afadf3e27bdfad2a2c3d18dfceaeb182802e0",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00001526/checkpoint.json",
+      "public_sha256": "f4440e53823a3902b3e1756797d0c6b3dc0babaa71a34df082476a7cb81372c0"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/model.safetensors",
+      "sha256": "e78f65b1da0b175956fe3361e4270ea013892f47c743d9b8ee4d838bc743984e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/optimizer.pt",
+      "sha256": "1bf974f1124a63917943f7bd3345254283f59adf1acaac8351eb0aa6a1d9729c",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/rng.pt",
+      "sha256": "116f09f3451864e8f5d1e6235deeaa2ffd19e6ae1e90568a12d0d6d448be19f1",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00001526/scheduler.pt",
+      "sha256": "8f65e45685db94aa2cbbb678b13444a54801f1ce31dc1b0434e7acd1acef5cab",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/checkpoint.json",
+      "sha256": "c1697a05ab0baa0c44f2cb14b64ed0c39b1e57c938acada9ded790781a6ce472",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00002000/checkpoint.json",
+      "public_sha256": "9bb5dcb0af43b409ba501e20a84f7ad9120f4add843433e372d0fbebd23e1723"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/model.safetensors",
+      "sha256": "5dd4985a2b8e8beb973d17b2a8d1a6d7a8effc890a2699e30ce7e6a2193bbe89",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/optimizer.pt",
+      "sha256": "6424e071e01651ffb54e82de8afa24fb73904098aacf0c9fa09baf5392c38167",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/rng.pt",
+      "sha256": "3214e6153c98d3c4dc222e862a09c7f30daeb4dc8de7d047d3e6c2f810af9636",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002000/scheduler.pt",
+      "sha256": "2487dfb9784a68ab68a6b7793645531aacd0c4429543ee5bad70887ecc2caec4",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/checkpoint.json",
+      "sha256": "ad769db399c0b6526c54fa756f3da15632418eb85fa83e162cf1c3524b6bb7b1",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00002500/checkpoint.json",
+      "public_sha256": "e12ae911d1cc2fd5838a48097c9bd5c4393975d2644e21ec3ab915c1452f0ed7"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/model.safetensors",
+      "sha256": "ae9c1c1d49c1c40804c0402532f15cdb8a1a0fa9b5df127c79ca77f87556a88d",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/optimizer.pt",
+      "sha256": "aaa7d2203e8b31ec882a1eb73ba3476f5f267f1ff22c37c97b0cc52ca39a6dd9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/rng.pt",
+      "sha256": "59bbf101241ece619cdfad370fef027e5b356c2701a46ecf69f6f26897d82105",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00002500/scheduler.pt",
+      "sha256": "e30701199df8db81dd0c32e9ce1410eaa5e539a7a2317a0810d597464ca22640",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/checkpoint.json",
+      "sha256": "4c183148f8cca47441617b9c94cb93b600350a0f884b4a206267c7f9d5e13b4b",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00003000/checkpoint.json",
+      "public_sha256": "e6eef5e8a06041c3c9e64b2d9b0bfeebe326b5f36a414baaedbb322a756f02ef"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/model.safetensors",
+      "sha256": "2b6c5bb87a902df3435b96645bfa345f54f22e6e2be5c5a1cd5e56dc4c6dfab2",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/optimizer.pt",
+      "sha256": "0737001d6c68f6f5344f8785128804a59ce000599c06190a6ee5950d822c052a",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/rng.pt",
+      "sha256": "78b8e87b02c469de3671d04a2b46ae7e347a608470b7c5164c606603fc3eef38",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003000/scheduler.pt",
+      "sha256": "8bb51647f708f66b0b186261db620406d282c2e3178a9f6afa8b2189f5889683",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/checkpoint.json",
+      "sha256": "3b439780ad41b4e172b88a1ce13edcbdbb54f10f8c32284e9fa36d237088ae0e",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00003052/checkpoint.json",
+      "public_sha256": "dc90a99019b60bd2a98c379f49f5f890c84c7f5082bf8b2025f21abcbc8b7e61"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/model.safetensors",
+      "sha256": "629b0e1212d20335699599b5411c2a64fb88cf2ba6196c500d75eba67e9e0069",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/optimizer.pt",
+      "sha256": "3fe3c92ab7c5fcc218344818bbad4540772327cf9b2a93a9413ee7b2c073fc41",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/rng.pt",
+      "sha256": "df4078de90e31a8c7d6a39f2ac76a393f340167259619f9050b9f455759c5955",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003052/scheduler.pt",
+      "sha256": "e3be94ce0cef4235eea84843e43d8fe20b61dc8c3511cd6848bab731989842ef",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/checkpoint.json",
+      "sha256": "6bf4cfdd5424c7bda0607e04939de13531718b18fa10a37e60c26379d74c91ab",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00003500/checkpoint.json",
+      "public_sha256": "0d447d74f7ea1710aca5dacc6085428c0abaaa9e522680b77b50efbd0202b7af"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/model.safetensors",
+      "sha256": "6b434b95731b06460c28f840b9722854b7562560996ade6076e61f4c123e75f6",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/optimizer.pt",
+      "sha256": "a4956e4927e15b0e448f11caa0592991f3e2c529ec052a8c0a66adfaf6cb337a",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/rng.pt",
+      "sha256": "82bffdf84a70f26ddabb05dd6c53b4c37f974a888429a8386f5f964938d35e76",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00003500/scheduler.pt",
+      "sha256": "843a1efdd00cf68ef83926e9239c3733a08e11e5561836283c7087d622276e26",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/checkpoint.json",
+      "sha256": "6c77de78aaa468d97b2e3d81ba78320a3a99c34690a355b34e466cf2cb171dcb",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00004000/checkpoint.json",
+      "public_sha256": "b15b2c1f52bc90d4ae7362e74338719af43d87ffae47e14bfa784e4183056599"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/model.safetensors",
+      "sha256": "cc8214290f6ba2d40b5029b349a17f5400aec425755175cfef21d86913dcdc15",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/optimizer.pt",
+      "sha256": "0c46c93c8459f507c834c37f66954a885e1c8019968e1f1077d1dd4fd3a72c51",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/rng.pt",
+      "sha256": "ce352a47fe87774ce81c736aeae3fed16a37d4e2bab035abb75474175d7400df",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004000/scheduler.pt",
+      "sha256": "15403dec4c53090664882d1c5f44caa8567dea6d0744da83e6d8488c2e124b10",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/checkpoint.json",
+      "sha256": "7c7beb70afe568536ae5752d06c02f2c9bae9712601c08cad37304d3e4f85019",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00004500/checkpoint.json",
+      "public_sha256": "9f824819964446cddf5d3c9e4d57f7fe7a2f1a77bb288bb7959d6d35e537ba8d"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/model.safetensors",
+      "sha256": "34446791ee8918f395339a3855b5be34453852316eb17e4cbcb3e9391533db9f",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/optimizer.pt",
+      "sha256": "7dca91c815dcd1ffc0cef7929a7ac788189d79c31b5cea0243ba61030f691914",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/rng.pt",
+      "sha256": "4d0efdabd1017e6321cf3da615d5c88e43103a9fec37347fc46f3134d0409945",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00004500/scheduler.pt",
+      "sha256": "e5a190c2d107fa66276dcd12391b9c8b173a63fe42ee9a677618ab9b0a707968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/checkpoint.json",
+      "sha256": "3ef58d125514d7ebc797641bcbfc5e4116feb2f8e2f94e30f3d124008df58b1b",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00005000/checkpoint.json",
+      "public_sha256": "317f8753a31993e96dd8d32ce388ef98adf692bc5821bfafcb2d331b5b14d695"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/model.safetensors",
+      "sha256": "c2e7c831e557feb39b194ff902dba4d9201a54813d830854703abf4c54aac01c",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/optimizer.pt",
+      "sha256": "a8c464e2f6a3f8f9d75b95d2d0f8e5aa7945c90f7ff1d9026c8ad94b06145a02",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/rng.pt",
+      "sha256": "9b3bbf3b7ebc4c4530f6910010e6f86a92c6955291450eea5867b882fb636bf7",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005000/scheduler.pt",
+      "sha256": "5c50ef6512b65f510487222deb74f64ab1bd5cba9373c5cac5e9f1a763d617c6",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/checkpoint.json",
+      "sha256": "2ea8d20821a2cacb7adeeff66004a6629aef4cba159163e23250dd1ee70267f4",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00005500/checkpoint.json",
+      "public_sha256": "1b769ccfa1e5fa7daec717ef955bf404de89faa8d2770a8a44336356900dfed9"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/model.safetensors",
+      "sha256": "bd7b7ed06f148e3555f9744c3429fb8fe079840c2fddbe4401b3717902ec4c77",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/optimizer.pt",
+      "sha256": "b75f40d0e6041766aec59fcd4e66e2c9795738f8f14ee7af35f5e21ae07e60f5",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/rng.pt",
+      "sha256": "163dd3df4ebf549e6050dd364ff1ef24c665bf7470f8d99dc0f1a7513e5b8ae9",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00005500/scheduler.pt",
+      "sha256": "63a674a3ff7677a2a50ae143a5f42ddd37bf6fb9e81df21737f146ba6d8297dc",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/checkpoint.json",
+      "sha256": "52a8e7660a6d6a9d346eeb5962f02fc1ff4da528bd8b5aa7af96dec0c5a9ffac",
+      "bytes": 3653,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00006000/checkpoint.json",
+      "public_sha256": "a18f1a82d1a7a12702a99b3e44a9d1c9b75ad19f2058f8832321e9a53e781c1f"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/model.safetensors",
+      "sha256": "f615c0a3d8f6c3c29f96bbe59832a9df0f4c8a761f7578fc65bd2a6eeb3daa82",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/optimizer.pt",
+      "sha256": "1d1c39c6f8f6d2bcafa9c2fe53a5c737e29295dd4ebaf263bd61155387ef8985",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/rng.pt",
+      "sha256": "0a311877168f35d9a60f0f50fae0dae0670e44692812afa2a2f9454267efd13a",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006000/scheduler.pt",
+      "sha256": "0ad288911f443e312c5263b704e3336fe9e68e52686af1f5c79160c67960ddda",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/checkpoint.json",
+      "sha256": "4c2f594e1f303a7cde64f5fdf58cc347b4d6ef0241ac0e330cb5cecb78c7955f",
+      "bytes": 3654,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/extended-v1/DML-0010/checkpoints/step_00006104/checkpoint.json",
+      "public_sha256": "a65f21e4542369652a3bff0a9198e4fddaa562f1e7e22ec7d80317ec15880a6e"
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/model.safetensors",
+      "sha256": "cfe4e0e527d224ff194bd4e1c865ef2e5f841d4a1d5fa39a228b299485ef677e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/optimizer.pt",
+      "sha256": "b2a3f7bfb1705463b0c96f8af50d350e1f2f09be0733c02076dd4996cc8a5a0a",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/rng.pt",
+      "sha256": "1e8b53c08e0bfd040bb601dbd72c9803132a1ed233ebae9917b952caed9882d8",
+      "bytes": 20477,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "extended-v1/DML-0010/checkpoints/step_00006104/scheduler.pt",
+      "sha256": "f6b1dd44184d6b0a8c553283166e3bdc749f8c5a19f39c374d126f72ec7f2ddb",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "936c364f24c96a872797a8761264534407eeeb59b70a3d812f58e01eded4f9d7",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v1/clean/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "14b1dc19eaec44eaeddd93c0f691776e3042e695e14af74bb5e5abb39c1c5842"
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/model.safetensors",
+      "sha256": "06df16537b9a5bb7ef10f595e40b3f335329a97dd367cf71afb5b6ef816173e1",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "c276f8b1878969797ad11742c95810ef938f2a2f67a86d30bdec226fae815305",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/rng.pt",
+      "sha256": "de9161b9e44c1164817aec6b149ff44b2f5e932c3a3f7fc73e640214f0c31a4c",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "282e5fdbf878bc58ae1a589b84fddbdfdf5d455d4f05efd538e4c38c654193b5",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v1/clean/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "53a27e1652ec0ffdee97e76b557ff68791cfa8bc44ce7101a3891359131e1b8a"
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/model.safetensors",
+      "sha256": "8cc88d13da820bb56703e85282a5e24365656b2973e82e847c16d64b5e860a0e",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "f67e0b8b9b60bdf72c87d47ae1c118f31dbefb7367a926d46c5a63679e2ae8fe",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/rng.pt",
+      "sha256": "b1d0215c62bdc1347cb39bf56aeee922be0b516da9dbf7197c66aa302bf7f817",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/clean/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "827e55afda636ad4e288f447733d1d83563c0a3cc4cac236afb54708fb16f9b5",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v1/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "2ac979696c3397cc74fd22f070118f958d80794cabcb753b57c5fdc24369130d"
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/model.safetensors",
+      "sha256": "fc018f4509377faa075d84b607b5ea48c50e076dac2d406fe65a5745ba4d34b4",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "9abc9741feccf8cc64408b3e8477b49b5b48d1adea064409ae70192d86d5a366",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/rng.pt",
+      "sha256": "9e8bf7f96e6547e61e3b004e0eb175f0a69bfbc54329d0b3126acb760432b405",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "282e5fdbf878bc58ae1a589b84fddbdfdf5d455d4f05efd538e4c38c654193b5",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v1/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "53a27e1652ec0ffdee97e76b557ff68791cfa8bc44ce7101a3891359131e1b8a"
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/model.safetensors",
+      "sha256": "c8ecaa1c4e339a14aafa56c0ef91e384e3ee0784afa3fc07b2d962ed334b46ca",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "fde6befd6801dfc9a37fd871e1c5ed41634a9e0328da4deb96e187bfb678004f",
+      "bytes": 85351515,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/rng.pt",
+      "sha256": "1d4eec1be3a9bbd1530e8ab968437ed63e927534ae5e48c5ce89b75058d8724e",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v1/interrupted/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "f3d7ce1b42b6760ab7d0beb053437a47a369bdf3509134cf9f773e998fe2e222",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "91d0efd15910af024183f1e67da1a54129d440087d57593545c2902b0671fdac"
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/model.safetensors",
+      "sha256": "7161c723e62969cfb8c0ec1a883c26c5be6396f66229bf10c3fcc6eb7281e6d0",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "f72c41f1c2123f27ecbdcfe608cd96bc623b0a15d83b1ad16f5ee5c45699cba9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/rng.pt",
+      "sha256": "5348d4cf538086e0df17d89760cabd8e5b0a7b13c8b001b684079e06698ebef4",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "9bd6de2f87f7d3b8c760413aff88748e70dff8dc4f2ac8379f3276e82d28d896",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "9e3c0e20104b9489eafe2e1c140aa6815720af3527112b95af9e22f7e42686bd"
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/model.safetensors",
+      "sha256": "bad97f8889dd000857c55a2be7bcff88ded142347f82185a7e9da1c5b890a8e4",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "cd841df3dabb6b5af0ccfa923245d316fbaa0f2a340be9ef086540fe6b0863e0",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/rng.pt",
+      "sha256": "c2c57632a64d54469bc68da8084c77fc4c16f55706928f051f1b95e0dc2fc216",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/clean/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "46311be9428ccaf3298de32d03a0bc5a215cb0b49f231b97d6f824b19512c26c",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "91c507f576a87294d8d1a440fac9b5ad51341e09f9dcde9fbf9d1d51bc18a6c9"
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/model.safetensors",
+      "sha256": "7161c723e62969cfb8c0ec1a883c26c5be6396f66229bf10c3fcc6eb7281e6d0",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "f72c41f1c2123f27ecbdcfe608cd96bc623b0a15d83b1ad16f5ee5c45699cba9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/rng.pt",
+      "sha256": "3af4279f95dae3171152488a0f57d20d2f14a68fcd1c632640bb29b5707afd12",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "9bd6de2f87f7d3b8c760413aff88748e70dff8dc4f2ac8379f3276e82d28d896",
+      "bytes": 2984,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "9e3c0e20104b9489eafe2e1c140aa6815720af3527112b95af9e22f7e42686bd"
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/model.safetensors",
+      "sha256": "bad97f8889dd000857c55a2be7bcff88ded142347f82185a7e9da1c5b890a8e4",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "1f12a717dd6a1ee44fd063c5201f86d8a289ceaae81516bc4466b678d4ec82ff",
+      "bytes": 85351515,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/rng.pt",
+      "sha256": "dbde9419c43ce9c79173d5ba4bda14b1a87655b65cf507a377c5e35d6d74b731",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-deterministic-v1/interrupted/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "7fdb0c5d4c666056fe76c155386186174786945e66f7056eb873db4b13f3ae92",
+      "bytes": 3527,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v2/clean/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "bb67f32e6cc973b73a7b7f85c17519f819f8449548da2664c385a527771301fa"
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/model.safetensors",
+      "sha256": "7161c723e62969cfb8c0ec1a883c26c5be6396f66229bf10c3fcc6eb7281e6d0",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "f72c41f1c2123f27ecbdcfe608cd96bc623b0a15d83b1ad16f5ee5c45699cba9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/rng.pt",
+      "sha256": "f6ca03ee54e326b7cad05a83a037f59fe61a64958a9011351361d59b9e83bc56",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "1ba37b13b9262328b86c417e48cdc5f4cbb45914f9a086a292abab52a2930a96",
+      "bytes": 3527,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v2/clean/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "d6fb700e8ed0d8ba4cfbb08b77d3abdb022370679a4d3194dff04f298600f860"
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/model.safetensors",
+      "sha256": "bad97f8889dd000857c55a2be7bcff88ded142347f82185a7e9da1c5b890a8e4",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "cd841df3dabb6b5af0ccfa923245d316fbaa0f2a340be9ef086540fe6b0863e0",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/rng.pt",
+      "sha256": "9a494efb9f13e73f4c3a3d1e6432d0ba977470c00ab01c73ae7fe5714f64758f",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/clean/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "sha256": "2db34c1bc98bbff9181bd94ed7402c2b2b069ff40a788dadc0eccb69177fe4f7",
+      "bytes": 3527,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v2/interrupted/checkpoints/step_00000002/checkpoint.json",
+      "public_sha256": "349a4a1427a45032b2f25d0e43c860c74552b793c6e08cf1ec5f070299873392"
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/model.safetensors",
+      "sha256": "7161c723e62969cfb8c0ec1a883c26c5be6396f66229bf10c3fcc6eb7281e6d0",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/optimizer.pt",
+      "sha256": "f72c41f1c2123f27ecbdcfe608cd96bc623b0a15d83b1ad16f5ee5c45699cba9",
+      "bytes": 85351131,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/rng.pt",
+      "sha256": "57e4039085358fe221563ce883ffbffed53eed2ba38e31a270688af4da3810de",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000002/scheduler.pt",
+      "sha256": "0a630295b46362b3981e46c9627d43628b73c062185b8a423590361824304968",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "sha256": "e68a4310f199dcdfc9f0cf030a9d50249f35d26e6286ab0deb8f259e6658b72f",
+      "bytes": 3527,
+      "category": "operator-local NVMe checkpoint",
+      "published": true,
+      "publication": "path-sanitized",
+      "public_file": "experiments/data/archive/checkpoint-metadata/cuda-resume-v2/interrupted/checkpoints/step_00000004/checkpoint.json",
+      "public_sha256": "194279a3a51b2d891baa6b5af34666ade890d7cae30a1402b4b3c0eee1e1a321"
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/model.safetensors",
+      "sha256": "bad97f8889dd000857c55a2be7bcff88ded142347f82185a7e9da1c5b890a8e4",
+      "bytes": 42665912,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/optimizer.pt",
+      "sha256": "1f12a717dd6a1ee44fd063c5201f86d8a289ceaae81516bc4466b678d4ec82ff",
+      "bytes": 85351515,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/rng.pt",
+      "sha256": "405ba2c425d2090bef50f08628bed66547d836a715af9bd10d4e934e0f18c590",
+      "bytes": 20029,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/scaler.pt",
+      "sha256": "6b9f15fdd07db9718695de3573ecc3009cdce68b3da2d678a8791a6359fce6a4",
+      "bytes": 1255,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "cuda-resume-v2/interrupted/checkpoints/step_00000004/scheduler.pt",
+      "sha256": "03bb1aa1102ae69942284a7ba1f689ce696fb55d7236eec4469a60e6d2003a1d",
+      "bytes": 1465,
+      "category": "operator-local NVMe checkpoint",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/test.bin",
+      "sha256": "2c3dfc8617e9bcd7c2ce9000d30a855bd68114d480699f8ea13298b148293bd5",
+      "bytes": 827822,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/test_document_ends.json",
+      "sha256": "b842e62c0e9045760f2d0e8453c372b68b5bf97de9fe634de59f58736857c0d8",
+      "bytes": 1940,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/val.bin",
+      "sha256": "b6ccd0975a5aa7927079fa78266df9094f201c79c65fbb0e9aecdfa7089431f7",
+      "bytes": 742968,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/val_document_ends.json",
+      "sha256": "30da0b80cf85534a9f461a8f3d294d8bcc559f2fe54be7e12bbc175685f67e06",
+      "bytes": 1921,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/train.bin",
+      "sha256": "328d680802ed102cd6d32e2a80ee0d15cabf2c016bc49a924bdbd2ecd407f843",
+      "bytes": 10088928,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/train_document_ends.json",
+      "sha256": "dc92b14d2473f6e66a9c56e13cc271c203ccd66a6f2c0f41583bf4a1147f2187",
+      "bytes": 27793,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/tokenizer.json",
+      "sha256": "385c1cd69810ba199e80b7db90678685cb86a05e1fe9eaf24f11ee6b2f19f912",
+      "bytes": 262353,
+      "category": "operator-local NVMe tokenizer",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/test.bin",
+      "sha256": "ed3fa81e897f294316c01e59a6798125ea9138e83e0741a8f2c5801d106a062e",
+      "bytes": 4036318,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/test_document_ends.json",
+      "sha256": "5ae10d62bc3748ad5cb521a42e4e2eef5a8e5f4c0c7268d8edf3eb7eb123ebf6",
+      "bytes": 67228,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/val.bin",
+      "sha256": "7a5f9b4757b91742e57fad0820ac06cd2b6acfbcfd77c47382fd6c31282f373f",
+      "bytes": 9610678,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/val_document_ends.json",
+      "sha256": "61eb9b629a1729853273973b3fe4ee01f0e75e6e0fdccc7e23b985a1b05943fe",
+      "bytes": 170416,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/train.bin",
+      "sha256": "a8bd40a12efa94aa48a48c8ddf5c67113df570791538cc0c41d76993c7dffa71",
+      "bytes": 220104114,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/train_document_ends.json",
+      "sha256": "651a23beeb6d8d4e18d58007e4e0f4ef456e1850b970ae5803b15a2270838311",
+      "bytes": 4381237,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/tokenizer.json",
+      "sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+      "bytes": 265103,
+      "category": "operator-local NVMe tokenizer",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/test.bin",
+      "sha256": "d45da0b6a70e419dedbe68bf6fcc810c792aaa5a53aaa8f9da7514b7840b45b0",
+      "bytes": 736002,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/test_document_ends.json",
+      "sha256": "1b742c4e5ec2b5026d6d52a84c8c7d0627dd627cdf194312dab27392316994a0",
+      "bytes": 419,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/val.bin",
+      "sha256": "bcef6cf57badb3dee6e10b89c647158abea8e2d16843997f3697ca643efb89af",
+      "bytes": 645722,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/val_document_ends.json",
+      "sha256": "e4d790036c9d2cdee5848932a5d1f5190f6d63fe56f1aa93b806fcb2f898ee09",
+      "bytes": 397,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/train.bin",
+      "sha256": "1d358e2d27f445c4027fe9efaba2165604395c2ac438c5d1f76330062cabf43d",
+      "bytes": 304882094,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/train_document_ends.json",
+      "sha256": "29af6adb59ac170199d3989ddf138e4220a89418c3c7f6aa35389b5ef69cf466",
+      "bytes": 268561,
+      "category": "operator-local NVMe prepared dataset",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/tokenizer.json",
+      "sha256": "e0ec05e51b0a4c54355eeaa6c35a50cf403c9a703601f8e8ab372e03f5cbd3d7",
+      "bytes": 262709,
+      "category": "operator-local NVMe tokenizer",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/test.ends",
+      "sha256": "e1067cfde5e0ad7fa55501092f48aeba03cca99908b3106624a627a4804b0c9d",
+      "bytes": 2312,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/train.ends",
+      "sha256": "2cdca61f791ff3159ca9afd7e6aaff9bc96f3eafa423f27ef3b7436ff3509455",
+      "bytes": 28672,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1/val.ends",
+      "sha256": "95261d0784a9425f2ab02c6e4c2e4008b51ff9c65eca46eb0f79fc650ce85b28",
+      "bytes": 2280,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/test.ends",
+      "sha256": "924b6bd203c6bf19bd4710a38ab6d61a71c71c8f94f84f8bc57cafcd79d68039",
+      "bytes": 72192,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/train.ends",
+      "sha256": "f9641e31043662c2a3c21faa30f8fbf5090659f8b5d35f47776863cda1ccc0cb",
+      "bytes": 3899392,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1/val.ends",
+      "sha256": "7668aae702fec7badf5aa734e5b3cf2d865ba736a6038f193be28fa26be7f7ee",
+      "bytes": 175920,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/test.ends",
+      "sha256": "2f97632df134c1316a2478961412671898904190efd156e8a14c98bd426dfc51",
+      "bytes": 496,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/train.ends",
+      "sha256": "ff86760a0c7e2643fbabcaa1993cf27ac897de3e0dd96eb87971382c380f90e8",
+      "bytes": 231984,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1/val.ends",
+      "sha256": "1d938936b3684a7c61580f9be9f63cf87fe85cb1285caf2a99d89d6cf5da5f87",
+      "bytes": 480,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1.staging/documents.sqlite",
+      "sha256": "dfcc744cce038932cc340bb5b3ca1ca474b74f2ba34d816746bbd79a8621a9bb",
+      "bytes": 171479040,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1.staging/documents.sqlite",
+      "sha256": "692438edd3514bdea9aad74594225fbf4e4665745553f45594be122fe238a89b",
+      "bytes": 1097383936,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1.staging/documents.sqlite",
+      "sha256": "98e472531dd1b11026c6311d8309cc5fe1f70ad0a3cc6bdbe419a6e72d52fc30",
+      "bytes": 558166016,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/fineweb-edu-preview-v1.staging/tokenizer-sample.txt",
+      "sha256": "0d9c7aa20ecc3c93654441e97d49d232f0e357d252afe90b2e15ee0e49a52d60",
+      "bytes": 16765137,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/tinystories-v1.staging/tokenizer-sample.txt",
+      "sha256": "2221cd9ca9289ffa7afe1057359abfe49844c73996196c917f362015cff0647c",
+      "bytes": 16776720,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "packed/wikitext103-v1.staging/tokenizer-sample.txt",
+      "sha256": "1cd7584ac36e7420e933c2c3eae1830e542fa0fb4992e99b16e7686e28058071",
+      "bytes": 16770890,
+      "category": "operator-local NVMe preparation intermediate",
+      "published": false
+    },
+    {
+      "path": "DML-0001/config.yaml",
+      "sha256": "064e08911f75360085c7a3e0e75c02c018dd67494dbbd9407a939c6c115d59b7",
+      "bytes": 2007,
+      "category": "historical, Git tracked",
+      "published": true
+    },
+    {
+      "path": "DML-0001/metadata.json",
+      "sha256": "031cb801a5ddc68a7a62486baf532cd614ee4a17de13efaf6d0cd5e78710b790",
+      "bytes": 3665,
+      "category": "historical, Git tracked",
+      "published": true
+    },
+    {
+      "path": "DML-0001/metrics.jsonl",
+      "sha256": "870b54abab8d6139479e4d83e38f53e3577c3821634b3d932d43f59559e86407",
+      "bytes": 7342,
+      "category": "historical, Git tracked",
+      "published": true
+    },
+    {
+      "path": "DML-0001/val_metrics.jsonl",
+      "sha256": "8fcdb328029f794b4c9151d91025fab6b760294af436a7ddccc78686c49e5062",
+      "bytes": 186,
+      "category": "historical, Git tracked",
+      "published": true
+    }
+  ]
+}

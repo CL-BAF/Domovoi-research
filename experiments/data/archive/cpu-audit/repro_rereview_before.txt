@@ -1,0 +1,10 @@
+== R1: refused resume must not move a .bak checkpoint into place ==
+  resume refused: CheckpointError
+  directory unchanged by the refused resume: False
+  before: ['checkpoints\\step_00000002.bak', 'checkpoints\\step_00000002.bak\\checkpoint.json', 'checkpoints\\step_00000002.bak\\model.safetensors', 'checkpoints\\step_00000002.bak\\optimizer.pt', 'checkpoints\\step_00000002.bak\\rng.pt', 'checkpoints\\step_00000002.bak\\scaler.pt', 'checkpoints\\step_00000002.bak\\scheduler.pt']
+  after:  ['checkpoints\\step_00000002', 'checkpoints\\step_00000002\\checkpoint.json', 'checkpoints\\step_00000002\\model.safetensors', 'checkpoints\\step_00000002\\optimizer.pt', 'checkpoints\\step_00000002\\rng.pt', 'checkpoints\\step_00000002\\scaler.pt', 'checkpoints\\step_00000002\\scheduler.pt']
+== R2: fresh run must refuse a directory holding checkpoints even without latest.json ==
+  fresh run ACCEPTED into a directory with ['step_00000002']
+== R3: profiling under autocast: weight dtype vs KV dtype ==
+  reported dtype: torch.float32 | KV dtype field: <absent>
+  estimated KV bytes/token: 1024 | measured KV bytes/token: 512

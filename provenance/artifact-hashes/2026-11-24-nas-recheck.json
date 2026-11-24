@@ -1,0 +1,10 @@
+{
+  "captured_utc": "2026-11-24T04:34:59Z",
+  "status": "blocked",
+  "reason": "Windows SMB share mapping was disconnected. UNC and mapped reads could not open raw files, although server SMB port responded.",
+  "raw_files_rehashed": 0,
+  "historical_evidence": "datasets/data/NAS-INVENTORY-2026-11-24.json",
+  "historically_verified_files": 20,
+  "historical_raw_bytes": 30777388650,
+  "note": "Recovered packed data and tokenizer bytes were checked separately against original preparation hashes."
+}

@@ -1,0 +1,132 @@
+{
+  "experiment_id": "DML-0005",
+  "created_at": "2026-11-24T08:04:42",
+  "status": "COMPLETED",
+  "name": "calibration-v2-B02",
+  "notes": "Recurrent matrix arm B02: 2 stored block(s) x depth 1 (cycle), seed 1234. Derived from None.",
+  "git_commit": "d914684dc730cd32132aeff389d6291c447ed7e4",
+  "git_dirty": false,
+  "config": {
+    "experiment": {
+      "name": "calibration-v2-B02",
+      "notes": "Recurrent matrix arm B02: 2 stored block(s) x depth 1 (cycle), seed 1234. Derived from None.",
+      "status": "COMPLETED"
+    },
+    "model": {
+      "architecture": "baseline_transformer",
+      "vocab_size": 4096,
+      "context_length": 512,
+      "d_model": 640,
+      "n_layers": 2,
+      "n_heads": 10,
+      "ffn_dim": 1728,
+      "dropout": 0.0,
+      "tie_embeddings": true,
+      "recurrence_depth": 1,
+      "recurrence_order": "cycle"
+    },
+    "tokenizer": {
+      "type": "byte_bpe",
+      "path": "$REALDATA_ROOT\\packed\\tinystories-v1\\tokenizer.json",
+      "version": "stream-byte-bpe-v1"
+    },
+    "dataset": {
+      "name": "tinystories",
+      "source_url": "local-pinned-corpus",
+      "version": "nas-2026-11-24-v1",
+      "train_fraction": 0.9,
+      "processed_dir": "$REALDATA_ROOT\\packed\\tinystories-v1"
+    },
+    "training": {
+      "steps": 200,
+      "batch_size": 16,
+      "gradient_accumulation": 2,
+      "context_length": 512,
+      "learning_rate": 0.0006,
+      "min_lr_ratio": 0.1,
+      "weight_decay": 0.1,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "grad_clip": 1.0,
+      "warmup_steps": 10,
+      "precision": "bf16",
+      "seed": 1234,
+      "eval_interval": 50,
+      "eval_batches": 25,
+      "checkpoint_interval": 50,
+      "log_interval": 10,
+      "sampler": "disjoint_segments",
+      "pilot_stop_checks": true,
+      "pilot_calibrated_seconds": null,
+      "extra_checkpoint_steps": [],
+      "synchronize_cuda_timing": true,
+      "deterministic_cuda": true,
+      "verify_checkpoint_writes": true
+    },
+    "output": {
+      "experiments_dir": "$REALDATA_ROOT\\calibration-v2",
+      "experiment_id": "DML-0005"
+    },
+    "source_path": "$REALDATA_ROOT\\calibration-v2\\DML-0005-B02.yaml"
+  },
+  "config_source": "$REALDATA_ROOT\\calibration-v2\\DML-0005-B02.yaml",
+  "architecture": "baseline_transformer",
+  "parameters": 10665856,
+  "active_parameters": 10665856,
+  "dataset": {
+    "name": "tinystories",
+    "version": "nas-2026-11-24-v1",
+    "source_url": "local-pinned-corpus",
+    "processed_dir": "$REALDATA_ROOT\\packed\\tinystories-v1"
+  },
+  "tokenizer": {
+    "type": "byte_bpe",
+    "path": "$REALDATA_ROOT\\packed\\tinystories-v1\\tokenizer.json",
+    "sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+    "vocab_size": 4096,
+    "version": "byte-bpe-v1"
+  },
+  "seed": 1234,
+  "training_tokens": 3276800,
+  "env": {
+    "python": "3.13.17",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.15.0+cu132",
+    "cuda_available": true,
+    "cuda_version": "13.2",
+    "cudnn_version": "92600",
+    "gpu_name": "NVIDIA GeForce RTX 5080",
+    "gpu_count": 1,
+    "gpu_total_memory_mb": 16275.8,
+    "bf16_supported": true,
+    "packages": {
+      "torch": "2.15.0+cu132",
+      "numpy": "2.5.5",
+      "tokenizers": "0.23.3",
+      "safetensors": "0.8.0",
+      "PyYAML": "6.0.4",
+      "tqdm": "4.70.1",
+      "requests": "2.34.2"
+    },
+    "git_commit": "d914684dc730cd32132aeff389d6291c447ed7e4",
+    "git_dirty": false
+  },
+  "summary_file": "summary.json",
+  "evals_file": "evals.json",
+  "profile_file": "profile.json",
+  "report_file": "report.md",
+  "checkpoints_dir": "checkpoints",
+  "checkpoints": [
+    "step_00000050",
+    "step_00000100",
+    "step_00000150",
+    "step_00000200"
+  ],
+  "final_status": "COMPLETED",
+  "applied_parameters": 10665856,
+  "effective_depth": 2,
+  "status_updated_at": "2026-11-24T08:04:49",
+  "status_notes": "pipeline completed; research label from config"
+}
