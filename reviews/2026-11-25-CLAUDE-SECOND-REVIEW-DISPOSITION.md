@@ -1,6 +1,8 @@
 # Second independent Claude review: provisional disposition
 
-25 November 2026 — **Review summary only; not the complete reviewer report. No experiment authorised.**
+25 November 2026 — **Historical summary-only review disposition (now supplemented by original report). No experiment authorised.**
+
+**Subsequent update:** The owner later uploaded the [complete Claude review](2026-11-24-claude-roadmap-review.md), now preserved unmodified with its [SHA-256, verification and further findings](2026-11-25-CLAUDE-FULL-REPORT-INTEGRATION.md). Statements below about the original being unavailable describe **the time this summary was written**; they are no longer a current blocker. Original summary conclusions and provenance remain visible without retroactive rewriting.
 
 ## Provenance and scope
 
