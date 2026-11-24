@@ -57,7 +57,7 @@ All arms completed, with finite final validation losses near $\log 4096\approx8.
 
 ## Reproduction and next measurements
 
-From a matching Domovoi Labs source tree with a separate CUDA environment, run the profiling check and the preserved [synthetic harness](../reproduce/rtx5080_bf16_smoke.py). Pass its full path from the adjacent research checkout.
+The commands below preserve the historical invocation from a Domovoi Labs source tree with a separate CUDA environment. The [original synthetic harness](../reproduce/rtx5080_bf16_smoke.py.txt) is retained as source evidence, and the old executable path is retired. A new replay would need a pinned implementation and an approved plan under the [experiment protocol](../docs/EXPERIMENT_PROTOCOL.md).
 
 ```powershell
 $env:PYTHONDONTWRITEBYTECODE=1

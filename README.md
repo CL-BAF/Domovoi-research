@@ -36,6 +36,12 @@ The recurrent graph passed bounded CPU correctness checks. The 5080 profiling sm
 
 The earlier milestone documents retain their original statuses and measurements. The completed extended record supersedes its initial in-progress status only. No earlier calibration or failed recovery was removed.
 
+## Research execution protocol
+
+Future experiments require a pushed, approved plan and a pushed analysis of the previous outcome. The implementation launcher verifies the live ledger and immutable commits before work begins. The ledger starts empty because all completed work is preserved in the historical archive. [Experiment protocol](docs/EXPERIMENT_PROTOCOL.md) · [Execution ledger](experiments/protocol/state.json) · [Contributing](CONTRIBUTING.md)
+
+The next architecture proposal compares selective state, token-adaptive computation, learned memory consolidation and procedural representations under the same 4 GiB and usable 8K objective. It is a planning document. [Architecture proposal](architecture/NEXT-ARCHITECTURE-PROPOSAL.md)
+
 ## Record policy
 
 - Append a dated correction or a new record when evidence changes. Keep the original measurements and their limitations visible.

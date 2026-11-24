@@ -2,13 +2,15 @@
 
 Structured logs, configs, plots and digests are public. For private retained model, optimizer, packed corpora and tokenizer files, ask the project operator or independently reconstruct using pinned publisher inputs. A hash establishes byte identity without making the underlying artifact retrievable. Saved optimizer/RNG files use trusted-only deserialization.
 
+The legacy executable examples below record prior invocations. Any new training, replay, evaluation or measurement needs a committed plan and a maintained launcher. Static validation and plots of stored metrics remain ordinary archive checks. [Experiment protocol](../docs/EXPERIMENT_PROTOCOL.md)
+
 ## Source and environment
 
 | Record | Implementation and evidence |
 |---|---|
 | DML-0001 | [898ef3d](https://github.com/CL-BAF/Domovoi-Labs/commit/898ef3d0c48a6f4d4fd1a0addc41d7a3b220d377) from historical metadata. The original packed data, tokenizer and checkpoint are unavailable. |
 | Independent audits | [5e76fc7](https://github.com/CL-BAF/Domovoi-Labs/commit/5e76fc78bbe9a5c12690e84d7c29e558248e6feb) pinned for the original baseline. Early recurrence rounds lack an exact per-round commit. |
-| RTX synthetic smoke and repeat | [Harness](rtx5080_bf16_smoke.py) and [repeat fingerprint](../provenance/RTX5080-BF16-SMOKE-001-source.json). Neither execution has an exact source commit. |
+| RTX synthetic smoke and repeat | [Byte-preserved historical harness](rtx5080_bf16_smoke.py.txt) and [repeat fingerprint](../provenance/RTX5080-BF16-SMOKE-001-source.json). Neither execution has an exact source commit. |
 | Calibration V1 and default/manual recovery | [f5fac7a](https://github.com/CL-BAF/Domovoi-Labs/commit/f5fac7a34a211adf93e0dc8ea576c8d973ef87ac), DML-0002–0004. |
 | Calibration V2, accepted CUDA recovery and extended campaign | [d914684](https://github.com/CL-BAF/Domovoi-Labs/commit/d914684dc730cd32132aeff389d6291c447ed7e4), DML-0005–0010. |
 

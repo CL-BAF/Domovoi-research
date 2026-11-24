@@ -6,7 +6,7 @@ Publication date is 24 November 2026, Adelaide. This is a permanent research arc
 |---|---|---|
 | Sep 2026 · DML-0001 | Partial historical run; metadata retains RUNNING, recorded logs stop at 520/3000. | [Historical record](DML-0001.md), [original tracked files](data/archive/DML-0001/). Exact source metadata commit confirmed remotely. Original checkpoint and prepared dataset bytes unavailable. |
 | Nov 2026 · CPU audit / recurrence correctness study | Initial baseline/recurrent suites completed. Several corruption and provenance assumptions failed initially; regression audits followed. | [Audit chronology](CPU-AUDITS.md), [repros and mutation outputs](data/archive/cpu-audit/), [correction history](../findings/failures-and-corrections.md). Some early test stderr and local working-tree commits were never retained. |
-| 23 Nov · RTX5080-BF16-SMOKE-001 A/B | Two completed local synthetic checks with reversed model order. | [Original smoke report](RTX5080-BF16-SMOKE-001.md), [observations](data/RTX5080-BF16-SMOKE-001.csv), [harness](../reproduce/rtx5080_bf16_smoke.py). Exact implementation commits missing. No saved checkpoint. |
+| 23 Nov · RTX5080-BF16-SMOKE-001 A/B | Two completed local synthetic checks with reversed model order. | [Original smoke report](RTX5080-BF16-SMOKE-001.md), [observations](data/RTX5080-BF16-SMOKE-001.csv), [historical harness](../reproduce/rtx5080_bf16_smoke.py.txt). Exact implementation commits missing. No saved checkpoint. |
 | 24 Nov · DML-0002–0004 | Completed 200-step V1 training, superseded for acceptance after a recovery discrepancy. | [B02](runs/DML-0002.md) · [B08](runs/DML-0003.md) · [R02×4](runs/DML-0004.md) · [V1 source logs and configs](data/archive/calibration-v1/). Only sampled validation was scored. |
 | 24 Nov · RCV-DEFAULT and RCV-DET-MANUAL | Default mode failed the trajectory gate; manually configured deterministic run matched. | [Incident](../findings/CUDA-RESUME-INCIDENT.md) · [Default archive](data/archive/cuda-resume-v1/) · [Manual mode archive](data/archive/cuda-resume-deterministic-v1/). |
 | 24 Nov · DML-0005–0007 | Deterministic 200-step calibration completed and validated. | [B02](runs/DML-0005.md) · [B08](runs/DML-0006.md) · [R02×4](runs/DML-0007.md) · [V2 source logs and configs](data/archive/calibration-v2/) · [Comparison](TINYSTORIES-CALIBRATION-ANALYSIS.md). |
@@ -14,6 +14,10 @@ Publication date is 24 November 2026, Adelaide. This is a permanent research arc
 | 24 Nov · DML-0008–0010 | Completed 6,104 updates per arm. Publication validated existing checkpoints at matched budgets. | [B02](runs/DML-0008.md) · [B08](runs/DML-0009.md) · [R02×4](runs/DML-0010.md) · [Final campaign](TINYSTORIES-EXTENDED-2026-11-24.md). |
 
 Count convention: **16 documented experimental units** = ten DML run IDs (one partial and nine completed), two synthetic smoke executions, three CUDA recovery controls, and one aggregated chronological CPU audit series. Calibration/campaign analysis tables consolidate runs and are not counted again. Corpus preparation is an engineering record. It adds no training-run ID.
+
+## Preregistered experiments
+
+Future plans and outcomes will appear here under their unique DRP IDs. Protocol IDs are separate from run and artifact IDs. The [execution ledger](protocol/state.json) and [research protocol](../docs/EXPERIMENT_PROTOCOL.md) govern new work. The historical rows above retain their original evidence and statuses.
 
 ## What was inspected and verified before publication
 
