@@ -1,5 +1,7 @@
 # First experiment proposal · C0 versus C2 per deployed byte
 
+> **25 November 2026 review disposition — NOT APPROVED / superseded for scheduling.** Claude's second review found blocking methodological issues with this 57-run / 30.8 PFLOP design. Do **not** submit it for approval or run it as written. Preserve the design as historical proposal evidence. The next proposed action is a smaller, **six-run BF16/INT8 instrument** with CPU-only scorer/codec correctness checks; the eventual capacity study must add rotated-scalar and E8 controls, mandatory equal tuning, exposure saturation and separate realistic-size GPU kernel qualification. See [the revised instrument proposal](C0-C2-INSTRUMENT-ONLY-2026-11-25.md), [review disposition](../../reviews/2026-11-25-CLAUDE-SECOND-REVIEW-DISPOSITION.md) and [updated roadmap](../../architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md). No ledger entry was created.
+
 **Draft, unapproved.** This is a design for review. It has no execution ID, implementation commit, or ledger entry. The future compact kernels, synthetic generator and harness must be reviewed and pinned before use. This experiment cannot qualify 27B-class capability.
 
 ## Question and hypothesis
