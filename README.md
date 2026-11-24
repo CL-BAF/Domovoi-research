@@ -4,6 +4,14 @@ This repository records the architecture, methods, experiments and failures of D
 
 The research question is whether shared computation and memory-efficient model design can improve useful language-model capability within a hard 4 GiB GPU inference budget. The qualifying workload requires batch 1, usable 8K context, no CPU or disk offload and at least 8 output tokens per second on the reference GPU. The RTX 5080 is the development and training GPU.
 
+## Independent review and revised proposals · 25 November 2026
+
+The second independent Claude review of the 24 November research roadmap returned **REVISE BEFORE APPROVAL** for the proposed 57-run C0/C2 experiment. Its full report remains local to the reviewer and was **not** available for this documentation update; [this explicitly summary-based disposition](reviews/2026-11-25-CLAUDE-SECOND-REVIEW-DISPOSITION.md) records the reported objections without pretending the complete review was archived.
+
+**Current proposal status:** the [original C0/C2 full campaign](experiments/proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) is retained as a historical **unapproved, superseded** draft. The next proposed experimental gate is the [six-run BF16/INT8 instrument and CPU correctness design](experiments/proposals/C0-C2-INSTRUMENT-ONLY-2026-11-25.md), with a later fully redesigned representation-saturation study conditional on evidence. [Physical 4 GiB hardware feasibility and a separate capability ladder](experiments/proposals/HARDWARE-AND-CAPABILITY-PREFLIGHT-2026-11-25.md) are independent prerequisites requiring their own approval. [Updated phased roadmap](architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) and [qualification decision review](methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md) remain **proposals only**.
+
+**Scientific distinction:** improved random-fact capacity or codec compression does not by itself imply a new AI architecture or broad 27B-class language-model performance. Keep strong native low-bit C0 as baseline, investigate coded weights only against competitive scalar and E8/vector controls, and independently investigate weight-read-amortising parallel computation and other distinct operators where measured bottlenecks justify them. The reviewed protocol, ledger and historical measurements remain unchanged; no new work is approved, run or claimed.
+
 ## First milestone · 23 November 2026
 
 | Record | Scope |
