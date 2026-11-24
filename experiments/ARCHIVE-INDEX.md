@@ -21,6 +21,8 @@ The [independent architecture investigation](../reviews/2026-11-24-independent-a
 
 Future plans and outcomes will appear here under their unique DRP IDs. Protocol IDs are separate from run and artifact IDs. The [execution ledger](protocol/state.json) and [research protocol](../docs/EXPERIMENT_PROTOCOL.md) govern new work. The historical rows above retain their original evidence and statuses.
 
+The [phased architecture roadmap](../architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) and [first C0/C2 study](proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) are unapproved drafts. See the [qualification decisions](../methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md) for criteria awaiting human review.
+
 ## What was inspected and verified before publication
 
 - Implementation source, configs and tests at [d914684](https://github.com/CL-BAF/Domovoi-Labs/tree/d914684dc730cd32132aeff389d6291c447ed7e4), including its architecture explanation, independent audit and prior remediation narratives. Diffs to [f5fac7a](https://github.com/CL-BAF/Domovoi-Labs/compare/f5fac7a34a211adf93e0dc8ea576c8d973ef87ac...d914684dc730cd32132aeff389d6291c447ed7e4) distinguish deterministic policy, trajectory checks and per-file checksum changes. Prior research branch and [draft PR](https://github.com/CL-BAF/Domovoi-research/pull/2) remain intact.

@@ -46,6 +46,18 @@ The next architecture proposal compares selective state, token-adaptive computat
 
 Claude's complete independent report is archived with its original evidence labels and conclusions. Codex verified the visible references and checked material calculations in a separate record. [Independent report](reviews/2026-11-24-independent-architecture-research.md) · [Verification and annotations](reviews/2026-11-24-independent-research-verification.md)
 
+## Reconciled architecture roadmap · draft
+
+The proposed order is a strong native scalar low-bit control (C0), a bounded test of native learned codes (C2), then factored memory and reasoning (C1) if measured constraints justify it. Existing TinyStories experiments remain single-seed baselines. Factual density, natural-data transfer, and physical 4 GiB throughput are open. S1–S7, the reference arrangement and all experiment plans await human approval.
+
+| Review document | Purpose |
+|---|---|
+| [Reconciliation](architecture/RESEARCH-RECONCILIATION-2026-11-24.md) | Shows where the investigations agree and why their priorities differ |
+| [Efficiency evidence matrix](architecture/AI-EFFICIENCY-EVIDENCE-MATRIX.md) · [Candidate assessments](architecture/ARCHITECTURE-CANDIDATE-ASSESSMENT.md) | Compares measured prior art, costs, mechanisms and failure tests |
+| [Qualification specification](methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md) | Proposes exact model references, physical measurement and benchmark decisions S1–S7 |
+| [Phased roadmap](architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) · [First experiment proposal](experiments/proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) | Stages discriminating controls, costs and stop rules. The proposal has no ledger entry. |
+| [Claude review package](reviews/CLAUDE-ROADMAP-REVIEW-PACKAGE.md) | Provides the independent-review prompt and source package |
+
 ## Record policy
 
 - Append a dated correction or a new record when evidence changes. Keep the original measurements and their limitations visible.
