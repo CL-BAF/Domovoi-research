@@ -1,0 +1,15 @@
+# Evaluation methodology
+
+**Training loss** is the mean over shifted targets in each optimizer update. The logged train loss aggregates losses over a logging window. **Sampled validation** uses the training loop's fixed validation RNG and its configured number of random packed batches, with BF16 autocast in these runs. Its likelihood is useful for tracking optimization along the run, but a random-window estimate can repeat positions and may include EOS transitions across documents. It is labeled separately from the full validation metric.
+
+## Full-split NLL
+
+`scripts/evaluate.py --tasks val_nll` builds the exact saved checkpoint, verifies graph and file hashes, and runs the full-split evaluator under FP32 with autocast disabled. It verifies the tokenizer hash and checks validation bytes against the checkpoint provenance. JSON cumulative ends describe documents. Within each document, score target indices 1 through end−1, including EOS and partial windows. Consecutive windows overlap by one input token to preserve the next shifted target without double-scoring it. Mask batch padding with ignore index −100. No cross-document target is scored. For TinyStories validation, 4,805,339 packed IDs minus 21,990 initial document tokens gives 4,783,349 targets.
+
+Aggregate `sum(losses)/sum(targets)`, in nats/token. Do not average unweighted minibatch perplexities. Perplexity is exp(NLL), and percentage changes in NLL and perplexity are different quantities. Report a 95% document bootstrap interval using 1000 draws from a fixed bootstrap seed. Resample documents with both their NLL sums and counts. The interval is conditional on one model draw. It is not an uncertainty interval across different training seeds or a paired superiority test. For model comparisons on a common validation set, paired per-document differences would be the appropriate base for a held-out significance analysis.
+
+Checkpoint-step selection explicitly pins the evaluated artifact. The extended publication scored validation at steps 610, 1526, 3052 and 6104 for all three arms. These checkpoints use the same token budgets across arms. Full-split outputs report tokens, documents, dtype, context and data hashes. The held-out test adapter refuses incomplete/deviated final runs, and the reserved TinyStories test was left sealed because this exploratory single-seed comparison was not preregistered as a qualification decision.
+
+## Diagnostics and other tasks
+
+The early-exit task reads intermediate recurrent states using the final model head, and records residual norms and normalized NLL per application. This is diagnostic because the final head was trained for final-depth states. The repository also implements multiple-choice continuation log-prob, GSM8K extraction and text-generation instruction-following checks. Context and choice may be tokenized separately in existing multiple-choice paths. None of those breadth benchmarks was executed in the published campaigns. No test result currently measures 8K usable context. [Implementation](https://github.com/CL-BAF/Domovoi-Labs/tree/d914684dc730cd32132aeff389d6291c447ed7e4/domovoi/evals)

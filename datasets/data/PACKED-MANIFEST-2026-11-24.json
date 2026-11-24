@@ -1,0 +1,190 @@
+{
+  "fineweb-edu-preview-v1": {
+    "tokens": {
+      "dtype": "uint16",
+      "vocab_size": 4096,
+      "test": 413911,
+      "val": 371484,
+      "train": 5044464
+    },
+    "documents": {
+      "test": 289,
+      "val": 285,
+      "train": 3584
+    },
+    "packed_sha256": {
+      "test_bin": "2c3dfc8617e9bcd7c2ce9000d30a855bd68114d480699f8ea13298b148293bd5",
+      "test_document_ends": "b842e62c0e9045760f2d0e8453c372b68b5bf97de9fe634de59f58736857c0d8",
+      "val_bin": "b6ccd0975a5aa7927079fa78266df9094f201c79c65fbb0e9aecdfa7089431f7",
+      "val_document_ends": "30da0b80cf85534a9f461a8f3d294d8bcc559f2fe54be7e12bbc175685f67e06",
+      "train_bin": "328d680802ed102cd6d32e2a80ee0d15cabf2c016bc49a924bdbd2ecd407f843",
+      "train_document_ends": "dc92b14d2473f6e66a9c56e13cc271c203ccd66a6f2c0f41583bf4a1147f2187"
+    },
+    "tokenizer": {
+      "version": "stream-byte-bpe-v1",
+      "sha256": "385c1cd69810ba199e80b7db90678685cb86a05e1fe9eaf24f11ee6b2f19f912",
+      "vocab_size": 4096,
+      "eos_id": 0
+    },
+    "source_spec": {
+      "name": "fineweb-edu-preview",
+      "version": "nas-2026-11-24-v1",
+      "vocab_size": 4096,
+      "sources": [
+        {
+          "id": "HuggingFaceFW/fineweb-edu",
+          "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+          "sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871",
+          "path": "000_00000.parquet",
+          "kind": "parquet",
+          "split": "hash",
+          "license": "ODC-BY-1.0",
+          "max_documents": 30000,
+          "bytes": 2152819114
+        }
+      ],
+      "token_budgets": {
+        "train": 5000000
+      },
+      "pipeline_version": 1
+    }
+  },
+  "tinystories-v1": {
+    "tokens": {
+      "dtype": "uint16",
+      "vocab_size": 4096,
+      "test": 2018159,
+      "val": 4805339,
+      "train": 110052057
+    },
+    "documents": {
+      "test": 9024,
+      "val": 21990,
+      "train": 487424
+    },
+    "packed_sha256": {
+      "test_bin": "ed3fa81e897f294316c01e59a6798125ea9138e83e0741a8f2c5801d106a062e",
+      "test_document_ends": "5ae10d62bc3748ad5cb521a42e4e2eef5a8e5f4c0c7268d8edf3eb7eb123ebf6",
+      "val_bin": "7a5f9b4757b91742e57fad0820ac06cd2b6acfbcfd77c47382fd6c31282f373f",
+      "val_document_ends": "61eb9b629a1729853273973b3fe4ee01f0e75e6e0fdccc7e23b985a1b05943fe",
+      "train_bin": "a8bd40a12efa94aa48a48c8ddf5c67113df570791538cc0c41d76993c7dffa71",
+      "train_document_ends": "651a23beeb6d8d4e18d58007e4e0f4ef456e1850b970ae5803b15a2270838311"
+    },
+    "tokenizer": {
+      "version": "stream-byte-bpe-v1",
+      "sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+      "vocab_size": 4096,
+      "eos_id": 0
+    },
+    "source_spec": {
+      "name": "tinystories",
+      "version": "nas-2026-11-24-v1",
+      "vocab_size": 4096,
+      "sources": [
+        {
+          "id": "roneneldan/TinyStories",
+          "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+          "sha256": "94e431816c4cce81ff71e4408ff8d3bda9a42e8d2663986697c3954288cb38b4",
+          "path": "TinyStories-valid.txt",
+          "kind": "text",
+          "split": "val",
+          "license": "CDLA-Sharing-1.0",
+          "bytes": 19447282
+        },
+        {
+          "id": "roneneldan/TinyStories",
+          "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+          "sha256": "c5cf5e22ff13614e830afbe61a99fbcbe8bcb7dd72252b989fa1117a368d401f",
+          "path": "TinyStories-train.txt",
+          "kind": "text",
+          "split": "hash",
+          "license": "CDLA-Sharing-1.0",
+          "val_permille": 0,
+          "test_permille": 10,
+          "max_documents": 1000000,
+          "bytes": 1924281556
+        }
+      ],
+      "token_budgets": {
+        "train": 110000000
+      },
+      "pipeline_version": 1
+    }
+  },
+  "wikitext103-v1": {
+    "tokens": {
+      "dtype": "uint16",
+      "vocab_size": 4096,
+      "test": 368001,
+      "val": 322861,
+      "train": 152441047
+    },
+    "documents": {
+      "test": 62,
+      "val": 60,
+      "train": 28998
+    },
+    "packed_sha256": {
+      "test_bin": "d45da0b6a70e419dedbe68bf6fcc810c792aaa5a53aaa8f9da7514b7840b45b0",
+      "test_document_ends": "1b742c4e5ec2b5026d6d52a84c8c7d0627dd627cdf194312dab27392316994a0",
+      "val_bin": "bcef6cf57badb3dee6e10b89c647158abea8e2d16843997f3697ca643efb89af",
+      "val_document_ends": "e4d790036c9d2cdee5848932a5d1f5190f6d63fe56f1aa93b806fcb2f898ee09",
+      "train_bin": "1d358e2d27f445c4027fe9efaba2165604395c2ac438c5d1f76330062cabf43d",
+      "train_document_ends": "29af6adb59ac170199d3989ddf138e4220a89418c3c7f6aa35389b5ef69cf466"
+    },
+    "tokenizer": {
+      "version": "stream-byte-bpe-v1",
+      "sha256": "e0ec05e51b0a4c54355eeaa6c35a50cf403c9a703601f8e8ab372e03f5cbd3d7",
+      "vocab_size": 4096,
+      "eos_id": 0
+    },
+    "source_spec": {
+      "name": "wikitext103",
+      "version": "nas-2026-11-24-v1",
+      "vocab_size": 4096,
+      "sources": [
+        {
+          "id": "Salesforce/wikitext",
+          "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+          "sha256": "5f1bea067869d04849c0f975a2b29c4ff47d867f484f5010ea5e861eab246d91",
+          "path": "test-00000-of-00001.parquet",
+          "kind": "wikitext",
+          "split": "test",
+          "license": "CC BY-SA 3.0",
+          "bytes": 732610
+        },
+        {
+          "id": "Salesforce/wikitext",
+          "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+          "sha256": "204929b7ff9d6184953f867dedb860e40aa69c078fc1e54b3baaa8fb28511c4c",
+          "path": "validation-00000-of-00001.parquet",
+          "kind": "wikitext",
+          "split": "val",
+          "license": "CC BY-SA 3.0",
+          "bytes": 657209
+        },
+        {
+          "id": "Salesforce/wikitext",
+          "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+          "sha256": "74da360f23826045b3e6ac6375411fdb15f003030aa74f2596ed08b857cb9212",
+          "path": "train-00000-of-00002.parquet",
+          "kind": "wikitext",
+          "split": "train",
+          "license": "CC BY-SA 3.0",
+          "bytes": 156987808
+        },
+        {
+          "id": "Salesforce/wikitext",
+          "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+          "sha256": "ba090ac30dbf5461e8dcbdd1a1b8e6f3cf9c2c756d64f0c1220450acd514f720",
+          "path": "train-00001-of-00002.parquet",
+          "kind": "wikitext",
+          "split": "train",
+          "license": "CC BY-SA 3.0",
+          "bytes": 157088770
+        }
+      ],
+      "pipeline_version": 1
+    }
+  }
+}

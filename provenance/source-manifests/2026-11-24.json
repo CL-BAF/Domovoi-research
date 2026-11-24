@@ -1,0 +1,27 @@
+{
+  "repository": "https://github.com/CL-BAF/Domovoi-Labs",
+  "verified_remote_commits": [
+    {
+      "sha": "898ef3d0c48a6f4d4fd1a0addc41d7a3b220d377",
+      "role": "DML-0001 recorded training source"
+    },
+    {
+      "sha": "5e76fc78bbe9a5c12690e84d7c29e558248e6feb",
+      "role": "independent audit baseline and publication-time implementation main"
+    },
+    {
+      "sha": "f5fac7a34a211adf93e0dc8ea576c8d973ef87ac",
+      "role": "V1 calibration and original/manual uninterrupted recovery comparison"
+    },
+    {
+      "sha": "d914684dc730cd32132aeff389d6291c447ed7e4",
+      "role": "V2 calibration, pinned recovery, extended training and saved-checkpoint validation"
+    }
+  ],
+  "uncommitted_smoke": {
+    "exact_first_source_available": false,
+    "repeat_exact_commit_available": false,
+    "repeat_fingerprint_manifest": "provenance/RTX5080-BF16-SMOKE-001-source.json"
+  },
+  "publication_statement": "Implementation branch was clean. Publication ran validation on existing checkpoints and did not train a new model or modify implementation source."
+}

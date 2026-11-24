@@ -19,3 +19,9 @@ Initial entry · 23 November 2026. This record retains the defects that motivate
 | Replayed metric rows | Resume appended steps 3 and 4 again after a failed save. | Preserve raw rows and reconcile via attempt start steps. Test coverage compares interrupted/resumed and uninterrupted trajectories. |
 
 The original controller, distinct recurrence schedules, and checkpoint hardening were evaluated in bounded smoke or failure-injection tests. A reported synthetic memory advantage does not reverse any of these historical findings. Future corrections should cite the specific record and the new evidence.
+
+## Protocol and preserved TinyStories evidence
+
+- The first 200-step training calibration and the corrected deterministic version remain separate records. The CUDA trajectory drift and same-stack exact recovery retain their original evidence. [Calibration comparison](../experiments/TINYSTORIES-CALIBRATION-ANALYSIS.md) · [Recovery incident and controls](CUDA-RESUME-INCIDENT.md)
+- In the completed single-seed extended campaign each arm processed **100,007,936 training targets**. Full validation NLL was **1.718544** for B02, **1.518051** for B08, and **1.661239** for R02×4. Against B08, recurrence saved **18.0%** peak allocated training memory and increased median synchronized training throughput by **9.7%**. It recovered **28.6%** of B08's NLL improvement over B02. This evidence is scoped to the paired seed, TinyStories validation split and measured training setup. 27B-class capabilities and the inference hardware targets remain open. [Extended record and measurements](../experiments/TINYSTORIES-EXTENDED-2026-11-24.md)
+- Future findings and corrections must point to the original plan, exact implementation commit, raw evidence and published interpretation, including failure and interruption. [Research protocol](../docs/EXPERIMENT_PROTOCOL.md) · [Experiment index](../experiments/ARCHIVE-INDEX.md)

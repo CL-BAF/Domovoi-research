@@ -1,0 +1,20 @@
+== A01: checkpoint loaded into a different recurrence schedule ==
+  ACCEPTED; logit delta 0.17750859260559082
+  recurrent ckpt into baseline n_layers=2: ACCEPTED; delta 0.20899996161460876
+== A02: malformed caches ==
+  valid: ACCEPTED delta 1.7881393432617188e-07
+  short slot 1: ACCEPTED delta 0.0561455637216568
+  empty list: IndexError: list index out of range
+  wrong heads slot 1: RuntimeError: Sizes of tensors must match except in dimension 2. Expected size 1 but got size 2 for tens
+  batch 2 slot 0: RuntimeError: Sizes of tensors must match except in dimension 2. Expected size 2 but got size 1 for tens
+  float64 slot 1: RuntimeError: Expected query, key, and value to have the same dtype, but got query.dtype: float key.dtyp
+  k/v length mismatch slot1: RuntimeError: The expanded size of the tensor (6) must match the existing size (8) at non-singleton dime
+  None slot 2: ACCEPTED delta 0.11871442198753357
+  x batch 2 vs cache batch 1: RuntimeError: Sizes of tensors must match except in dimension 2. Expected size 1 but got size 2 for tens
+== A03: prefill cache storage ==
+  logical 10240 retained storage 15360
+== A03: accounting dtype vs model dtype ==
+  estimate weight_bytes 216064 (bytes_per_param=2) ; actual fp32 bytes 432128
+== A03: context sweep target vs actual ==
+   [(16, 9), (32, 9)]
+  full-context prompt: [(128, 128, None)]

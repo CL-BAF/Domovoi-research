@@ -1,0 +1,4 @@
+{"step": 50, "attempt": 1, "val_loss": 4.734400043487549, "val_ppl": 113.7951889038086, "n_batches": 25}
+{"step": 100, "attempt": 1, "val_loss": 4.172368679046631, "val_ppl": 64.86891174316406, "n_batches": 25}
+{"step": 150, "attempt": 1, "val_loss": 3.983142261505127, "val_ppl": 53.68547058105469, "n_batches": 25}
+{"step": 200, "attempt": 1, "val_loss": 3.88704704284668, "val_ppl": 48.766666412353516, "n_batches": 25}

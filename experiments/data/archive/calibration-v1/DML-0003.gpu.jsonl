@@ -1,0 +1,8 @@
+{"timestamp": "2026/11/24 08:01:42.919", "temperature.gpu": "30.49", "utilization.gpu": "3", "memory.used": "2569", "memory.free": "13409", "power.draw": "215.53"}
+{"timestamp": "2026/11/24 08:01:44.966", "temperature.gpu": "26.81", "utilization.gpu": "1", "memory.used": "3107", "memory.free": "12871", "power.draw": "41.45"}
+{"timestamp": "2026/11/24 08:01:47.013", "temperature.gpu": "40.18", "utilization.gpu": "96", "memory.used": "5446", "memory.free": "10532", "power.draw": "243.12"}
+{"timestamp": "2026/11/24 08:01:49.058", "temperature.gpu": "40.94", "utilization.gpu": "96", "memory.used": "5446", "memory.free": "10532", "power.draw": "207.52"}
+{"timestamp": "2026/11/24 08:01:51.105", "temperature.gpu": "41.98", "utilization.gpu": "96", "memory.used": "5409", "memory.free": "10569", "power.draw": "257.42"}
+{"timestamp": "2026/11/24 08:01:53.151", "temperature.gpu": "41.81", "utilization.gpu": "96", "memory.used": "5446", "memory.free": "10532", "power.draw": "250.19"}
+{"timestamp": "2026/11/24 08:01:55.198", "temperature.gpu": "42.39", "utilization.gpu": "96", "memory.used": "5446", "memory.free": "10532", "power.draw": "257.32"}
+{"timestamp": "2026/11/24 08:01:57.243", "temperature.gpu": "43.43", "utilization.gpu": "96", "memory.used": "5444", "memory.free": "10534", "power.draw": "258.30"}

@@ -1,0 +1,29 @@
+[train] experiment DML-0002
+[train] git commit f5fac7a34a211adf93e0dc8ea576c8d973ef87ac
+[train] model: baseline_transformer (10,665,856 params)
+[train] device: cuda, bf16
+step     10/200 | loss 7.0913 | lr 6.00e-04 | tok/s 262078 | 1s
+step     20/200 | loss 5.8780 | lr 5.97e-04 | tok/s 866737 | 1s
+step     30/200 | loss 5.3093 | lr 5.87e-04 | tok/s 849966 | 1s
+step     40/200 | loss 4.8208 | lr 5.70e-04 | tok/s 844115 | 1s
+step     50/200 | loss 4.4685 | lr 5.46e-04 | tok/s 842838 | 1s
+           val loss 4.4032 (ppl 81.71)
+step     60/200 | loss 4.3140 | lr 5.16e-04 | tok/s 482307 | 2s
+step     70/200 | loss 4.2093 | lr 4.81e-04 | tok/s 851948 | 2s
+step     80/200 | loss 4.0953 | lr 4.43e-04 | tok/s 855355 | 2s
+step     90/200 | loss 4.0732 | lr 4.01e-04 | tok/s 863707 | 2s
+step    100/200 | loss 4.0093 | lr 3.57e-04 | tok/s 862936 | 2s
+           val loss 3.9824 (ppl 53.65)
+step    110/200 | loss 3.9637 | lr 3.12e-04 | tok/s 490468 | 3s
+step    120/200 | loss 3.9462 | lr 2.68e-04 | tok/s 853799 | 3s
+step    130/200 | loss 3.8839 | lr 2.26e-04 | tok/s 853138 | 3s
+step    140/200 | loss 3.8596 | lr 1.86e-04 | tok/s 870911 | 3s
+step    150/200 | loss 3.8272 | lr 1.50e-04 | tok/s 875160 | 4s
+           val loss 3.8166 (ppl 45.45)
+step    160/200 | loss 3.7894 | lr 1.20e-04 | tok/s 493381 | 4s
+step    170/200 | loss 3.7785 | lr 9.47e-05 | tok/s 865882 | 4s
+step    180/200 | loss 3.7738 | lr 7.61e-05 | tok/s 854036 | 4s
+step    190/200 | loss 3.7719 | lr 6.45e-05 | tok/s 855237 | 4s
+step    200/200 | loss 3.7084 | lr 6.00e-05 | tok/s 856014 | 5s
+           val loss 3.7285 (ppl 41.62)
+[train] done: 200 steps, 3,276,800 tokens, val loss 3.7285

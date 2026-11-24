@@ -1,0 +1,105 @@
+{
+  "step": 2,
+  "tokens_seen": 32768,
+  "saved_at": "2026-11-24T08:02:44",
+  "model_architecture": "domovoi_recurrent_v1",
+  "config": {
+    "experiment": {
+      "name": "calibration-v1-R02x4",
+      "notes": "Recurrent matrix arm R02x4: 2 stored block(s) x depth 4 (cycle), seed 1234. Derived from None.",
+      "status": "COMPLETED"
+    },
+    "model": {
+      "architecture": "domovoi_recurrent_v1",
+      "vocab_size": 4096,
+      "context_length": 512,
+      "d_model": 640,
+      "n_layers": 2,
+      "n_heads": 10,
+      "ffn_dim": 1728,
+      "dropout": 0.0,
+      "tie_embeddings": true,
+      "recurrence_depth": 4,
+      "recurrence_order": "cycle"
+    },
+    "tokenizer": {
+      "type": "byte_bpe",
+      "path": "$REALDATA_ROOT\\packed\\tinystories-v1\\tokenizer.json",
+      "version": "stream-byte-bpe-v1"
+    },
+    "dataset": {
+      "name": "tinystories",
+      "source_url": "local-pinned-corpus",
+      "version": "nas-2026-11-24-v1",
+      "train_fraction": 0.9,
+      "processed_dir": "$REALDATA_ROOT\\packed\\tinystories-v1"
+    },
+    "training": {
+      "steps": 4,
+      "batch_size": 16,
+      "gradient_accumulation": 2,
+      "context_length": 512,
+      "learning_rate": 0.0006,
+      "min_lr_ratio": 0.1,
+      "weight_decay": 0.1,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "grad_clip": 1.0,
+      "warmup_steps": 1,
+      "precision": "bf16",
+      "seed": 1234,
+      "eval_interval": 2,
+      "eval_batches": 2,
+      "checkpoint_interval": 2,
+      "log_interval": 1,
+      "sampler": "disjoint_segments",
+      "pilot_stop_checks": true,
+      "pilot_calibrated_seconds": null,
+      "extra_checkpoint_steps": [],
+      "synchronize_cuda_timing": true
+    },
+    "output": {
+      "experiments_dir": "$REALDATA_ROOT\\calibration-v1",
+      "experiment_id": "DML-0004"
+    },
+    "source_path": null
+  },
+  "model_signature": {
+    "architecture": "domovoi_recurrent_v1",
+    "vocab_size": 4096,
+    "context_length": 512,
+    "d_model": 640,
+    "n_layers": 2,
+    "n_heads": 10,
+    "ffn_dim": 1728,
+    "tie_embeddings": true,
+    "recurrence_depth": 4,
+    "recurrence_order": "cycle",
+    "application_schedule": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "effective_depth": 8
+  },
+  "data_provenance": {
+    "tokenizer_sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+    "dataset_name": "tinystories",
+    "dataset_version": "nas-2026-11-24-v1",
+    "raw_sha256": null,
+    "train_sha256": null,
+    "val_sha256": null,
+    "train_bin_sha256": "a8bd40a12efa94aa48a48c8ddf5c67113df570791538cc0c41d76993c7dffa71",
+    "val_bin_sha256": "7a5f9b4757b91742e57fad0820ac06cd2b6acfbcfd77c47382fd6c31282f373f",
+    "train_tokens": 110052057,
+    "val_tokens": 4805339
+  },
+  "protocol_deviations": []
+}

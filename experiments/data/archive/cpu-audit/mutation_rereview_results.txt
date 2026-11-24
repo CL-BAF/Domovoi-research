@@ -1,0 +1,5 @@
+R1 -> 1 failed, 14 passed
+R2 -> 3 failed, 12 passed
+R3 -> 1 failed, 14 passed
+R4 -> 1 failed, 14 passed   (re-review round, when the lock lived in train())
+R4 -> 10 failed, 5 passed   (re-run after round 3: the stand-in train() never releases the lock now taken in __init__, so later Trainers in the same directory are refused; superseded by mutate_round3.py K2)

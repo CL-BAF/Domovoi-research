@@ -1,0 +1,29 @@
+# Claude review package · Domovoi roadmap
+
+## Review status
+
+No new Claude review of the reconciliation or roadmap was returned. An authenticated Claude Code invocation with tools disabled timed out on the full pinned source packet. A smaller pinned packet and a compact positional-prompt retry also timed out. The source snapshot supplied was `ab2874540a9fe08dbd6f07505814c2ea56118df3`. No returned conclusions are available for publication. The earlier independent Claude investigation remains available as its own report, and this package is ready for manual submission.
+
+## Exact prompt
+
+Independently review this Domovoi architecture roadmap as a skeptical ML researcher and GPU systems engineer. The project aims to approach broad text capabilities of a strong 27B reference using a new native neural architecture within 4 GiB total physical GPU memory, batch one, at least 8,192 usable prompt tokens and at least eight output tokens/s. All claims and decisions are drafts. Provide a review only, without editing files, using tools, opening credentials, starting a workload, setting policy, or authorizing any experiment. Verify what can be established from the supplied public sources and disclose exactly which checks cannot be completed from this packet.
+
+1. Rerank C0, C1, C2, C3 and the earlier alternatives independently. Give the strongest case against starting with native coded weights and the evidence that could elevate C1 or selective state.
+2. Recompute the Qwen weight, embedding, state, bandwidth and knowledge arithmetic, including unit conversions. Verify the first study's frozen geometry, packed-byte table, entropy, exposure, control, modeled FLOP and resource counts. Challenge hidden metadata, hardware inefficiency and notional speedups.
+3. Challenge novelty using the closest prior art in scalar QAT, native ternary, additive/codebook QAT, compressed decoding, selective state and sparse conditional memory. Identify any meaningful contribution beyond recombination. State whether a claimed data point comes from post-training quantization, native from-scratch training, or a different data/hardware regime.
+4. Challenge the knowledge-density metric as an estimator. Check the entropy load, prompt leakage, sequence-scoring semantics, fixed-book ablation, recipe and FLOP confounding, transfer, seed counts, selection rules, stop criteria and plausible inexpensive falsifiers.
+5. Audit the recommendation to use pinned Qwen as primary and Gemma as independent comparator. Challenge baseline strength, train/test contamination, end-to-end token and compute budget fairness, benchmark alternatives, per-category minimums, paired statistical confidence and hardware comparability. Critique S1–S7 separately.
+6. Separate demonstrably incorrect claims, unresolved assumptions, speculative hypotheses and reasonable decisions. Identify the most serious missing evidence. Never treat a publisher score as a measured Domovoi result. Recommend narrowly scoped edits or a revised experiment sequence.
+
+Return a ranked list of blocking and material issues with exact document or section references, your proposed remedy, your own recommended ordering, and a concise disposition for the first study. Use the supplied source metadata and cite source IDs. Clearly mark any bibliographic or hardware details you cannot independently check in a tool-free review. Keep results independent of the prior Claude report. Return only review prose for human publication.
+
+## Sources to include
+
+The documents themselves and their linked primary references form the source package. For manual submission, include the contents in the order below and pin the review to the research commit containing this file. The two public models are metadata references only.
+
+1. [Original independent report](2026-11-24-independent-architecture-research.md), [Codex verification notes](2026-11-24-independent-research-verification.md) and [65-reference audit](independent-report-reference-audit.json).
+2. [Original architecture proposal](../architecture/NEXT-ARCHITECTURE-PROPOSAL.md), [mathematical foundations](../architecture/mathematical-foundations.md), [memory complexity](../architecture/memory-complexity.md) and [existing architectural findings](../findings/architecture-hypotheses.md).
+3. [Reconciliation](../architecture/RESEARCH-RECONCILIATION-2026-11-24.md), [efficiency evidence matrix](../architecture/AI-EFFICIENCY-EVIDENCE-MATRIX.md) and [ranked assessment](../architecture/ARCHITECTURE-CANDIDATE-ASSESSMENT.md).
+4. [Qualification specification](../methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md), [roadmap](../architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) and [first unapproved experiment](../experiments/proposals/C0-C2-DEPLOYED-BYTE-STUDY.md).
+5. [Extended TinyStories measurements](../experiments/TINYSTORIES-EXTENDED-2026-11-24.md), [experimental controls](../methodology/experimental-controls.md) and [research protocol](../docs/EXPERIMENT_PROTOCOL.md).
+6. [Qwen exact config](https://huggingface.co/Qwen/Qwen3.8-27B/resolve/37561816e66b5b9153b1b64c10968c18c1e6f4a0/config.json), [Qwen card](https://huggingface.co/Qwen/Qwen3.8-27B/resolve/37561816e66b5b9153b1b64c10968c18c1e6f4a0/README.md), [Gemma card](https://huggingface.co/google/gemma-3-27b-it/tree/005ad3404e59d6023443cb575daa05336842228a), [Gemma paper](https://arxiv.org/html/2503.19786v1), [knowledge capacity](https://arxiv.org/html/2404.05405), [LC-QAT](https://proceedings.mlr.press/v306/wang26kc.html), [MXCode](https://arxiv.org/abs/2611.00403v2) and [implementation spec and evaluation](https://github.com/CL-BAF/Domovoi-Labs/tree/8252fbf361b387dc21d17fd6ff7443d9dc7274ad).

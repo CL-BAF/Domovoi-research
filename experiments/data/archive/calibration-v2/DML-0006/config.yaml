@@ -1,0 +1,57 @@
+experiment:
+  name: calibration-v2-B08
+  notes: 'Recurrent matrix arm B08: 8 stored block(s) x depth 1 (cycle), seed 1234.
+    Derived from None.'
+  status: COMPLETED
+model:
+  architecture: baseline_transformer
+  vocab_size: 4096
+  context_length: 512
+  d_model: 640
+  n_layers: 8
+  n_heads: 10
+  ffn_dim: 1728
+  dropout: 0.0
+  tie_embeddings: true
+  recurrence_depth: 1
+  recurrence_order: cycle
+tokenizer:
+  type: byte_bpe
+  path: $REALDATA_ROOT\packed\tinystories-v1\tokenizer.json
+  version: stream-byte-bpe-v1
+dataset:
+  name: tinystories
+  source_url: local-pinned-corpus
+  version: nas-2026-11-24-v1
+  train_fraction: 0.9
+  processed_dir: $REALDATA_ROOT\packed\tinystories-v1
+training:
+  steps: 200
+  batch_size: 16
+  gradient_accumulation: 2
+  context_length: 512
+  learning_rate: 0.0006
+  min_lr_ratio: 0.1
+  weight_decay: 0.1
+  betas:
+  - 0.9
+  - 0.95
+  grad_clip: 1.0
+  warmup_steps: 10
+  precision: bf16
+  seed: 1234
+  eval_interval: 50
+  eval_batches: 25
+  checkpoint_interval: 50
+  log_interval: 10
+  sampler: disjoint_segments
+  pilot_stop_checks: true
+  pilot_calibrated_seconds: null
+  extra_checkpoint_steps: []
+  synchronize_cuda_timing: true
+  deterministic_cuda: true
+  verify_checkpoint_writes: true
+output:
+  experiments_dir: $REALDATA_ROOT\calibration-v2
+  experiment_id: DML-0006
+source_path: null

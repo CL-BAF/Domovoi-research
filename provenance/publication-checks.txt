@@ -1,0 +1,30 @@
+24 November 2026, Adelaide
+
+CPU implementation suite at d914684, executed for publication: 275 passed, 1 skipped.
+The skipped case was CUDA-only. The scheduler warning came from the test that
+injects an interruption around optimizer.step. CUDA profiling passed previously.
+Twelve matched-budget extended validation evaluations exited 0.
+
+Publication validator stdout
+Verified 544 manifest records and 88 published artifact checksums.
+{
+  "calibration_200": {
+    "b08_minus_r02x4_peak_mib": 406.3299999999999,
+    "reduction_pct_of_b08_peak": 17.99911406423034,
+    "r02x4_throughput_increase_pct_over_b08": 9.717610704468571,
+    "r02x4_minus_b08_nll": 0.045486373906616695,
+    "r02x4_minus_b08_nll_pct_of_b08": 1.1839724795792872,
+    "r02x4_minus_b02_nll": 0.17258041264780033,
+    "fraction_of_b08_gain_over_b02_recovered": null
+  },
+  "extended_6104": {
+    "b08_minus_r02x4_peak_mib": 406.3299999999999,
+    "reduction_pct_of_b08_peak": 17.99911406423034,
+    "r02x4_throughput_increase_pct_over_b08": 9.707233193636998,
+    "r02x4_minus_b08_nll": 0.14318754849576854,
+    "r02x4_minus_b08_nll_pct_of_b08": 9.432327008569818,
+    "r02x4_minus_b02_nll": -0.057305318617325574,
+    "fraction_of_b08_gain_over_b02_recovered": 0.2858222311968872
+  }
+}
+Verified 285 relative links; private path scan passed.

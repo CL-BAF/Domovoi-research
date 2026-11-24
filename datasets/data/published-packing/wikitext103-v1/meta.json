@@ -1,0 +1,72 @@
+{
+  "complete": true,
+  "dataset": {
+    "name": "wikitext103",
+    "version": "nas-2026-11-24-v1"
+  },
+  "tokenizer": {
+    "path": "$REALDATA_ROOT\\packed\\wikitext103-v1\\tokenizer.json",
+    "version": "stream-byte-bpe-v1",
+    "sha256": "e0ec05e51b0a4c54355eeaa6c35a50cf403c9a703601f8e8ab372e03f5cbd3d7",
+    "vocab_size": 4096,
+    "eos_id": 0
+  },
+  "tokens": {
+    "dtype": "uint16",
+    "vocab_size": 4096,
+    "test": 368001,
+    "val": 322861,
+    "train": 152441047
+  },
+  "files": {
+    "test_bin": "$REALDATA_ROOT\\packed\\wikitext103-v1\\test.bin",
+    "test_document_ends": "$REALDATA_ROOT\\packed\\wikitext103-v1\\test_document_ends.json",
+    "val_bin": "$REALDATA_ROOT\\packed\\wikitext103-v1\\val.bin",
+    "val_document_ends": "$REALDATA_ROOT\\packed\\wikitext103-v1\\val_document_ends.json",
+    "train_bin": "$REALDATA_ROOT\\packed\\wikitext103-v1\\train.bin",
+    "train_document_ends": "$REALDATA_ROOT\\packed\\wikitext103-v1\\train_document_ends.json"
+  },
+  "packed_sha256": {
+    "test_bin": "d45da0b6a70e419dedbe68bf6fcc810c792aaa5a53aaa8f9da7514b7840b45b0",
+    "test_document_ends": "1b742c4e5ec2b5026d6d52a84c8c7d0627dd627cdf194312dab27392316994a0",
+    "val_bin": "bcef6cf57badb3dee6e10b89c647158abea8e2d16843997f3697ca643efb89af",
+    "val_document_ends": "e4d790036c9d2cdee5848932a5d1f5190f6d63fe56f1aa93b806fcb2f898ee09",
+    "train_bin": "1d358e2d27f445c4027fe9efaba2165604395c2ac438c5d1f76330062cabf43d",
+    "train_document_ends": "29af6adb59ac170199d3989ddf138e4220a89418c3c7f6aa35389b5ef69cf466"
+  },
+  "documents": {
+    "test": 62,
+    "val": 60,
+    "train": 28998
+  },
+  "ingestion": [
+    {
+      "source": "Salesforce/wikitext",
+      "path": "$NAS_ROOT\\WikiText-103\\wikitext-103-raw-v1\\test-00000-of-00001.parquet",
+      "scanned": 62,
+      "invalid": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "source": "Salesforce/wikitext",
+      "path": "$NAS_ROOT\\WikiText-103\\wikitext-103-raw-v1\\validation-00000-of-00001.parquet",
+      "scanned": 60,
+      "invalid": 0,
+      "exact_duplicates": 0
+    },
+    {
+      "source": "Salesforce/wikitext",
+      "path": "$NAS_ROOT\\WikiText-103\\wikitext-103-raw-v1\\train-00000-of-00002.parquet",
+      "scanned": 14900,
+      "invalid": 0,
+      "exact_duplicates": 137
+    },
+    {
+      "source": "Salesforce/wikitext",
+      "path": "$NAS_ROOT\\WikiText-103\\wikitext-103-raw-v1\\train-00001-of-00002.parquet",
+      "scanned": 14545,
+      "invalid": 0,
+      "exact_duplicates": 310
+    }
+  ]
+}

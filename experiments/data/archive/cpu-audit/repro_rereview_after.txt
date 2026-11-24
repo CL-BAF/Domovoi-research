@@ -1,0 +1,8 @@
+== R1: refused resume must not move a .bak checkpoint into place ==
+  resume refused: CheckpointError
+  directory unchanged by the refused resume: True
+== R2: fresh run must refuse a directory holding checkpoints even without latest.json ==
+  fresh run refused: CheckpointError
+== R3: profiling under autocast: weight dtype vs KV dtype ==
+  reported (weight) dtype: torch.float32 | KV dtype field: torch.bfloat16
+  estimated KV bytes/token: 512 | measured KV bytes/token: 512

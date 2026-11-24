@@ -1,0 +1,53 @@
+[
+  {
+    "arm": "B02",
+    "id": "DML-0002",
+    "config": "$REALDATA_ROOT\\calibration-v1\\DML-0002-B02.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\calibration-v1\\DML-0002-B02.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\calibration-v1\\STOP",
+      "--pilot-deadline",
+      "367959.4344814"
+    ],
+    "exit_code": 0
+  },
+  {
+    "arm": "B08",
+    "id": "DML-0003",
+    "config": "$REALDATA_ROOT\\calibration-v1\\DML-0003-B08.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\calibration-v1\\DML-0003-B08.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\calibration-v1\\STOP",
+      "--pilot-deadline",
+      "367959.4344814"
+    ],
+    "exit_code": 0
+  },
+  {
+    "arm": "R02x4",
+    "id": "DML-0004",
+    "config": "$REALDATA_ROOT\\calibration-v1\\DML-0004-R02x4.yaml",
+    "command": [
+      "$CUDA_PYTHON",
+      "-u",
+      "$IMPLEMENTATION_ROOT\\scripts\\train.py",
+      "--config",
+      "$REALDATA_ROOT\\calibration-v1\\DML-0004-R02x4.yaml",
+      "--stop-file",
+      "$REALDATA_ROOT\\calibration-v1\\STOP",
+      "--pilot-deadline",
+      "367959.4344814"
+    ],
+    "exit_code": 0
+  }
+]

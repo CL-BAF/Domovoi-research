@@ -1,0 +1,61 @@
+# Baseline small Transformer (~41M parameters, untied-equivalent GPT-2 style).
+#
+# This is the reference "boring conventional" baseline that all future
+# Domovoi architecture experiments are compared against.
+#
+# IMPORTANT: benchmark evaluation data (data/evals/) is NEVER referenced by
+# this config or by the training pipeline. Training and evaluation data are
+# prepared and stored separately (see domovoi/datasets/prepare.py).
+
+experiment:
+  name: "baseline_small_v1"
+  notes: >
+    First end-to-end pipeline validation run. Conventional pre-LN decoder-only
+    Transformer, byte-level BPE tokenizer, tinyshakespeare corpus. Not tuned
+    for quality; tuned for correctness, reproducibility and fast iteration.
+  status: "BASELINE"     # terminal status label written on successful completion
+
+model:
+  architecture: "baseline_transformer"
+  vocab_size: 4096
+  context_length: 512
+  d_model: 640
+  n_layers: 10
+  n_heads: 10
+  ffn_dim: 1728
+  dropout: 0.0
+  tie_embeddings: true
+
+tokenizer:
+  type: "byte_bpe"
+  path: "data/tokenizers/tinyshakespeare_bpe_4096.json"
+  version: "byte-bpe-v1"
+
+dataset:
+  name: "tinyshakespeare"
+  source_url: "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt"
+  version: "tinyshakespeare-2026-09-15"   # pinned by sha256 recorded at first download
+  train_fraction: 0.9                     # deterministic block split: first 90% train, last 10% val
+  processed_dir: "data/processed/tinyshakespeare"
+
+training:
+  steps: 3000
+  batch_size: 16
+  gradient_accumulation: 1
+  context_length: 512        # must be <= model.context_length
+  learning_rate: 6.0e-4
+  min_lr_ratio: 0.1
+  weight_decay: 0.1
+  betas: [0.9, 0.95]
+  grad_clip: 1.0
+  warmup_steps: 100
+  precision: "bf16"          # bf16 | fp16 | fp32
+  seed: 1234
+  eval_interval: 250
+  eval_batches: 25
+  checkpoint_interval: 500
+  log_interval: 10
+
+output:
+  experiments_dir: "experiments"
+  experiment_id: null          # null => next free DML-XXXX is allocated automatically

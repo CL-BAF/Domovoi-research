@@ -1,0 +1,114 @@
+{
+  "experiment_id": "DML-0001",
+  "created_at": "2026-09-15T19:23:39",
+  "status": "RUNNING",
+  "name": "baseline_small_v1",
+  "notes": "First end-to-end pipeline validation run. Conventional pre-LN decoder-only Transformer, byte-level BPE tokenizer, tinyshakespeare corpus. Not tuned for quality; tuned for correctness, reproducibility and fast iteration.\n",
+  "git_commit": "898ef3d0c48a6f4d4fd1a0addc41d7a3b220d377",
+  "git_dirty": false,
+  "config": {
+    "experiment": {
+      "name": "baseline_small_v1",
+      "notes": "First end-to-end pipeline validation run. Conventional pre-LN decoder-only Transformer, byte-level BPE tokenizer, tinyshakespeare corpus. Not tuned for quality; tuned for correctness, reproducibility and fast iteration.\n",
+      "status": "BASELINE"
+    },
+    "model": {
+      "architecture": "baseline_transformer",
+      "vocab_size": 4096,
+      "context_length": 512,
+      "d_model": 640,
+      "n_layers": 10,
+      "n_heads": 10,
+      "ffn_dim": 1728,
+      "dropout": 0.0,
+      "tie_embeddings": true
+    },
+    "tokenizer": {
+      "type": "byte_bpe",
+      "path": "data/tokenizers/tinyshakespeare_bpe_4096.json",
+      "version": "byte-bpe-v1"
+    },
+    "dataset": {
+      "name": "tinyshakespeare",
+      "source_url": "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt",
+      "version": "tinyshakespeare-2026-09-15",
+      "train_fraction": 0.9,
+      "processed_dir": "data/processed/tinyshakespeare"
+    },
+    "training": {
+      "steps": 3000,
+      "batch_size": 16,
+      "gradient_accumulation": 1,
+      "context_length": 512,
+      "learning_rate": 0.0006,
+      "min_lr_ratio": 0.1,
+      "weight_decay": 0.1,
+      "betas": [
+        0.9,
+        0.95
+      ],
+      "grad_clip": 1.0,
+      "warmup_steps": 100,
+      "precision": "bf16",
+      "seed": 1234,
+      "eval_interval": 250,
+      "eval_batches": 25,
+      "checkpoint_interval": 500,
+      "log_interval": 10
+    },
+    "output": {
+      "experiments_dir": "experiments",
+      "experiment_id": null
+    },
+    "source_path": "configs\\baseline_small.yaml"
+  },
+  "config_source": "configs\\baseline_small.yaml",
+  "architecture": "baseline_transformer",
+  "parameters": 41527680,
+  "active_parameters": 41527680,
+  "dataset": {
+    "name": "tinyshakespeare",
+    "version": "tinyshakespeare-2026-09-15",
+    "source_url": "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt",
+    "processed_dir": "data/processed/tinyshakespeare"
+  },
+  "tokenizer": {
+    "type": "byte_bpe",
+    "path": "data/tokenizers/tinyshakespeare_bpe_4096.json",
+    "sha256": "da6d1709baf5a2e4483efa85cf5eedd154c642b85d8ab69d63f95e44f586c6b1",
+    "vocab_size": 4096,
+    "version": "byte-bpe-v1"
+  },
+  "seed": 1234,
+  "training_tokens": null,
+  "env": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "cudnn_version": "91900",
+    "gpu_name": "NVIDIA GeForce RTX 2050",
+    "gpu_count": 1,
+    "gpu_total_memory_mb": 4095.5,
+    "bf16_supported": true,
+    "packages": {
+      "torch": "2.11.0+cu128",
+      "numpy": "2.5.3",
+      "tokenizers": "0.23.2",
+      "safetensors": "0.8.0",
+      "PyYAML": "6.0.3",
+      "tqdm": "4.70.1",
+      "requests": "2.34.2"
+    },
+    "git_commit": "898ef3d0c48a6f4d4fd1a0addc41d7a3b220d377",
+    "git_dirty": false
+  },
+  "summary_file": "summary.json",
+  "evals_file": "evals.json",
+  "profile_file": "profile.json",
+  "report_file": "report.md",
+  "checkpoints_dir": "checkpoints",
+  "checkpoints": [],
+  "final_status": "BASELINE"
+}

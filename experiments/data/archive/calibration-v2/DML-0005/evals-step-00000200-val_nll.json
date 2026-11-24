@@ -1,0 +1,30 @@
+{
+  "tasks": {
+    "val_nll": {
+      "task": "val_nll",
+      "display_name": "Full val split NLL",
+      "metric": "nats_per_token",
+      "nll": 3.7147498124587575,
+      "n": 4783349,
+      "n_documents": 21990,
+      "context_length": 512,
+      "precision": "fp32",
+      "bootstrap_95_interval": [
+        3.7093332501148923,
+        3.7200245351150634
+      ],
+      "dataset": "tinystories",
+      "dataset_version": "nas-2026-11-24-v1",
+      "packed_sha256": "7a5f9b4757b91742e57fad0820ac06cd2b6acfbcfd77c47382fd6c31282f373f",
+      "document_ends_sha256": "61eb9b629a1729853273973b3fe4ee01f0e75e6e0fdccc7e23b985a1b05943fe",
+      "tokenizer_sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a"
+    }
+  },
+  "experiment_id": "DML-0005",
+  "checkpoint": "$REALDATA_ROOT\\calibration-v2\\DML-0005\\checkpoints\\step_00000200",
+  "tokenizer_sha256": "a0e552000a2acdeefddb1f2757f587e5b75e787585eb4d34cdb89f8c62dd144a",
+  "evaluated_at": "2026-11-24T08:05:39",
+  "runtime_s": 10.3,
+  "limit": null,
+  "val_batches": null
+}

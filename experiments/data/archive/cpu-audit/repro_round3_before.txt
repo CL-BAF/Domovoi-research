@@ -1,0 +1,8 @@
+== H1: damaged backup must not be moved into place by a failing resume ==
+  resume failed: UnpicklingError
+  directory unchanged by the failed resume: False
+== H2: a resume that loses the writer lock must leave the experiment untouched ==
+  exit code: 1 | status now: FAILED | experiment unchanged: False
+== M1: a changed packed .bin with an unchanged manifest must not pass resume ==
+[trainer] WARNING: resuming at step 2 with training.steps=4, but the checkpoint was saved from a run configured for steps=2. The LR schedule differs from the original run; the trajectory will NOT match an uninterrupted run.
+  resume ACCEPTED with a modified train.bin

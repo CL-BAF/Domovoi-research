@@ -1,0 +1,20 @@
+{
+  "name": "fineweb-edu-preview",
+  "version": "nas-2026-11-24-v1",
+  "vocab_size": 4096,
+  "sources": [
+    {
+      "id": "HuggingFaceFW/fineweb-edu",
+      "revision": "87f09149ef4734204d70ed1d046ddc9ca3f2b8f9",
+      "sha256": "b1ba7b2ce4cb5ea6ef42dca40263eabb85f37700d01693a68e9b30a31d78e871",
+      "path": "$NAS_ROOT\\FineWeb-Edu\\sample\\10BT\\000_00000.parquet",
+      "kind": "parquet",
+      "split": "hash",
+      "license": "ODC-BY-1.0",
+      "max_documents": 30000
+    }
+  ],
+  "token_budgets": {
+    "train": 5000000
+  }
+}
