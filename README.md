@@ -40,7 +40,7 @@ The earlier milestone documents retain their original statuses and measurements.
 
 Future experiments require a pushed, approved plan and a pushed analysis of the previous outcome. The implementation launcher verifies the live ledger and immutable commits before work begins. The ledger starts empty because all completed work is preserved in the historical archive. [Experiment protocol](docs/EXPERIMENT_PROTOCOL.md) · [Execution ledger](experiments/protocol/state.json) · [Contributing](CONTRIBUTING.md)
 
-The next architecture proposal compares selective state, token-adaptive computation, learned memory consolidation and procedural representations under the same 4 GiB and usable 8K objective. It is a planning document. [Architecture proposal](architecture/NEXT-ARCHITECTURE-PROPOSAL.md)
+The earlier architecture proposal compares selective state, token-adaptive computation, learned memory consolidation and procedural representations under the same 4 GiB and usable 8K objective. [Original architecture proposal](architecture/NEXT-ARCHITECTURE-PROPOSAL.md)
 
 ## Independent architecture investigation
 
@@ -56,7 +56,7 @@ The proposed order is a strong native scalar low-bit control (C0), a bounded tes
 | [Efficiency evidence matrix](architecture/AI-EFFICIENCY-EVIDENCE-MATRIX.md) · [Candidate assessments](architecture/ARCHITECTURE-CANDIDATE-ASSESSMENT.md) | Compares measured prior art, costs, mechanisms and failure tests |
 | [Qualification specification](methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md) | Proposes exact model references, physical measurement and benchmark decisions S1–S7 |
 | [Phased roadmap](architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) · [First experiment proposal](experiments/proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) | Stages discriminating controls, costs and stop rules. The proposal has no ledger entry. |
-| [Claude review package](reviews/CLAUDE-ROADMAP-REVIEW-PACKAGE.md) | Provides the independent-review prompt and source package |
+| [Claude review package](reviews/CLAUDE-ROADMAP-REVIEW-PACKAGE.md) | Provides the review prompt and sources for manual submission. The new tool-assisted review timed out. |
 
 ## Record policy
 

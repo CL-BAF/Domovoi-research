@@ -1,5 +1,9 @@
 # Claude review package · Domovoi roadmap
 
+## Review status
+
+No new Claude review of the reconciliation or roadmap was returned. An authenticated Claude Code invocation with tools disabled timed out on the full pinned source packet. A smaller pinned packet and a compact positional-prompt retry also timed out. The source snapshot supplied was `ab2874540a9fe08dbd6f07505814c2ea56118df3`. No returned conclusions are available for publication. The earlier independent Claude investigation remains available as its own report, and this package is ready for manual submission.
+
 ## Exact prompt
 
 Independently review this Domovoi architecture roadmap as a skeptical ML researcher and GPU systems engineer. The project aims to approach broad text capabilities of a strong 27B reference using a new native neural architecture within 4 GiB total physical GPU memory, batch one, at least 8,192 usable prompt tokens and at least eight output tokens/s. All claims and decisions are drafts. Provide a review only, without editing files, using tools, opening credentials, starting a workload, setting policy, or authorizing any experiment. Verify what can be established from the supplied public sources and disclose exactly which checks cannot be completed from this packet.
