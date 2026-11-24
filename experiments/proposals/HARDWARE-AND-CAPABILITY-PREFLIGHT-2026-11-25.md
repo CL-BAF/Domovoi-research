@@ -17,6 +17,8 @@ What can a specifically identified **physical 4 GiB GPU** truly sustain in memor
 
 ### Measurement conditions proposed for a future approved experiment
 
+The [full Claude review](../../reviews/2026-11-24-claude-roadmap-review.md) recommends a **provisional 60-second time-to-first-token ceiling at 8K**. This is not an approved value; freeze a numerical threshold, percentile, prompt length and warm/cold interpretation before any run. If driver menus lack the named fallback switch, do not pretend it is set: prove actual lack of shared-memory overflow via appropriate device/OS counters and fail closed on ambiguous evidence.
+
 1. Device baseline/driver reservation and true available memory; reconcile dedicated physical memory versus allocator/reserved/device-wide values.
 2. Representative packed BF16, INT8, INT4 and native low-bit decode/bandwidth cases on **realistic sizes**, with exact packed backend, no expanded full-precision persistent shadow, cold and warm paths.
 3. Memory-traffic and arithmetic rooflines from measured bandwidth and decode kernels; distinguish memory-read amortisation across output tokens from weight-looping across iterations.
@@ -37,6 +39,7 @@ Where does capability actually degrade when the model size and inference footpri
 ### Proposed comparison families
 
 - Pinned, licensed small Qwen-family checkpoints covering available sizes (the prior roadmap suggests Qwen3.5 0.8B, 2B, 4B and 9B, subject to confirming names, revisions and suitability).
+- **BitNet b1.58 2B4T** and the strongest independently identifiable native-fit/after-training compressed model(s) that genuinely operate within the physical 4 GiB budget. Keep distinct model family, native-format versus post-training quantization, and any inference-backend differences visible.
 - Pinned Qwen3.8-27B primary reference per [qualification draft](../../methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md).
 - Pinned Gemma 3 27B IT as an independent 27B reference and **intermediate target** if its performance is lower on defined tasks; use measured scores, not an assumed permanent 2x gap or incompatible publisher protocols.
 
