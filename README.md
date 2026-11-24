@@ -42,6 +42,10 @@ Future experiments require a pushed, approved plan and a pushed analysis of the 
 
 The next architecture proposal compares selective state, token-adaptive computation, learned memory consolidation and procedural representations under the same 4 GiB and usable 8K objective. It is a planning document. [Architecture proposal](architecture/NEXT-ARCHITECTURE-PROPOSAL.md)
 
+## Independent architecture investigation
+
+Claude's complete independent report is archived with its original evidence labels and conclusions. Codex verified the visible references and checked material calculations in a separate record. [Independent report](reviews/2026-11-24-independent-architecture-research.md) · [Verification and annotations](reviews/2026-11-24-independent-research-verification.md)
+
 ## Record policy
 
 - Append a dated correction or a new record when evidence changes. Keep the original measurements and their limitations visible.

@@ -17,6 +17,8 @@ Count convention: **16 documented experimental units** = ten DML run IDs (one pa
 
 ## Preregistered experiments
 
+The [independent architecture investigation](../reviews/2026-11-24-independent-architecture-research.md) and [verification notes](../reviews/2026-11-24-independent-research-verification.md) review the existing evidence. They add no experimental runs.
+
 Future plans and outcomes will appear here under their unique DRP IDs. Protocol IDs are separate from run and artifact IDs. The [execution ledger](protocol/state.json) and [research protocol](../docs/EXPERIMENT_PROTOCOL.md) govern new work. The historical rows above retain their original evidence and statuses.
 
 ## What was inspected and verified before publication
