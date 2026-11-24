@@ -8,6 +8,16 @@
 
 The instrument is **not** intended to establish maximum stored knowledge, compare coded versus scalar weights, validate a novel architecture, qualify the 4 GiB goal or claim superior inference throughput.
 
+## Additions required by Claude's full report
+
+The [complete second review](../../reviews/2026-11-24-claude-roadmap-review.md) and [integration ledger](../../reviews/2026-11-25-CLAUDE-FULL-REPORT-INTEGRATION.md) clarify several instrument and later-capacity controls. The six-run I1 remains a **scorer instrument**, not a saturation or codec-advancement test.
+
+**I0 CPU scorer work:** generate random fact labels via a cryptographic PRF with per-seed secret key independent of model inputs; freeze and hash seed derivation and scoring scripts. Report the original estimator K at temperature 1 *and* a calibrated K* maximised over a **precommitted 16-point temperature grid** (temperature selection only on a disjoint calibration world or accounted for as side information). Record negative K, possible overconfidence and every null/permuted/oracle check. Treat measured knowledge density D>1 beyond a preregistered uncertainty tolerance as a hard leakage/under-counted-state alarm. Codebook weights, fixed tensors, scales, indexes and all world-dependent bits must be accounted for. Freeze the exact numerical tolerance and byte accounting before any science result.
+
+**I1 results:** log K and K*, seed-to-seed variance, update wall-time, calibration, instrument reliability and possible leakage. Any time-per-update measurement used as research evidence is included in this **separately approved** DRP, not smuggled in as an ungated correctness test.
+
+**Later C0/C2 capacity study:** add a fixed-tensors-only / frozen-MLP ablation to separate the 197,760 bytes of unchanged BF16 embeddings, attention and norms from information held in coded MLPs. Report incremental retained information ΔK per coded-MLP byte *alongside* full resident-byte density. Add structured-rule generalisation on held-out identities and two-hop fact manipulation to each arm; a random-tuple density gain accompanied by material loss on either does not advance a general architectural claim. Freeze a saturation criterion separate from the 100-exposure learning-speed endpoint. Mandatory arm-symmetric tuning must include every scalar and vector control. Actual native ternary rate should use a documented **1.6-bit effective trit packing** (or report both 1.6 and 2.0 with hardware implications). Separate mathematical vector-code proof from a mere rotation improvement.
+
 ## Two separately controlled work packages
 
 ### I0 — harness and algebra verification (non-experimental CPU correctness)
