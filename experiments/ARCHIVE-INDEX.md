@@ -4,6 +4,8 @@
 
 The second Claude roadmap review produced a **REVISE BEFORE APPROVAL** recommendation. The [full original second review](../reviews/2026-11-24-claude-roadmap-review.md) has since been archived exactly, with [source SHA-256 and overlooked findings](../reviews/2026-11-25-CLAUDE-FULL-REPORT-INTEGRATION.md); [the earlier summary-derived disposition](../reviews/2026-11-25-CLAUDE-SECOND-REVIEW-DISPOSITION.md) is retained for chronology. The [new phased roadmap](../architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) identifies distinct hardware, evaluation and architecture decision gates. The [six-run BF16/INT8 instrument](proposals/C0-C2-INSTRUMENT-ONLY-2026-11-25.md) and [physical hardware/capability ladder preflights](proposals/HARDWARE-AND-CAPABILITY-PREFLIGHT-2026-11-25.md) are **proposals only**. The [original larger C0/C2 plan](proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) is retained but superseded for scheduling. None is a completed run, approved DRP or capability claim.
 
+The [independent PR #3 review](../reviews/2026-11-25-CODEX-PR3-REVIEW.md) records the revised, still-unapproved designs and separately indexes the CPU correctness work. Those fixtures add no research run or qualification evidence.
+
 
 Publication date is 24 November 2026, Adelaide. This is a permanent research archive. Earlier measurements and review records remain accessible, including superseded workflows and failures.
 

@@ -12,7 +12,7 @@ The instrument is **not** intended to establish maximum stored knowledge, compar
 
 The [complete second review](../../reviews/2026-11-24-claude-roadmap-review.md) and [integration ledger](../../reviews/2026-11-25-CLAUDE-FULL-REPORT-INTEGRATION.md) clarify several instrument and later-capacity controls. The six-run I1 remains a **scorer instrument**, not a saturation or codec-advancement test.
 
-**I0 CPU scorer work:** generate random fact labels via a cryptographic PRF with per-seed secret key independent of model inputs; freeze and hash seed derivation and scoring scripts. Report the original estimator K at temperature 1 *and* a calibrated K* maximised over a **precommitted 16-point temperature grid** (temperature selection only on a disjoint calibration world or accounted for as side information). Record negative K, possible overconfidence and every null/permuted/oracle check. Treat measured knowledge density D>1 beyond a preregistered uncertainty tolerance as a hard leakage/under-counted-state alarm. Codebook weights, fixed tensors, scales, indexes and all world-dependent bits must be accounted for. Freeze the exact numerical tolerance and byte accounting before any science result.
+**I0 CPU scorer work.** The reference implementation now defines a keyed HMAC-SHA256 generator, the temperature-one K estimator, a frozen 16-point temperature grid, codecs and packed-byte receipts. For independent uniform facts, the implemented leakage alarm uses `S+16` bits for K and `S+20` bits for same-world K*, where S counts every world-dependent deployed bit and four bits pay for temperature selection. Freeze the family of checks and its multiplicity treatment in the execution plan. This alarm has little power in I1 because the fact entropy is smaller than either proposed representation. Independent null and isolation checks are still necessary. [CPU correctness and limits](../../reviews/2026-11-25-CODEX-PR3-REVIEW.md)
 
 **I1 results:** log K and K*, seed-to-seed variance, update wall-time, calibration, instrument reliability and possible leakage. Any time-per-update measurement used as research evidence is included in this **separately approved** DRP, not smuggled in as an ungated correctness test.
 
@@ -43,20 +43,22 @@ Only after I0 correctness is independently reviewed and the exact experiment is 
 | Property | Proposed initial definition |
 |---|---|
 | Arms | BF16 and native INT8 scalar; **no vector-code arms** |
-| Seeds | Three paired seeds per arm; six model-seed runs total |
-| Geometry | Same four-layer causal backbone with width 64, four heads, FFN intermediate width 320, shared tokenizer and activation precision |
+| Seeds | Proposed IDs 1234, 1235 and 1236, paired across arms. Freeze separate derivations for world, initial weights and data order. Six model-seed runs total. |
+| Geometry | Same four-layer causal backbone with width 64, four heads, FFN intermediate width 320, 512 reserved symbol slots, tied embedding/output and shared activation precision |
 | Fact world | 16,384 trained identities × four attributes = 65,536 independent two-byte facts per seed |
-| Training exposure | 20 examples per fact in this **instrument** |
+| Training exposure | 20 examples per fact, 4,096 queries per update, for 320 updates per run and 1,920 across the six runs |
 | Positions | 65,536 facts × 20 exposures × 7 positions = **9,175,040 processed positions per run** |
 | Target positions | Two supervised value bytes per example, thus **2,621,440 scored targets per run** |
 | Assignment | Dataset and training-order generation matched across arms within seed; independently derived world keys between seeds |
-| Controls | Uniform probability, permuted-label negative control, forbidden answer-context checks, evaluator-only oracle, untrained identity namespace |
-| Evidence | Identity-cluster uncertainty, raw two-byte exact match, invalid-output rate, calibrated value log probabilities, code/logit parity, byte-accounting receipts |
-| Runtime | TBD after permitted instrument feasibility checks; **no claimed GPU-hour prediction or cap approved** |
+| Calibration and scoring | In each trained world, calibrate on the 1,024 identities whose ID is divisible by 16. Score the remaining 15,360 identities × four attributes = 61,440 independent facts (983,040 bits). Use the familiar query format without answers for the primary instrument. The novel format is a separate transfer diagnostic, because its marker and ordering are absent during training. |
+| Controls | Uniform logits, fixed-seed derangement of labels, independent untrained labels, evaluator-only oracle, deliberately leaked and overconfident wrong predictions in the fixture, tests excluding answer side information. Use teacher forcing only for the second-byte probability and free decoding for accuracy. |
+| Evidence | Raw K, K*, whole-model information per bit, per-seed results and paired seed/world dispersion, raw two-byte exact match, invalid-output rate, byte calibration, code/logit parity and byte receipts |
+| Representation | 197,760 B shared BF16 payload. MLP payloads give 525,440 B total BF16 and 366,720 B INT8 including 5,120 B of scales, before packaging. Eight aligned `DMC1` MLP headers add 512 B per arm if deployed in that format. Report actual representation including retained copies and indexes. |
+| Runtime | Rough common backbone accounting is 1,597,824 FLOPs per processed position, about 87.96 TFLOP for all six runs. This excludes quantization, optimizer, evaluation, and I/O. Wall time and stop cap require hardware-specific approval. |
 
-Freeze explicit model/training implementations, exact random-number seeds and derivation, dataset/harness hashes, config files, GPU environment, requested execution command, input digests, checkpoints, evaluation scripts and schedule before requesting approval. Use separate training and scorer source revisions. All six training runs must be accounted for in the single clearly defined approved comparison, or be individually registered per the protocol.
+Freeze the model, native INT8 training rule, activation precision, gradient/scale treatment, strict block-separated attention and loss mask, random-number seeds, runtime, inputs and output artifacts. Evaluation code, metric, transformations and statistics must be pinned alongside training. A single source revision can pin distinct training and scorer files. Keep the root key and evaluator-side labels inaccessible to the predictor. Report the data-cluster uncertainty separately from descriptive variation over three independent pairs. Account for all six runs in one prespecified comparison or register them individually under the protocol.
 
-**Correctness pass/fail:** zero leakage on null/permuted/untrained controls within preregistered statistical bounds; oracle at its analytic ceiling; reproducible world entropy; exact byte layout reconstructed by CPU reference; acceptable logit agreement within the frozen numerical tolerance; stable positive information recovery by BF16 and INT8 when the instrument is able to learn. Predefine acceptable learning thresholds using a *disjoint* generator-calibration world and record negative findings rather than silently altering thresholds.
+**Proposed pass/fail.** Oracle and uniform controls must match their analytic values within frozen numerical bounds. Null, permuted and untrained controls must stay within preregistered false-positive limits. Check reproducible entropy, exact byte receipts and decoded logit agreement. Require both arms to clear a preapproved positive-information criterion on scored identities. Select this threshold before results are seen from analytic controls or separately authorized feasibility evidence. The same-world holdout fits only temperature. It cannot select the pass threshold, tune training, or rank codec variants. Publish inconclusive and failed outcomes.
 
 **No capacity conclusion:** 20 exposures samples early memorisation/optimisation, not saturated information density. Ratios with tiny or negative information estimates must not be used to rank representations. Publish failed instruments and close the remote ledger before any rerun.
 
@@ -64,13 +66,14 @@ Freeze explicit model/training implementations, exact random-number seeds and de
 
 The historical 57-run design is **not** approved. A later redesigned campaign requires:
 
-1. Mandatory symmetric hyperparameter tuning for all arms on a disjoint, preregistered calibration world, with the same search budget, recorded attempts, compute and selection rules; tune scalar baselines competitively.
-2. Both fixed E8 and rotated-scalar controls, in addition to fixed residual VQ and learned VQ; exact, independently audited codepoint and effective-rate distinctions.
+1. Mandatory symmetric hyperparameter tuning for all arms on a disjoint, preregistered tuning world, with the same search budget, recorded attempts, compute and selection rules. Tune scalar baselines competitively. Keep final paired worlds sealed through selection and account for all searches and multiplicity.
+2. Both fixed E8 and rotated-scalar controls, in addition to different-basis fixed residual VQ and learned VQ. The same-basis two-stage hypercube is a rotated scalar product code. The CPU E8 core is a specified test format. A competitive E8-QAT arm needs its own matched trainer and published codec revision. [E8-QAT](https://arxiv.org/html/2610.27699v1) · [QuIP#](https://arxiv.org/abs/2402.04396)
 3. Exposure-to-saturation measurements extending beyond 100 if needed, potentially toward or beyond 1,000 exposures; predefine a stopping/plateau criterion and scaling by fact-world size. Preserve finite-exposure learning rate as a separate endpoint.
 4. Equal logical geometry, equal actual representation bytes, and matched **measured or carefully attributed** compute comparisons with clear incompatible-inference caveats.
 5. An explicit CPU packed-code/logit correctness stage, then a separate realistic-model GPU decode performance qualification rather than seven premature miniature kernels.
 6. Natural-text validation, held-out prompt formats, multiple model sizes and genuine transfer before broad language-model or architectural claims.
 7. A newly calculated count of arms/seeds, positions, training FLOPs, optimizer/tuning costs, time and scratch; the reviewer-reported **123 runs / 192 PFLOP** is a conditional scenario, **not** a frozen or affordable plan. Check feasibility from observed throughput first.
+8. Freeze the MLP at a world-independent initialization for the fixed-tensor-only control, retaining the same forward path and learning the rest with matched recipe and world. Report `K_full−K_fixed` per coded byte as an ablation contrast alongside full-model density. Keep the structured held-out-identity and two-hop probes out of the random-fact entropy total.
 
 ### Decision outcomes
 
