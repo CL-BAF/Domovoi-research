@@ -1,0 +1,54 @@
+# Independent review of research PR #3
+
+25 November 2026, Adelaide. **The revised study designs and implementation are ready for review. No experiment is ready to launch or approved by this record.** The CPU checks establish reference and protocol behavior on fixtures. The 4 GiB target, useful 8K, 27B-class capability and superiority of any architecture remain unmeasured.
+
+## Source and scope
+
+| Source | Exact revision used |
+|---|---|
+| Canonical research and PR #3 base `research/real-data-calibration` | `6d6a90d7cf34771ec57b579e358e4f11a03143b5` |
+| Incoming research PR #3 `review/claude-roadmap-revisions-2026-11-25` | `b210894fd466635d29de289335aa6317ad719f6f` |
+| Labs protocol baseline `codex/research-protocol` | `8252fbf361b387dc21d17fd6ff7443d9dc7274ad` |
+| Labs calibration branch `real-data-calibration` | `d914684dc730cd32132aeff389d6291c447ed7e4` |
+| Labs protocol and CPU draft `codex/protocol-cpu-instruments` | `a221c1d6c322dd9c0e4e40dd61743064fcea24fb` |
+
+The review covered all ten incoming diff files plus the previous investigation, verification, protocols and archived TinyStories results. The full second Claude report remains the same 66,728-byte original with SHA-256 `eb6f68a91ad9b40fe28bbe7abc1e4f7cbd0cfb4354509e469c9235358d34ce3d`. The original 57-run proposal and summary disposition retain their historical role. The research review branch adds annotations and proposal revisions. [Original PR](https://github.com/CL-BAF/Domovoi-research/pull/3) · [Implementation draft](https://github.com/CL-BAF/Domovoi-Labs/pull/1) · [Full second review](2026-11-24-claude-roadmap-review.md)
+
+## Findings and dispositions
+
+| Incoming files | Disposition |
+|---|---|
+| README and archive index | Indexed independent review and CPU code as draft evidence. Historical training/calibration numbers stay scoped to their existing data and seeds. The archive has no accepted 4 GiB inference result. |
+| Phased roadmap | Keeps a permanent, tuned C0 comparison. C2 is a hypothesis. Hardware, evaluation, the instrument, saturation, natural transfer and post-training have distinct decisions. Parallel streams and multi-token prediction are independent testable mechanisms. Prior-art compression, training, inference engineering and a new neural operation are separate claims. |
+| Original C0/C2 proposal | Remains superseded and unapproved. The original same-basis VQ construction is product-scalar by the algebra below. It cannot stand in for genuine VQ. The review's rounded INT4 match is 2,351 updates, versus 2,350 complete updates under the historical floor calculation. Treat the 123-run, 192-PFLOP scenario as illustrative. Budget and reconsider any larger campaign after the instrument and feasibility work. |
+| Instrument proposal | Temperatures fit on disjoint identities within each trained world. K scores 61,440 independent facts per seed in the familiar format. The held-out marker and order form a distinct transfer probe. A separate, wholly untrained world cannot calibrate a memorized predictor with useful correct-label learned signals. Actual bytes and analytic compute are stated explicitly and exclude unmeasured wall time. |
+| Hardware/capability preflights | H0 records laptop and driver identity, TGP, dedicated and shared residency, realistic packed bandwidth, cold and warm TTFT, and batch-one performance. E0 separates factual recall, supplied-evidence use, science/math, coding, instructions, post-training and long context. It preserves both 27B references and adds native BitNet and matched PTQ separately. |
+| Qualification specification | Removed the conflicting 1,536-token reasoning cap in favor of predeclared, quality-first compliant settings and separate matched-budget curves. Proposed S4/S7 require normalized 8K RULER ≥0.80, at most 10 pp drop, and a frozen natural delayed-evidence floor. Earlier absolute 80%/60% values are diagnostics. The paper gives Gemma LiveCodeBench 29.7 and 39.0 in Tables 6 and 18, with no established explanation for their difference in the report. |
+| Original reviewer report, integration note and summary disposition | Checked full-report provenance, retained the reviewer text and summary as original records, and corrected the integration's interpretation of the Gemma benchmark windows. |
+
+The capacity proposal also requires mandatory symmetric tuning on independent tuning worlds, sealed paired final worlds, strong E8 and Hadamard scalar arms, measured ternary layout, distinct residual and learned vector controls, saturation beyond early exposure, a fixed-tensor ablation and natural-language transfer at meaningful token/parameter budgets. Neither an early information advantage nor a matched-byte codec win alone establishes architectural novelty. [Gemma tables](https://arxiv.org/html/2503.19786v1) · [E8-QAT](https://arxiv.org/html/2610.27699v1) · [QuIP#](https://arxiv.org/abs/2402.04396)
+
+## Protocol findings and remaining enforcement work
+
+The baseline tracked-only status could miss ignored and untracked code or data. The draft verifies raw Git blobs against an exact tree before importing source, checks the full dependency tree and runtime lock, and refuses undeclared or changed workspace assets. A reviewed Python adapter can use only declared paths under the runtime guard for common Python file, network and process operations. The command, datasets, transformations, metric, scoring, evaluation and statistics all have separate source or asset pins. Published analysis provenance must match the original source revision and analysis pins.
+
+The baseline recovery could publish a handwritten local success. The draft binds the RUNNING claim to a completion hash and requires the original proof, zero exit and preregistered artifact hashes for COMPLETED. A local recovery note can only record FAILED or INTERRUPTED and preserves the original execution receipt. A writer who controls the initial remote claim can choose its own proof. Named review, protected refs and a scoped writer/transition verifier therefore remain a separate owner decision. Direct Python use, old versions, standalone tools, trusted host components, native code and concurrent modification of the host remain outside this guard. The draft has a CPU-tested Python adapter path and no claimed OS sandbox, GPU verification or authority to approve. [Launcher schema and limits](https://github.com/CL-BAF/Domovoi-Labs/blob/a221c1d6c322dd9c0e4e40dd61743064fcea24fb/docs/EXPERIMENT_PROTOCOL.md) · [Owner checklist](https://github.com/CL-BAF/Domovoi-Labs/blob/a221c1d6c322dd9c0e4e40dd61743064fcea24fb/docs/RESEARCH_APPROVAL_POLICY.md)
+
+## CPU instrument and mathematical verification
+
+- Versioned HMAC-SHA256 constructs independent seeded fact worlds with distinct train, held-out and untrained query templates, structured identity splits and two-hop link/attribute probes. The prediction inputs omit the key and answer. The future harness still needs to enforce the evaluator-side boundary and masked loss construction on real model inputs.
+- The likelihood estimator uses both normalized 256-class byte conditionals and retains negative K. The fixed 16-point grid selects K* on calibration data. Reports include whole-representation density, byte calibration, invalid rate, exact match, paired seed/world dispersion and a conditional leakage alarm. The 16-bit per-check statistical threshold follows Markov's inequality and a representational union bound. Same-world calibration adds four bits for choosing a grid point. I1 needs independent leakage controls because its fact entropy fits below both representations' bit budgets.
+- The nine reference formats cover BF16, signed INT8 and INT4, native scalar 2-bit, five-trits-per-byte ternary, rotated scalar, finite E8, fixed residual and learned-table layouts. Identical bases yield `Q({−1.5, −0.5, 0.5, 1.5}⁸)`. The different-basis `I/H` sum has a convex hull with 16 edge directions, versus eight for a rotated scalar product, so the reference control genuinely differs. The CPU lattice/table layout is distinct from published E8-QAT or QuIP# formats.
+- Receipts count code payloads, scales, codebooks, metadata, alignment, embedding, attention, norms and retained duplicates. At the proposed geometry, payload and scales total 525,440 B BF16 or 366,720 B INT8. DMC1 packaging of the eight MLP matrices adds 512 B per arm before any other retained allocation. Decoded logit checks verify the representation itself. Frozen MLP and full-model K contrasts do not localize information without accounting for interactions.
+
+On Windows with Python 3.13.17, NumPy 2.5.5 and Git 2.56.1, `python -B -m pytest -q --tb=line -p no:cacheprovider tests/test_cpu_instruments.py tests/test_research_protocol.py` passed **56 focused cases, zero failures, zero skips**. A development run exposed Windows Git environment forwarding and was fixed, then rerun. The positive subprocess fixture used an isolated launcher, local bare Git remote and a spawned non-training worker. No live ledger write or CUDA call was exercised. All 22 changed Python files parsed. The full legacy suite, which includes toy training and inference, was outside this verification run. [CPU formats, estimator and proof](https://github.com/CL-BAF/Domovoi-Labs/blob/a221c1d6c322dd9c0e4e40dd61743064fcea24fb/docs/CPU_INSTRUMENTS.md)
+
+The read-only archive verifier checked 544 manifest records, 88 published artifact checksums and 418 relative links. The private-path scan passed. The review checked the canonical ledger against its original blob and the Claude report against the incoming draft; both match.
+
+## Decisions before experimentation
+
+I1 is a six-run BF16 versus native INT8 instrument with 320 updates per run. The common model-only accounting is about 87.96 TFLOP across all six, excluding optimizer, quantization, evaluation and I/O. Freeze the packed-model/attention-mask and evaluation adapter, seeds, learning and null criteria, exact numerical tolerances, GPU/runtime and wall-time limits before requesting approval. The instrument is distinct from capacity saturation and requires no approval for any larger campaign.
+
+H0 requires verified access to a specific physical 4 GiB device, approved fallback telemetry and declared cold/warm TTFT criteria. A software-capped RTX 5080 can be a development screen. E0 requires a sealed benchmark and matched decoding, checkpoint rights, precision, access to fit-capable hardware for both references and separate post-training comparisons. Freeze the natural context floor and statistical gates before looking at qualification scores. The owner must also decide how named approvals and machine ledger transitions will be enforced.
+
+No training, scientific evaluation, model/corpus download, benchmark or profile ran. No experiment ID was reserved or approved. No merge, branch protection change or canonical ledger change was made.

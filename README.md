@@ -4,6 +4,16 @@ This repository records the architecture, methods, experiments and failures of D
 
 The research question is whether shared computation and memory-efficient model design can improve useful language-model capability within a hard 4 GiB GPU inference budget. The qualifying workload requires batch 1, usable 8K context, no CPU or disk offload and at least 8 output tokens per second on the reference GPU. The RTX 5080 is the development and training GPU.
 
+## Independent review and revised proposals · 25 November 2026
+
+The second independent Claude review of the 24 November research roadmap returned **REVISE BEFORE APPROVAL** for the proposed 57-run C0/C2 experiment. The [complete original report](reviews/2026-11-24-claude-roadmap-review.md) is now archived byte-for-byte, with [source integrity and additional findings](reviews/2026-11-25-CLAUDE-FULL-REPORT-INTEGRATION.md) recorded separately. The [earlier summary-only disposition](reviews/2026-11-25-CLAUDE-SECOND-REVIEW-DISPOSITION.md) remains as a dated account of what was available before the complete report was supplied.
+
+**Current proposal status:** the [original C0/C2 full campaign](experiments/proposals/C0-C2-DEPLOYED-BYTE-STUDY.md) is retained as a historical **unapproved, superseded** draft. The next proposed experimental gate is the [six-run BF16/INT8 instrument and CPU correctness design](experiments/proposals/C0-C2-INSTRUMENT-ONLY-2026-11-25.md), with a later fully redesigned representation-saturation study conditional on evidence. [Physical 4 GiB hardware feasibility and a separate capability ladder](experiments/proposals/HARDWARE-AND-CAPABILITY-PREFLIGHT-2026-11-25.md) are independent prerequisites requiring their own approval. [Updated phased roadmap](architecture/PHASED-ARCHITECTURE-RESEARCH-ROADMAP.md) and [qualification decision review](methodology/27B-4GIB-QUALIFICATION-SPECIFICATION.md) remain **proposals only**.
+
+The [independent PR #3 review](reviews/2026-11-25-CODEX-PR3-REVIEW.md) records the corrected qualifications, six-run arithmetic, CPU tests and enforcement limits. The [draft implementation](https://github.com/CL-BAF/Domovoi-Labs/pull/1) adds locked execution and CPU reference instruments. Human approval, production runner validation and experiment-specific implementation remain pending. No experiment was approved or run.
+
+Strong native low-bit C0 remains the permanent baseline. Coded weights are a hypothesis to test against competitive scalar and E8/vector controls. A random-fact capacity or codec result has a narrower scope than a novel architecture or broad 27B-class capability. Weight-read amortisation and other computational changes require separate evidence.
+
 ## First milestone · 23 November 2026
 
 | Record | Scope |

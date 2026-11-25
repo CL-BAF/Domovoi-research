@@ -4,6 +4,15 @@ Commit and push every experiment's documented plan and approval before execution
 
 The research repository owns the evidence. [Domovoi Labs](https://github.com/CL-BAF/Domovoi-Labs) owns executable code. The supported launchers fetch the GitHub ref `refs/heads/research/real-data-calibration` and use [the canonical execution ledger](../experiments/protocol/state.json). Local files and other branches are drafts until pushed into that history. [Initial gate implementation at `8252fbf361b387dc21d17fd6ff7443d9dc7274ad`](https://github.com/CL-BAF/Domovoi-Labs/commit/8252fbf361b387dc21d17fd6ff7443d9dc7274ad)
 
+## Proposed hardening · 25 November 2026
+
+The separate [Labs draft](https://github.com/CL-BAF/Domovoi-Labs/pull/1) proposes the following replacement for the launch and recovery details below. The canonical ledger stays on the same ref, with owner approval and production adoption still pending.
+
+- Use `python -I -S -B scripts/experiment_protocol.py run DRP-NNNN --workspace <workspace> --dependencies <tree>` from the approved raw-byte-clean checkout. The argv comes from the pinned plan. Declare separate read-only external assets and writable output/temporary directories. Pin all source, dependency and runtime identities, including driver and CUDA package version for GPU work. Use a checked-in adapter for an external Python harness. [Execution schema and launcher](https://github.com/CL-BAF/Domovoi-Labs/blob/a221c1d6c322dd9c0e4e40dd61743064fcea24fb/docs/EXPERIMENT_PROTOCOL.md)
+- Use the plan's `execution.analysis` paths and SHA-256 pins for evaluation, scoring, statistics, the primary metric, data generation and transformations. Published results provide `analysis_implementation_commit` and `analysis_sources`, verified against the preapproved plan. Changing a primary endpoint requires a new, reviewed plan. Preserve and label any exploratory post-hoc analysis separately.
+- A live claim commits a one-use completion credential. A success requires its preimage, zero exit and all preregistered artifact hashes. Manual recovery alone can record FAILED or INTERRUPTED, preserves local evidence and cannot promote a terminal state to success. The focused CPU tests use local test repositories and include a genuinely spawned fixture worker. [Verification record](../reviews/2026-11-25-CODEX-PR3-REVIEW.md)
+- The owner names the approver, protects canonical refs and authorizes a scoped machine identity with independent transition validation. The application verifies Git contents and algorithmic transitions. It does not attest human review, isolate untrusted native code or stop an external job run outside the launcher. [Owner actions](https://github.com/CL-BAF/Domovoi-Labs/blob/a221c1d6c322dd9c0e4e40dd61743064fcea24fb/docs/RESEARCH_APPROVAL_POLICY.md)
+
 ## Lifecycle and operator steps
 
 | Phase | Owner and action |
